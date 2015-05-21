@@ -4679,7 +4679,7 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.0.2
-		UT = 525173.829962712
+		UT = 525172.729962711
 		activeVessel = 0
 		mapViewFiltering = -1026
 		VESSEL
