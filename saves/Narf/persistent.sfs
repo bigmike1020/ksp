@@ -87,7 +87,7 @@ GAME
 	{
 		name = ContractSystem
 		scene = 7, 8, 5, 6
-		update = 1198512.49455676
+		update = 1198532.81455678
 		CONTRACTS
 		{
 			CONTRACT
@@ -898,54 +898,6 @@ GAME
 			}
 			CONTRACT_FINISHED
 			{
-				guid = f26adc75-a979-4a90-aecf-ef2296f04c08
-				type = DMSurveyContract
-				prestige = 0
-				seed = 1945767589
-				state = Completed
-				agent = Kerlington Model Rockets and Paper Products Inc
-				deadlineType = Floating
-				expiryType = Floating
-				values = 307200,37151460.2193832,70560,58800,70560,0,188,29,758915.917520881,525192.60996273,37676652.8293459,0
-				Survey_Target = 3
-				PARAM
-				{
-					name = EnterOrbit
-					enabled = False
-					state = Complete
-					values = 0,0,0,0,0
-					body = 3
-				}
-				PARAM
-				{
-					name = DMCollectScience
-					id = collectDMScience
-					enabled = False
-					state = Complete
-					values = 0,1238,0,0,8
-					Science_Subject = 0|Magnetometer Scan|3|32||0
-				}
-				PARAM
-				{
-					name = DMCollectScience
-					id = collectDMScience
-					enabled = False
-					state = Complete
-					values = 0,1695,0,0,11
-					Science_Subject = 0|Materials Study|3|16||70
-				}
-				PARAM
-				{
-					name = DMCollectScience
-					id = collectDMScience
-					enabled = False
-					state = Complete
-					values = 0,1024,0,0,7
-					Science_Subject = 0|Mystery Goo Observation|3|32||1.35
-				}
-			}
-			CONTRACT_FINISHED
-			{
 				guid = 3b273381-5e86-4051-9f47-21b0186292c7
 				type = DMSurveyContract
 				prestige = 1
@@ -999,6 +951,54 @@ GAME
 					state = Complete
 					values = 0,1650,0,0,11
 					Science_Subject = 0|Magnetometer Scan|3|16||0
+				}
+			}
+			CONTRACT_FINISHED
+			{
+				guid = f26adc75-a979-4a90-aecf-ef2296f04c08
+				type = DMSurveyContract
+				prestige = 0
+				seed = 1945767589
+				state = Completed
+				agent = Kerlington Model Rockets and Paper Products Inc
+				deadlineType = Floating
+				expiryType = Floating
+				values = 307200,37151460.2193832,70560,58800,70560,0,188,29,758915.917520881,525192.60996273,37676652.8293459,0
+				Survey_Target = 3
+				PARAM
+				{
+					name = EnterOrbit
+					enabled = False
+					state = Complete
+					values = 0,0,0,0,0
+					body = 3
+				}
+				PARAM
+				{
+					name = DMCollectScience
+					id = collectDMScience
+					enabled = False
+					state = Complete
+					values = 0,1238,0,0,8
+					Science_Subject = 0|Magnetometer Scan|3|32||0
+				}
+				PARAM
+				{
+					name = DMCollectScience
+					id = collectDMScience
+					enabled = False
+					state = Complete
+					values = 0,1695,0,0,11
+					Science_Subject = 0|Materials Study|3|16||70
+				}
+				PARAM
+				{
+					name = DMCollectScience
+					id = collectDMScience
+					enabled = False
+					state = Complete
+					values = 0,1024,0,0,7
+					Science_Subject = 0|Mystery Goo Observation|3|32||1.35
 				}
 			}
 			CONTRACT_FINISHED
@@ -1210,56 +1210,6 @@ GAME
 			}
 			CONTRACT_FINISHED
 			{
-				guid = b22440c3-4f2f-4a9a-ae6c-5dcad2ee3b9e
-				type = SatelliteContract
-				prestige = 0
-				seed = -233744268
-				state = Completed
-				agent = Jebediah Kerman's Junkyard and Spacecraft Parts Co
-				deadlineType = Floating
-				expiryType = Floating
-				values = 81509.4274520874,43403770.1182365,59259.2582702637,159444.434542568,67199.9969482422,0,25.65379,2.941176,104450.250835952,24876.1866846621,43428646.3049212,0
-				targetBody = 1
-				deviation = 7
-				orbitType = 2
-				PARAM
-				{
-					name = ProbeSystemsParameter
-					state = Complete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					hasAntenna = True
-					hasPowerGenerator = True
-					launchID = 12
-				}
-				PARAM
-				{
-					name = SpecificOrbitParameter
-					state = Complete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					targetBody = 1
-					deviationWindow = 7
-					orbitType = 2
-					inclination = 90
-					eccentricity = 0.136218169879104
-					sma = 2827811.74316861
-					lan = 90.08302731909
-					argumentOfPeriapsis = 140.427826923002
-					meanAnomalyAtEpoch = 3.65992278955413
-					epoch = 0
-				}
-				PARAM
-				{
-					name = StabilityParameter
-					state = Complete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					holdSeconds = 10
-				}
-			}
-			CONTRACT_FINISHED
-			{
 				guid = 87f023e9-e44c-438c-b2e0-fa17d77f147b
 				type = SatelliteContract
 				prestige = 0
@@ -1297,6 +1247,56 @@ GAME
 					lan = -79.443986247966
 					argumentOfPeriapsis = 111.144327691581
 					meanAnomalyAtEpoch = 2.97369231193339
+					epoch = 0
+				}
+				PARAM
+				{
+					name = StabilityParameter
+					state = Complete
+					disableOnStateChange = False
+					values = 0,0,0,0,0
+					holdSeconds = 10
+				}
+			}
+			CONTRACT_FINISHED
+			{
+				guid = b22440c3-4f2f-4a9a-ae6c-5dcad2ee3b9e
+				type = SatelliteContract
+				prestige = 0
+				seed = -233744268
+				state = Completed
+				agent = Jebediah Kerman's Junkyard and Spacecraft Parts Co
+				deadlineType = Floating
+				expiryType = Floating
+				values = 81509.4274520874,43403770.1182365,59259.2582702637,159444.434542568,67199.9969482422,0,25.65379,2.941176,104450.250835952,24876.1866846621,43428646.3049212,0
+				targetBody = 1
+				deviation = 7
+				orbitType = 2
+				PARAM
+				{
+					name = ProbeSystemsParameter
+					state = Complete
+					disableOnStateChange = False
+					values = 0,0,0,0,0
+					hasAntenna = True
+					hasPowerGenerator = True
+					launchID = 12
+				}
+				PARAM
+				{
+					name = SpecificOrbitParameter
+					state = Complete
+					disableOnStateChange = False
+					values = 0,0,0,0,0
+					targetBody = 1
+					deviationWindow = 7
+					orbitType = 2
+					inclination = 90
+					eccentricity = 0.136218169879104
+					sma = 2827811.74316861
+					lan = 90.08302731909
+					argumentOfPeriapsis = 140.427826923002
+					meanAnomalyAtEpoch = 3.65992278955413
 					epoch = 0
 				}
 				PARAM
@@ -1503,15 +1503,15 @@ GAME
 			}
 			CONTRACT_FINISHED
 			{
-				guid = c4e20c5f-4e45-4ca0-94c1-5d738815586b
+				guid = 5ca9d815-b4aa-4da0-b2e7-7c7b8fc77a0b
 				type = CollectScience
 				prestige = 0
-				seed = -2128436100
+				seed = 1945767580
 				state = Completed
-				agent = Integrated Integrals
+				agent = Probodobodyne Inc
 				deadlineType = Floating
 				expiryType = Floating
-				values = 128316.832065582,45552475.3832817,15149.9998750091,38884.997913303,16064.9992704391,5,9.714287,1,136626.142011898,22658.5633838589,45575133.9466656,0
+				values = 86400,46008000,15300,37400,15300,5,10.8,1.08,538115.917520881,525158.529962698,46533158.5299627,0
 				body = 1
 				location = Space
 				PARAM
@@ -1526,15 +1526,15 @@ GAME
 			}
 			CONTRACT_FINISHED
 			{
-				guid = 5ca9d815-b4aa-4da0-b2e7-7c7b8fc77a0b
+				guid = c4e20c5f-4e45-4ca0-94c1-5d738815586b
 				type = CollectScience
 				prestige = 0
-				seed = 1945767580
+				seed = -2128436100
 				state = Completed
-				agent = Probodobodyne Inc
+				agent = Integrated Integrals
 				deadlineType = Floating
 				expiryType = Floating
-				values = 86400,46008000,15300,37400,15300,5,10.8,1.08,538115.917520881,525158.529962698,46533158.5299627,0
+				values = 128316.832065582,45552475.3832817,15149.9998750091,38884.997913303,16064.9992704391,5,9.714287,1,136626.142011898,22658.5633838589,45575133.9466656,0
 				body = 1
 				location = Space
 				PARAM
@@ -5710,7 +5710,7 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.0.2
-		UT = 1198513.11455676
+		UT = 1198533.77455678
 		activeVessel = 0
 		mapViewFiltering = -1026
 		VESSEL
@@ -9581,10 +9581,10 @@ GAME
 				SMA = NaN
 				ECC = 1
 				INC = NaN
-				LPE = 36.5353640133661
-				LAN = 45.2874779516629
-				MNA = 0
-				EPH = 1198512.41455676
+				LPE = 36.4133638408877
+				LAN = 45.5041455010601
+				MNA = -8.40714670366795
+				EPH = 1198532.73455678
 				REF = 1
 			}
 			PART
@@ -45135,13 +45135,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = NaN
+				SMA = 0
 				ECC = 1
 				INC = NaN
-				LPE = 172.429324482464
-				LAN = 45.2874779516629
+				LPE = 172.987227181306
+				LAN = 45.5041455010601
 				MNA = -8.40714670366795
-				EPH = 1198512.41455676
+				EPH = 1198532.73455678
 				REF = 2
 			}
 			PART
@@ -45323,13 +45323,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 0
+				SMA = NaN
 				ECC = 1
 				INC = NaN
-				LPE = 172.399206800187
-				LAN = 45.2874779516629
+				LPE = 172.980694622814
+				LAN = 45.5041455010601
 				MNA = -8.40714670366795
-				EPH = 1198512.41455676
+				EPH = 1198532.73455678
 				REF = 2
 			}
 			PART
@@ -45514,10 +45514,10 @@ GAME
 				SMA = NaN
 				ECC = 1
 				INC = NaN
-				LPE = 174.397355121958
-				LAN = 45.2874779516629
+				LPE = 173.395444099992
+				LAN = 45.5041455010601
 				MNA = -8.40714670366795
-				EPH = 1198512.41455676
+				EPH = 1198532.73455678
 				REF = 2
 			}
 			PART
@@ -46766,13 +46766,13 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = NaN
+				SMA = 0
 				ECC = 1
 				INC = NaN
-				LPE = 36.0106619121029
-				LAN = 45.2874779516629
+				LPE = 35.8888400127016
+				LAN = 45.5041455010601
 				MNA = -8.40714670366795
-				EPH = 1198512.41455676
+				EPH = 1198532.73455678
 				REF = 1
 			}
 			PART
