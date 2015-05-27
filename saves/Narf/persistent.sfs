@@ -87,7 +87,7 @@ GAME
 	{
 		name = ContractSystem
 		scene = 7, 8, 5, 6
-		update = 1198498.27455675
+		update = 1198512.49455676
 		CONTRACTS
 		{
 			CONTRACT
@@ -775,11 +775,11 @@ GAME
 				type = ExploreBody
 				prestige = 2
 				seed = 1664368964
-				state = Offered
+				state = Active
 				agent = Ionic Symphonic Protonic Electronics
 				deadlineType = None
 				expiryType = None
-				values = 0,0,375000,750000,375000,0,36,4,0,0,0,0
+				values = 0,0,375000,750000,375000,0,36,4,0,1198509.35455676,0,0
 				body = 6
 				PARAM
 				{
@@ -2173,7 +2173,7 @@ GAME
 	{
 		name = Funding
 		scene = 7, 8, 5, 6
-		funds = 2363912.42461693
+		funds = 2738912.42461693
 	}
 	SCENARIO
 	{
@@ -5710,7 +5710,7 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.0.2
-		UT = 1198506.01455676
+		UT = 1198513.11455676
 		activeVessel = 0
 		mapViewFiltering = -1026
 		VESSEL
@@ -9581,10 +9581,10 @@ GAME
 				SMA = NaN
 				ECC = 1
 				INC = NaN
-				LPE = 119.436614047505
-				LAN = 127.951507918708
-				MNA = -8.40714670366795
-				EPH = 1198498.17455675
+				LPE = 36.5353640133661
+				LAN = 45.2874779516629
+				MNA = 0
+				EPH = 1198512.41455676
 				REF = 1
 			}
 			PART
@@ -45138,10 +45138,10 @@ GAME
 				SMA = NaN
 				ECC = 1
 				INC = NaN
-				LPE = 104.458439853242
-				LAN = 127.951507918708
+				LPE = 172.429324482464
+				LAN = 45.2874779516629
 				MNA = -8.40714670366795
-				EPH = 1198498.17455675
+				EPH = 1198512.41455676
 				REF = 2
 			}
 			PART
@@ -45323,13 +45323,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = NaN
+				SMA = 0
 				ECC = 1
 				INC = NaN
-				LPE = 104.464695909299
-				LAN = 127.951507918708
+				LPE = 172.399206800187
+				LAN = 45.2874779516629
 				MNA = -8.40714670366795
-				EPH = 1198498.17455675
+				EPH = 1198512.41455676
 				REF = 2
 			}
 			PART
@@ -45511,13 +45511,13 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = 0
+				SMA = NaN
 				ECC = 1
 				INC = NaN
-				LPE = 104.066555841513
-				LAN = 127.951507918708
+				LPE = 174.397355121958
+				LAN = 45.2874779516629
 				MNA = -8.40714670366795
-				EPH = 1198498.17455675
+				EPH = 1198512.41455676
 				REF = 2
 			}
 			PART
@@ -46766,13 +46766,13 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = 300082.197359042
+				SMA = NaN
 				ECC = 1
 				INC = NaN
-				LPE = 118.856308547609
-				LAN = 127.951507918708
-				MNA = 3.14159265358979
-				EPH = 1198498.17455675
+				LPE = 36.0106619121029
+				LAN = 45.2874779516629
+				MNA = -8.40714670366795
+				EPH = 1198512.41455676
 				REF = 1
 			}
 			PART
