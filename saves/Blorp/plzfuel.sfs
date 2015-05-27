@@ -31610,7 +31610,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 0
+					amount = 150
 					maxAmount = 150
 					flowState = True
 					isTweakable = True
@@ -40218,7 +40218,7 @@ GAME
 				RESOURCE
 				{
 					name = LiquidFuel
-					amount = 0
+					amount = 1440
 					maxAmount = 1440
 					flowState = True
 					isTweakable = True
@@ -40228,7 +40228,7 @@ GAME
 				RESOURCE
 				{
 					name = Oxidizer
-					amount = 0
+					amount = 1760
 					maxAmount = 1760
 					flowState = True
 					isTweakable = True
