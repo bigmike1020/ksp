@@ -65,7 +65,7 @@ GAME
 			AutoHireCrews = False
 			MissingCrewsRespawn = True
 			BypassEntryPurchaseAfterResearch = True
-			AllowStockVessels = True
+			AllowStockVessels = False
 			IndestructibleFacilities = True
 			ResourceAbundance = 1.2
 			ReentryHeatScale = 0.5
