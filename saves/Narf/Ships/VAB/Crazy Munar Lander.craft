@@ -2,7 +2,7 @@ ship = Crazy Munar Lander
 version = 1.0.2
 description = 
 type = VAB
-size = 7.91426,21.33308,7.914263
+size = 7.91426,21.33308,7.914264
 PART
 {
 	part = Mark1-2Pod_4292619704
@@ -26,6 +26,7 @@ PART
 	modSize = (0.0, 0.0, 0.0)
 	link = decoupler1-2_4292613778
 	link = parachuteLarge_4292594462
+	link = solarPanels1_4294352508
 	attN = bottom,decoupler1-2_4292613778
 	attN = top,parachuteLarge_4292594462
 	EVENTS
@@ -322,11 +323,11 @@ PART
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 0
+	istg = 1
 	dstg = 1
 	sidx = 0
-	sqor = 0
-	sepI = 0
+	sqor = 1
+	sepI = 1
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -417,7 +418,7 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 0
+	sepI = 1
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -433,12 +434,15 @@ PART
 	link = sensorBarometer_4292559510
 	link = rpwsAnt_4292543890
 	link = dmGoreSat_4292535448
-	link = Engineer7500_4292532734
 	link = dmmagBoom_4292525986
 	link = dmImagingPlatform_4292519542
 	link = dmsurfacelaser_4292507978
-	link = solarPanels1_4292231702
 	link = ksp.r.largeBatteryPack_4291597380
+	link = dmbioDrill_4294534580
+	link = dmRoverMat_4294526790
+	link = SurfaceScanner_4294518794
+	link = dmRoverGoo_4294503000
+	link = Engineer7500_4294373948
 	attN = top,decoupler1-2_4292613778
 	attN = bottom,liquidEngine2-2_4292608414
 	EVENTS
@@ -483,11 +487,11 @@ PART
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 1
+	istg = 2
 	dstg = 2
 	sidx = 0
-	sqor = 1
-	sepI = 0
+	sqor = 2
+	sepI = 1
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -708,7 +712,7 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 0
+	sepI = 1
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -836,7 +840,7 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 0
+	sepI = 1
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -964,7 +968,7 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 0
+	sepI = 1
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -1092,7 +1096,7 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 0
+	sepI = 1
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -1179,7 +1183,7 @@ PART
 	pos = -0.9229465,21.72372,0.7376169
 	attPos = 0,0,0
 	attPos0 = -0.6051741,0.6380959,1.048192
-	rot = 4.819153E-07,0.5000011,8.346993E-07,0.8660249
+	rot = 4.819153E-07,0.5000011,8.346992E-07,0.8660249
 	attRot = 0,0,0,1
 	attRot0 = 4.819153E-07,0.5000011,8.346995E-07,0.8660249
 	mir = 1,1,1
@@ -1188,7 +1192,7 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 0
+	sepI = 1
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -1268,7 +1272,7 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 0
+	sepI = 1
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -1425,7 +1429,7 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 0
+	sepI = 1
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -1582,7 +1586,7 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 0
+	sepI = 1
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -1739,7 +1743,7 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 0
+	sepI = 1
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -1954,7 +1958,7 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 0
+	sepI = 1
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -2155,60 +2159,6 @@ PART
 }
 PART
 {
-	part = Engineer7500_4292532734
-	partName = Part
-	pos = 0.2871963,21.35928,0.7372612
-	attPos = 0,0,0
-	attPos0 = 0.6049687,0.273653,1.047837
-	rot = 8.346982E-07,0.8660262,4.819116E-07,0.4999987
-	attRot = 0,0,0,1
-	attRot0 = 8.346982E-07,0.8660262,4.819116E-07,0.4999987
-	mir = 1,1,1
-	symMethod = Radial
-	istg = 2
-	dstg = 2
-	sidx = -1
-	sqor = -1
-	sepI = 0
-	attm = 1
-	modCost = 0
-	modMass = 0
-	modSize = (0.0, 0.0, 0.0)
-	srfN = srfAttach,fuelTank2-2_4292611996
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = FlightEngineerModule
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = TapeDriveAnimator
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-}
-PART
-{
 	part = dmmagBoom_4292525986
 	partName = Part
 	pos = -1.003268,21.69567,-1.497889
@@ -2223,7 +2173,7 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 0
+	sepI = 1
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -2449,7 +2399,7 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 0
+	sepI = 1
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -2664,7 +2614,7 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 0
+	sepI = 1
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -2875,11 +2825,11 @@ PART
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 1
+	istg = 2
 	dstg = 3
 	sidx = 1
-	sqor = 1
-	sepI = 1
+	sqor = 2
+	sepI = 2
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -2968,7 +2918,7 @@ PART
 	symMethod = Radial
 	istg = 0
 	dstg = 0
-	sidx = 1
+	sidx = 0
 	sqor = 0
 	sepI = 0
 	attm = 0
@@ -3115,7 +3065,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 1
+	sepI = 2
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -3165,11 +3115,11 @@ PART
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 2
+	istg = 3
 	dstg = 4
 	sidx = 0
-	sqor = 2
-	sepI = 1
+	sqor = 3
+	sepI = 2
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -3386,11 +3336,11 @@ PART
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 2
+	istg = 3
 	dstg = 5
 	sidx = 1
-	sqor = 2
-	sepI = 2
+	sqor = 3
+	sepI = 3
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -3481,7 +3431,7 @@ PART
 	dstg = 6
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 3
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -3535,7 +3485,7 @@ PART
 	dstg = 6
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 3
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -3593,11 +3543,11 @@ PART
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 4
+	istg = 5
 	dstg = 6
 	sidx = 0
-	sqor = 4
-	sepI = 2
+	sqor = 5
+	sepI = 3
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -3816,7 +3766,7 @@ PART
 	dstg = 6
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 3
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -3880,7 +3830,7 @@ PART
 	dstg = 6
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 3
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -3942,7 +3892,7 @@ PART
 	dstg = 6
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 3
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -4015,11 +3965,11 @@ PART
 	attRot0 = 7.869617E-07,-0.7071068,-7.869617E-07,-0.7071068
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 4
+	istg = 5
 	dstg = 6
 	sidx = 1
-	sqor = 4
-	sepI = 2
+	sqor = 5
+	sepI = 3
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -4233,7 +4183,7 @@ PART
 {
 	part = radialDecoupler1-2_4292360372
 	partName = Part
-	pos = -0.3177722,8.65999,2.147543
+	pos = -0.3177722,8.65999,2.147544
 	attPos = 0,0,0
 	attPos0 = -0.6215066,1.305456,4.511883E-08
 	rot = 7.85393E-07,0.7071068,7.85393E-07,0.7071068
@@ -4241,11 +4191,11 @@ PART
 	attRot0 = 4.019437E-14,-4.473359E-20,-2.218528E-09,1
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 3
+	istg = 4
 	dstg = 7
 	sidx = 0
-	sqor = 3
-	sepI = 3
+	sqor = 4
+	sepI = 4
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -4330,19 +4280,19 @@ PART
 {
 	part = solidBooster1-1_4292354700
 	partName = Part
-	pos = -0.3177719,8.450541,2.9459
+	pos = -0.3177719,8.450541,2.945901
 	attPos = 0,0,0
 	attPos0 = -0.7983571,-0.209448,2.028508E-07
-	rot = 9.238721E-07,1.685874E-07,2.378693E-13,1
+	rot = 9.238721E-07,1.685874E-07,2.374952E-13,1
 	attRot = 0,0,0,1
 	attRot0 = -1.321169E-07,-0.7071067,-1.321168E-07,0.7071069
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 4
+	istg = 5
 	dstg = 8
 	sidx = 2
-	sqor = 4
-	sepI = 3
+	sqor = 5
+	sepI = 4
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -4494,7 +4444,7 @@ PART
 	dstg = 6
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 3
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -4549,7 +4499,7 @@ PART
 	pos = 0.9809152,11.11704,0.9881121
 	attPos = 0,0,0
 	attPos0 = -4.202487E-06,3.7625,1.064398E-12
-	rot = -8.518011E-07,-0.9238797,-2.056431E-06,0.3826835
+	rot = -8.518008E-07,-0.9238796,-2.056431E-06,0.3826834
 	attRot = 0,0,0,1
 	attRot0 = 7.869617E-07,-0.7071068,-7.869617E-07,-0.7071068
 	mir = 1,1,1
@@ -4558,7 +4508,7 @@ PART
 	dstg = 6
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 3
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -4611,7 +4561,7 @@ PART
 	pos = 0.9809213,13.08315,0.9881182
 	attPos = 0,0,0
 	attPos0 = 4.045625E-12,1.966111,3.490556E-07
-	rot = -2.044738E-13,0.3826835,9.537611E-14,0.9238797
+	rot = -2.509791E-13,0.3826834,1.081247E-13,0.9238796
 	attRot = 0,0,0,1
 	attRot0 = 0,1,2.225864E-06,2.634667E-17
 	mir = 1,1,1
@@ -4620,7 +4570,7 @@ PART
 	dstg = 6
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 3
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -4688,16 +4638,16 @@ PART
 	pos = 0.9809005,4.56521,0.9880973
 	attPos = 0,0,0
 	attPos0 = 2.036336E-06,-2.789327,-1.175035E-12
-	rot = -8.518011E-07,-0.9238797,-2.056431E-06,0.3826835
+	rot = -8.518008E-07,-0.9238796,-2.056431E-06,0.3826834
 	attRot = 0,0,0,1
 	attRot0 = 7.869617E-07,-0.7071068,-7.869617E-07,-0.7071068
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 4
+	istg = 5
 	dstg = 6
 	sidx = 3
-	sqor = 4
-	sepI = 2
+	sqor = 5
+	sepI = 3
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -4919,11 +4869,11 @@ PART
 	attRot0 = 4.138911E-14,-4.610498E-20,-2.218553E-09,1
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 3
+	istg = 4
 	dstg = 7
 	sidx = 1
-	sqor = 3
-	sepI = 3
+	sqor = 4
+	sepI = 4
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -5008,19 +4958,19 @@ PART
 {
 	part = solidBooster1-1_4292349718
 	partName = Part
-	pos = 1.984904,8.450541,1.9921
+	pos = 1.984905,8.450541,1.992101
 	attPos = 0,0,0
 	attPos0 = -0.7983573,-0.209448,2.362295E-07
-	rot = 8.535465E-07,0.3826836,-3.535503E-07,0.9238796
+	rot = 8.535464E-07,0.3826836,-3.535503E-07,0.9238795
 	attRot = 0,0,0,1
 	attRot0 = -1.321169E-07,-0.7071067,-1.321168E-07,0.7071069
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 4
+	istg = 5
 	dstg = 8
 	sidx = 4
-	sqor = 4
-	sepI = 3
+	sqor = 5
+	sepI = 4
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -5172,7 +5122,7 @@ PART
 	dstg = 6
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 3
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -5236,7 +5186,7 @@ PART
 	dstg = 6
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 3
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -5289,7 +5239,7 @@ PART
 	pos = 1.518857,13.08315,-0.3105753
 	attPos = 0,0,0
 	attPos0 = 4.045625E-12,1.966111,3.490556E-07
-	rot = -4.940425E-14,0.7071068,4.940425E-14,0.7071068
+	rot = -4.246343E-14,0.7071068,4.246343E-14,0.7071068
 	attRot = 0,0,0,1
 	attRot0 = 0,1,2.225864E-06,2.634667E-17
 	mir = 1,1,1
@@ -5298,7 +5248,7 @@ PART
 	dstg = 6
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 3
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -5371,11 +5321,11 @@ PART
 	attRot0 = 7.869617E-07,-0.7071068,-7.869617E-07,-0.7071068
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 4
+	istg = 5
 	dstg = 6
 	sidx = 5
-	sqor = 4
-	sepI = 2
+	sqor = 5
+	sepI = 3
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -5597,11 +5547,11 @@ PART
 	attRot0 = 4.019437E-14,-4.473359E-20,-2.218485E-09,1
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 3
+	istg = 4
 	dstg = 7
 	sidx = 2
-	sqor = 3
-	sepI = 3
+	sqor = 4
+	sepI = 4
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -5694,11 +5644,11 @@ PART
 	attRot0 = -1.321169E-07,-0.7071067,-1.321168E-07,0.7071069
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 4
+	istg = 5
 	dstg = 8
 	sidx = 6
-	sqor = 4
-	sepI = 3
+	sqor = 5
+	sepI = 4
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -5850,7 +5800,7 @@ PART
 	dstg = 6
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 3
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -5905,7 +5855,7 @@ PART
 	pos = 0.9809151,11.11704,-1.609263
 	attPos = 0,0,0
 	attPos0 = -4.202487E-06,3.7625,1.064398E-12
-	rot = -2.056431E-06,-0.3826835,-8.518012E-07,0.9238796
+	rot = -2.056431E-06,-0.3826834,-8.518011E-07,0.9238795
 	attRot = 0,0,0,1
 	attRot0 = 7.869617E-07,-0.7071068,-7.869617E-07,-0.7071068
 	mir = 1,1,1
@@ -5914,7 +5864,7 @@ PART
 	dstg = 6
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 3
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -5967,7 +5917,7 @@ PART
 	pos = 0.980921,13.08315,-1.609269
 	attPos = 0,0,0
 	attPos0 = 4.045625E-12,1.966111,3.490556E-07
-	rot = -6.847791E-14,0.9238797,1.450508E-14,0.3826834
+	rot = -7.4267E-14,0.9238796,5.207251E-14,0.3826833
 	attRot = 0,0,0,1
 	attRot0 = 0,1,2.225864E-06,2.634667E-17
 	mir = 1,1,1
@@ -5976,7 +5926,7 @@ PART
 	dstg = 6
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 3
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -6044,16 +5994,16 @@ PART
 	pos = 0.9809003,4.56521,-1.609248
 	attPos = 0,0,0
 	attPos0 = 2.036336E-06,-2.789327,-1.175035E-12
-	rot = -2.056431E-06,-0.3826835,-8.518012E-07,0.9238796
+	rot = -2.056431E-06,-0.3826834,-8.518011E-07,0.9238795
 	attRot = 0,0,0,1
 	attRot0 = 7.869617E-07,-0.7071068,-7.869617E-07,-0.7071068
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 4
+	istg = 5
 	dstg = 6
 	sidx = 7
-	sqor = 4
-	sepI = 2
+	sqor = 5
+	sepI = 3
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -6275,11 +6225,11 @@ PART
 	attRot0 = 3.744668E-14,-4.162416E-20,-2.21852E-09,1
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 3
+	istg = 4
 	dstg = 7
 	sidx = 3
-	sqor = 3
-	sepI = 3
+	sqor = 4
+	sepI = 4
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -6364,19 +6314,19 @@ PART
 {
 	part = solidBooster1-1_4292349498
 	partName = Part
-	pos = 1.984903,8.450541,-2.613251
+	pos = 1.984903,8.450541,-2.61325
 	attPos = 0,0,0
 	attPos0 = -0.7983574,-0.209448,1.515909E-07
-	rot = 3.535507E-07,0.9238797,-8.535463E-07,0.3826832
+	rot = 3.535507E-07,0.9238796,-8.535462E-07,0.3826832
 	attRot = 0,0,0,1
 	attRot0 = -1.321169E-07,-0.7071067,-1.321168E-07,0.7071069
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 4
+	istg = 5
 	dstg = 8
 	sidx = 8
-	sqor = 4
-	sepI = 3
+	sqor = 5
+	sepI = 4
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -6528,7 +6478,7 @@ PART
 	dstg = 6
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 3
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -6592,7 +6542,7 @@ PART
 	dstg = 6
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 3
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -6645,7 +6595,7 @@ PART
 	pos = -0.3177727,13.08315,-2.147205
 	attPos = 0,0,0
 	attPos0 = 4.045625E-12,1.966111,3.490556E-07
-	rot = 1.34244E-14,1,-6.776264E-21,-8.42937E-08
+	rot = 1.342442E-14,1,2.263187E-21,-8.42937E-08
 	attRot = 0,0,0,1
 	attRot0 = 0,1,2.225864E-06,2.634667E-17
 	mir = 1,1,1
@@ -6654,7 +6604,7 @@ PART
 	dstg = 6
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 3
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -6727,11 +6677,11 @@ PART
 	attRot0 = 7.869617E-07,-0.7071068,-7.869617E-07,-0.7071068
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 4
+	istg = 5
 	dstg = 6
 	sidx = 9
-	sqor = 4
-	sepI = 2
+	sqor = 5
+	sepI = 3
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -6953,11 +6903,11 @@ PART
 	attRot0 = 4.038137E-14,-4.491193E-20,-2.218528E-09,1
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 3
+	istg = 4
 	dstg = 7
 	sidx = 4
-	sqor = 3
-	sepI = 3
+	sqor = 4
+	sepI = 4
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -7042,19 +6992,19 @@ PART
 {
 	part = solidBooster1-1_4292349388
 	partName = Part
-	pos = -0.317773,8.450541,-3.567052
+	pos = -0.317773,8.450541,-3.567053
 	attPos = 0,0,0
 	attPos0 = -0.7983576,-0.209448,1.908338E-07
-	rot = 1.608563E-13,1,-9.23872E-07,-2.528811E-07
+	rot = 1.703439E-13,1,-9.23872E-07,-2.528811E-07
 	attRot = 0,0,0,1
 	attRot0 = -1.321169E-07,-0.7071067,-1.321168E-07,0.7071069
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 4
+	istg = 5
 	dstg = 8
 	sidx = 10
-	sqor = 4
-	sepI = 3
+	sqor = 5
+	sepI = 4
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -7206,7 +7156,7 @@ PART
 	dstg = 6
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 3
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -7261,7 +7211,7 @@ PART
 	pos = -1.61646,11.11704,-1.609263
 	attPos = 0,0,0
 	attPos0 = -4.202487E-06,3.7625,1.064398E-12
-	rot = -2.05643E-06,0.3826835,8.518014E-07,0.9238796
+	rot = -2.05643E-06,0.3826834,8.518012E-07,0.9238795
 	attRot = 0,0,0,1
 	attRot0 = 7.869617E-07,-0.7071068,-7.869617E-07,-0.7071068
 	mir = 1,1,1
@@ -7270,7 +7220,7 @@ PART
 	dstg = 6
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 3
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -7323,7 +7273,7 @@ PART
 	pos = -1.616466,13.08315,-1.609269
 	attPos = 0,0,0
 	attPos0 = 4.045625E-12,1.966111,3.490556E-07
-	rot = 6.933972E-14,0.9238796,-9.020696E-14,-0.3826835
+	rot = 7.197241E-14,0.9238796,-6.025943E-14,-0.3826835
 	attRot = 0,0,0,1
 	attRot0 = 0,1,2.225864E-06,2.634667E-17
 	mir = 1,1,1
@@ -7332,7 +7282,7 @@ PART
 	dstg = 6
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 3
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -7400,16 +7350,16 @@ PART
 	pos = -1.616446,4.56521,-1.609248
 	attPos = 0,0,0
 	attPos0 = 2.036336E-06,-2.789327,-1.175035E-12
-	rot = -2.05643E-06,0.3826835,8.518014E-07,0.9238796
+	rot = -2.05643E-06,0.3826834,8.518012E-07,0.9238795
 	attRot = 0,0,0,1
 	attRot0 = 7.869617E-07,-0.7071068,-7.869617E-07,-0.7071068
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 4
+	istg = 5
 	dstg = 6
 	sidx = 11
-	sqor = 4
-	sepI = 2
+	sqor = 5
+	sepI = 3
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -7623,7 +7573,7 @@ PART
 {
 	part = radialDecoupler1-2_4292358712
 	partName = Part
-	pos = -2.055925,8.65999,-2.048727
+	pos = -2.055924,8.65999,-2.048727
 	attPos = 0,0,0
 	attPos0 = -0.6215067,1.305456,-7.858346E-08
 	rot = 4.250515E-07,0.3826834,-1.026165E-06,-0.9238796
@@ -7631,11 +7581,11 @@ PART
 	attRot0 = 4.156189E-14,-4.625975E-20,-2.218553E-09,1
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 3
+	istg = 4
 	dstg = 7
 	sidx = 5
-	sqor = 3
-	sepI = 3
+	sqor = 4
+	sepI = 4
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -7720,19 +7670,19 @@ PART
 {
 	part = solidBooster1-1_4292349278
 	partName = Part
-	pos = -2.620448,8.450541,-2.61325
+	pos = -2.620447,8.450541,-2.613249
 	attPos = 0,0,0
 	attPos0 = -0.7983569,-0.209448,1.519372E-07
-	rot = -3.535505E-07,0.9238796,-8.535466E-07,-0.3826837
+	rot = -3.535505E-07,0.9238795,-8.535465E-07,-0.3826836
 	attRot = 0,0,0,1
 	attRot0 = -1.321169E-07,-0.7071067,-1.321168E-07,0.7071069
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 4
+	istg = 5
 	dstg = 8
 	sidx = 12
-	sqor = 4
-	sepI = 3
+	sqor = 5
+	sepI = 4
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -7884,7 +7834,7 @@ PART
 	dstg = 6
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 3
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -7948,7 +7898,7 @@ PART
 	dstg = 6
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 3
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -8001,7 +7951,7 @@ PART
 	pos = -2.154402,13.08315,-0.3105752
 	attPos = 0,0,0
 	attPos0 = 4.045625E-12,1.966111,3.490556E-07
-	rot = 4.940425E-14,0.7071068,4.940425E-14,-0.7071068
+	rot = 4.246343E-14,0.7071068,4.246343E-14,-0.7071068
 	attRot = 0,0,0,1
 	attRot0 = 0,1,2.225864E-06,2.634667E-17
 	mir = 1,1,1
@@ -8010,7 +7960,7 @@ PART
 	dstg = 6
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 3
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -8083,11 +8033,11 @@ PART
 	attRot0 = 7.869617E-07,-0.7071068,-7.869617E-07,-0.7071068
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 4
+	istg = 5
 	dstg = 6
 	sidx = 13
-	sqor = 4
-	sepI = 2
+	sqor = 5
+	sepI = 3
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -8309,11 +8259,11 @@ PART
 	attRot0 = 4.019437E-14,-4.473359E-20,-2.218485E-09,1
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 3
+	istg = 4
 	dstg = 7
 	sidx = 6
-	sqor = 3
-	sepI = 3
+	sqor = 4
+	sepI = 4
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -8406,11 +8356,11 @@ PART
 	attRot0 = -1.321169E-07,-0.7071067,-1.321168E-07,0.7071069
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 4
+	istg = 5
 	dstg = 8
 	sidx = 14
-	sqor = 4
-	sepI = 3
+	sqor = 5
+	sepI = 4
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -8562,7 +8512,7 @@ PART
 	dstg = 6
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 3
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -8626,7 +8576,7 @@ PART
 	dstg = 6
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 3
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -8679,7 +8629,7 @@ PART
 	pos = -1.616466,13.08315,0.9881185
 	attPos = 0,0,0
 	attPos0 = 4.045625E-12,1.966111,3.490556E-07
-	rot = 2.376816E-13,0.3826833,-4.426343E-14,-0.9238796
+	rot = 1.432716E-13,0.3826833,-8.336929E-14,-0.9238796
 	attRot = 0,0,0,1
 	attRot0 = 0,1,2.225864E-06,2.634667E-17
 	mir = 1,1,1
@@ -8688,7 +8638,7 @@ PART
 	dstg = 6
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 3
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -8761,11 +8711,11 @@ PART
 	attRot0 = 7.869617E-07,-0.7071068,-7.869617E-07,-0.7071068
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 4
+	istg = 5
 	dstg = 6
 	sidx = 15
-	sqor = 4
-	sepI = 2
+	sqor = 5
+	sepI = 3
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -8987,11 +8937,11 @@ PART
 	attRot0 = 3.78027E-14,-4.197369E-20,-2.21852E-09,1
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 3
+	istg = 4
 	dstg = 7
 	sidx = 7
-	sqor = 3
-	sepI = 3
+	sqor = 4
+	sepI = 4
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -9079,16 +9029,16 @@ PART
 	pos = -2.620447,8.450541,1.992101
 	attPos = 0,0,0
 	attPos0 = -0.7983571,-0.209448,2.872212E-07
-	rot = -8.535465E-07,0.3826832,-3.535506E-07,-0.9238797
+	rot = -8.535465E-07,0.3826832,-3.535507E-07,-0.9238797
 	attRot = 0,0,0,1
 	attRot0 = -1.321169E-07,-0.7071067,-1.321168E-07,0.7071069
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 4
+	istg = 5
 	dstg = 8
 	sidx = 16
-	sqor = 4
-	sepI = 3
+	sqor = 5
+	sepI = 4
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -9231,7 +9181,7 @@ PART
 	pos = 1.100317,13.15864,1.057051
 	attPos = 0,0,0
 	attPos0 = 0.03568234,0.07549584,0.1331683
-	rot = -0.5000002,0.4999999,-0.5000001,0.5000001
+	rot = -0.5000002,0.4999998,-0.5,0.5
 	attRot = 0,0,0,1
 	attRot0 = -0.2705981,0.2705978,-0.6532817,0.6532815
 	mir = 1,1,1
@@ -9240,7 +9190,7 @@ PART
 	dstg = 6
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 3
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -9262,9 +9212,9 @@ PART
 	PARTDATA
 	{
 		tgt = 4292282598
-		pos = -4.51183,0.4614826,-0.5727553
-		rot = 0,-0.3535549,-0.6123706,0.7071076
-		dir = -0.9869707,0.1009502,-0.1252915
+		pos = -4.511831,0.4614822,-0.5727555
+		rot = -2.238709E-08,-0.353555,-0.6123707,0.7071078
+		dir = -0.9869707,0.10095,-0.1252912
 	}
 	MODULE
 	{
@@ -9293,10 +9243,10 @@ PART
 {
 	part = strutConnector_4292269506
 	partName = CompoundPart
-	pos = -0.28209,13.15864,1.659223
+	pos = -0.2820901,13.15864,1.659223
 	attPos = 0,0,0
 	attPos0 = 0.03568236,0.07549584,0.1331684
-	rot = -0.2705981,0.2705978,-0.6532817,0.6532815
+	rot = -0.2705981,0.2705978,-0.6532816,0.6532815
 	attRot = 0,0,0,1
 	attRot0 = -0.2705981,0.2705978,-0.6532817,0.6532815
 	mir = 1,1,1
@@ -9305,7 +9255,7 @@ PART
 	dstg = 6
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 3
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -9327,9 +9277,9 @@ PART
 	PARTDATA
 	{
 		tgt = 4292482750
-		pos = -4.808097,0.4917862,-0.610365
+		pos = -4.808096,0.4917862,-0.6103649
 		rot = 0,0,0,1
-		dir = -0.9869707,0.1009502,-0.1252915
+		dir = -0.9869707,0.1009503,-0.1252912
 	}
 	MODULE
 	{
@@ -9361,7 +9311,7 @@ PART
 	pos = 1.652026,13.15864,-0.3462577
 	attPos = 0,0,0
 	attPos0 = 0.03568234,0.07549584,0.1331682
-	rot = -0.6532817,0.6532813,-0.2705981,0.2705982
+	rot = -0.6532816,0.6532813,-0.2705981,0.2705982
 	attRot = 0,0,0,1
 	attRot0 = -0.2705981,0.2705978,-0.6532816,0.6532814
 	mir = 1,1,1
@@ -9370,7 +9320,7 @@ PART
 	dstg = 6
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 3
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -9392,9 +9342,9 @@ PART
 	PARTDATA
 	{
 		tgt = 4292482750
-		pos = -4.808097,0.4917857,-0.6103665
-		rot = 0,0,0,1
-		dir = -0.9869707,0.1009502,-0.1252915
+		pos = -4.808098,0.4917859,-0.6103666
+		rot = -3.340409E-09,3.340389E-09,-4.700307E-08,1
+		dir = -0.9869707,0.1009501,-0.1252915
 	}
 	MODULE
 	{
@@ -9426,7 +9376,7 @@ PART
 	pos = 1.049854,13.15864,-1.728664
 	attPos = 0,0,0
 	attPos0 = 0.03568237,0.07549584,0.1331683
-	rot = -0.7071069,0.7071067,2.454328E-08,1.572827E-07
+	rot = -0.7071069,0.7071067,3.451721E-08,8.506594E-08
 	attRot = 0,0,0,1
 	attRot0 = -0.2705981,0.2705978,-0.6532817,0.6532815
 	mir = 1,1,1
@@ -9435,7 +9385,7 @@ PART
 	dstg = 6
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 3
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -9457,9 +9407,9 @@ PART
 	PARTDATA
 	{
 		tgt = 4292282598
-		pos = -4.511849,0.4614828,-0.5727593
-		rot = 0,-0.3535556,-0.6123715,0.7071065
-		dir = -0.9869707,0.1009502,-0.1252915
+		pos = -4.511847,0.4614829,-0.5727593
+		rot = 2.437741E-08,-0.3535557,-0.6123717,0.7071066
+		dir = -0.9869707,0.1009498,-0.1252916
 	}
 	MODULE
 	{
@@ -9491,7 +9441,7 @@ PART
 	pos = -0.353455,13.15864,-2.280374
 	attPos = 0,0,0
 	attPos0 = 0.03568234,0.07549584,0.1331683
-	rot = -0.6532817,0.6532816,0.2705981,-0.2705978
+	rot = -0.6532816,0.6532816,0.270598,-0.2705977
 	attRot = 0,0,0,1
 	attRot0 = -0.2705981,0.2705978,-0.6532817,0.6532815
 	mir = 1,1,1
@@ -9500,7 +9450,7 @@ PART
 	dstg = 6
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 3
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -9522,9 +9472,9 @@ PART
 	PARTDATA
 	{
 		tgt = 4292482750
-		pos = -4.808097,0.4917841,-0.6103683
-		rot = 0,0,0,1
-		dir = -0.9869707,0.1009502,-0.1252915
+		pos = -4.808098,0.4917835,-0.6103689
+		rot = -1.278847E-08,-1.946933E-08,-8.064455E-09,1
+		dir = -0.9869707,0.1009497,-0.125292
 	}
 	MODULE
 	{
@@ -9556,7 +9506,7 @@ PART
 	pos = -1.735862,13.15864,-1.678202
 	attPos = 0,0,0
 	attPos0 = 0.03568234,0.07549584,0.1331683
-	rot = -0.5000001,0.5000001,0.5000002,-0.4999999
+	rot = -0.5,0.5000001,0.5000001,-0.4999998
 	attRot = 0,0,0,1
 	attRot0 = -0.2705981,0.2705978,-0.6532817,0.6532814
 	mir = 1,1,1
@@ -9565,7 +9515,7 @@ PART
 	dstg = 6
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 3
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -9587,9 +9537,9 @@ PART
 	PARTDATA
 	{
 		tgt = 4292282598
-		pos = -4.511837,0.4614837,-0.5727592
-		rot = 0,-0.3535545,-0.6123723,0.7071064
-		dir = -0.9869707,0.1009502,-0.1252915
+		pos = -4.511837,0.4614839,-0.572759
+		rot = -4.810988E-08,-0.3535546,-0.6123725,0.7071066
+		dir = -0.9869706,0.1009502,-0.1252918
 	}
 	MODULE
 	{
@@ -9618,10 +9568,10 @@ PART
 {
 	part = strutConnector_4292269176
 	partName = CompoundPart
-	pos = -2.287571,13.15864,-0.2748929
+	pos = -2.287571,13.15864,-0.274893
 	attPos = 0,0,0
 	attPos0 = 0.03568234,0.07549584,0.1331685
-	rot = -0.2705981,0.2705982,0.6532817,-0.6532813
+	rot = -0.2705981,0.2705982,0.6532816,-0.6532813
 	attRot = 0,0,0,1
 	attRot0 = -0.2705981,0.2705978,-0.6532816,0.6532814
 	mir = 1,1,1
@@ -9630,7 +9580,7 @@ PART
 	dstg = 6
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 3
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -9652,9 +9602,9 @@ PART
 	PARTDATA
 	{
 		tgt = 4292482750
-		pos = -4.808097,0.4917865,-0.6103671
-		rot = 0,0,0,1
-		dir = -0.9869707,0.1009502,-0.1252915
+		pos = -4.808098,0.4917866,-0.610367
+		rot = -3.340409E-09,3.340389E-09,-4.700307E-08,1
+		dir = -0.9869706,0.1009503,-0.1252916
 	}
 	MODULE
 	{
@@ -9686,7 +9636,7 @@ PART
 	pos = -1.685399,13.15864,1.107514
 	attPos = 0,0,0
 	attPos0 = 0.03568231,0.07549584,0.1331683
-	rot = 1.930861E-07,-1.81213E-09,0.7071069,-0.7071068
+	rot = 2.648086E-07,-9.960578E-08,0.7071068,-0.7071068
 	attRot = 0,0,0,1
 	attRot0 = -0.2705981,0.2705978,-0.6532817,0.6532815
 	mir = 1,1,1
@@ -9695,7 +9645,7 @@ PART
 	dstg = 6
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 3
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -9717,9 +9667,9 @@ PART
 	PARTDATA
 	{
 		tgt = 4292282598
-		pos = -4.511817,0.4614823,-0.5727547
-		rot = 0,-0.3535523,-0.6123723,0.7071075
-		dir = -0.9869707,0.1009502,-0.1252915
+		pos = -4.511817,0.4614821,-0.5727544
+		rot = 2.598946E-08,-0.3535524,-0.6123725,0.7071077
+		dir = -0.9869706,0.1009503,-0.1252914
 	}
 	MODULE
 	{
@@ -9746,18 +9696,864 @@ PART
 }
 PART
 {
-	part = solarPanels1_4292231702
+	part = ksp.r.largeBatteryPack_4291597380
 	partName = Part
-	pos = 0.2859347,21.46271,-1.356227
+	pos = 0.7301257,20.68121,-0.9155798
 	attPos = 0,0,0
-	attPos0 = 0.6037072,0.3770771,-1.045651
-	rot = -8.346982E-07,0.8660262,4.819116E-07,-0.4999987
+	attPos0 = 1.047898,-0.4044209,-0.6050044
+	rot = -4.819166E-07,0.4999987,-2.782337E-07,-0.8660262
 	attRot = 0,0,0,1
-	attRot0 = -8.346982E-07,0.8660262,4.819116E-07,-0.4999987
+	attRot0 = -4.819166E-07,0.4999987,-2.782337E-07,-0.8660262
 	mir = 1,1,1
 	symMethod = Radial
 	istg = 2
 	dstg = 2
+	sidx = -1
+	sqor = -1
+	sepI = 1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	srfN = srfAttach,fuelTank2-2_4292611996
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 400
+		maxAmount = 400
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = dmbioDrill_4294534580
+	partName = Part
+	pos = -0.3177724,20.97754,0.9776329
+	attPos = 0,0,0
+	attPos0 = 0,-0.1080914,1.288208
+	rot = -0.5000006,0.4999995,0.5000006,-0.4999995
+	attRot = 0,0.7071067,0,-0.7071067
+	attRot0 = -0.5000006,0.4999995,0.5000006,-0.4999995
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 2
+	dstg = 2
+	sidx = -1
+	sqor = -1
+	sepI = 1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	srfN = srfAttach,fuelTank2-2_4292611996
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = DMBioDrill
+		isEnabled = True
+		IsDeployed = False
+		experimentNumber = 0
+		experimentsReturned = 0
+		Deployed = False
+		Inoperable = False
+		EVENTS
+		{
+			deployEvent
+			{
+				active = True
+				guiActive = True
+				guiIcon = Deploy
+				guiName = Deploy
+				category = Deploy
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			retractEvent
+			{
+				active = False
+				guiActive = True
+				guiIcon = Retract
+				guiName = Retract
+				category = Retract
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			toggleEvent
+			{
+				active = True
+				guiActive = True
+				guiIcon = Toggle
+				guiName = Toggle
+				category = Toggle
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			editorDeployEvent
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiIcon = Deploy
+				guiName = Systems Check
+				category = Deploy
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			editorRetractEvent
+			{
+				active = False
+				guiActive = False
+				guiActiveEditor = True
+				guiIcon = Retract
+				guiName = Retract
+				category = Retract
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ReviewInitialData
+			{
+				active = False
+				guiActive = True
+				guiIcon = Review Initial Data
+				guiName = Review Initial Data
+				category = Review Initial Data
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			DeployExperiment
+			{
+				active = True
+				guiActive = True
+				guiIcon = Deploy
+				guiName = Deploy
+				category = Deploy
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			CollectDataExternalEvent
+			{
+				active = True
+				guiActive = False
+				guiIcon = 
+				guiName = 
+				category = 
+				guiActiveUnfocused = True
+				unfocusedRange = 1.5
+				externalToEVAOnly = True
+			}
+			ReviewDataEvent
+			{
+				active = True
+				guiActive = True
+				guiIcon = Review Data
+				guiName = Review Data
+				category = Review Data
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ResetExperiment
+			{
+				active = True
+				guiActive = True
+				guiIcon = Reset
+				guiName = Reset
+				category = Reset
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			DeployExperimentExternal
+			{
+				active = True
+				guiActive = False
+				guiIcon = Deploy
+				guiName = Deploy
+				category = Deploy
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ResetExperimentExternal
+			{
+				active = True
+				guiActive = False
+				guiIcon = Reset
+				guiName = Reset
+				category = Reset
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			CleanUpExperimentExternal
+			{
+				active = True
+				guiActive = False
+				guiIcon = Restore
+				guiName = Restore
+				category = Restore
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			deployAction
+			{
+				actionGroup = None
+			}
+			retractAction
+			{
+				actionGroup = None
+				active = False
+			}
+			toggleAction
+			{
+				actionGroup = None
+				active = False
+			}
+			DeployAction
+			{
+				actionGroup = Custom01
+			}
+			ResetAction
+			{
+				actionGroup = None
+				active = False
+			}
+		}
+	}
+}
+PART
+{
+	part = dmRoverMat_4294526790
+	partName = Part
+	pos = 0.7467101,21.21891,0.3040039
+	attPos = 0,0,0
+	attPos0 = 1.064482,0.1332798,0.6145793
+	rot = 0.612373,0.3535529,-0.3535533,0.6123723
+	attRot = 0,0,0,1
+	attRot0 = 0.612373,0.3535529,-0.3535533,0.6123723
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 2
+	dstg = 2
+	sidx = -1
+	sqor = -1
+	sepI = 1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	srfN = srfAttach,fuelTank2-2_4292611996
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = DMRoverGooMat
+		isEnabled = True
+		IsDeployed = False
+		experimentNumber = 0
+		experimentsReturned = 0
+		Deployed = False
+		Inoperable = False
+		EVENTS
+		{
+			deployEvent
+			{
+				active = True
+				guiActive = True
+				guiIcon = Deploy
+				guiName = Deploy
+				category = Deploy
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			retractEvent
+			{
+				active = False
+				guiActive = True
+				guiIcon = Retract
+				guiName = Retract
+				category = Retract
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			toggleEvent
+			{
+				active = True
+				guiActive = True
+				guiIcon = Toggle
+				guiName = Toggle
+				category = Toggle
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			editorDeployEvent
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiIcon = Deploy
+				guiName = Open Materials Bay
+				category = Deploy
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			editorRetractEvent
+			{
+				active = False
+				guiActive = False
+				guiActiveEditor = True
+				guiIcon = Retract
+				guiName = Close Materials Bay
+				category = Retract
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ReviewInitialData
+			{
+				active = False
+				guiActive = True
+				guiIcon = Review Initial Data
+				guiName = Review Initial Data
+				category = Review Initial Data
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			DeployExperiment
+			{
+				active = True
+				guiActive = True
+				guiIcon = Deploy
+				guiName = Deploy
+				category = Deploy
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			CollectDataExternalEvent
+			{
+				active = True
+				guiActive = False
+				guiIcon = 
+				guiName = 
+				category = 
+				guiActiveUnfocused = True
+				unfocusedRange = 1.5
+				externalToEVAOnly = True
+			}
+			ReviewDataEvent
+			{
+				active = True
+				guiActive = True
+				guiIcon = Review Data
+				guiName = Review Data
+				category = Review Data
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ResetExperiment
+			{
+				active = True
+				guiActive = True
+				guiIcon = Reset
+				guiName = Reset
+				category = Reset
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			DeployExperimentExternal
+			{
+				active = True
+				guiActive = False
+				guiIcon = Deploy
+				guiName = Deploy
+				category = Deploy
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ResetExperimentExternal
+			{
+				active = True
+				guiActive = False
+				guiIcon = Reset
+				guiName = Reset
+				category = Reset
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			CleanUpExperimentExternal
+			{
+				active = True
+				guiActive = False
+				guiIcon = Restore
+				guiName = Restore
+				category = Restore
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			deployAction
+			{
+				actionGroup = None
+				active = False
+			}
+			retractAction
+			{
+				actionGroup = None
+				active = False
+			}
+			toggleAction
+			{
+				actionGroup = Custom01
+			}
+			DeployAction
+			{
+				actionGroup = None
+			}
+			ResetAction
+			{
+				actionGroup = None
+				active = False
+			}
+		}
+	}
+}
+PART
+{
+	part = SurfaceScanner_4294518794
+	partName = Part
+	pos = -1.453693,21.49182,-0.9663998
+	attPos = 0,0,0
+	attPos0 = -1.135921,0.4061909,-0.6558244
+	rot = -4.819166E-07,-0.4999987,2.782337E-07,-0.8660262
+	attRot = 0,0,0,1
+	attRot0 = -4.819166E-07,-0.4999987,2.782337E-07,-0.8660262
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 2
+	dstg = 2
+	sidx = -1
+	sqor = -1
+	sepI = 1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	srfN = srfAttach,fuelTank2-2_4292611996
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleGPS
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleResourceScanner
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleBiomeScanner
+		isEnabled = True
+		EVENTS
+		{
+			RunAnalysis
+			{
+				active = False
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Run Analysis
+				guiName = Run Analysis
+				category = Run Analysis
+				guiActiveUnfocused = True
+				unfocusedRange = 3
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAsteroidAnalysis
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAnalysisResource
+		isEnabled = True
+		abundance = 0
+		resourceName = Ore
+		displayAbundance = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = dmRoverGoo_4294503000
+	partName = Part
+	pos = -1.236089,21.73981,0.6077409
+	attPos = 0,0,0
+	attPos0 = -0.9183164,0.6541805,0.9183162
+	rot = 0.6532819,-0.2705979,0.2705982,0.6532812
+	attRot = 0,0,0,1
+	attRot0 = 0.6532819,-0.2705979,0.2705982,0.6532812
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 2
+	dstg = 2
+	sidx = -1
+	sqor = -1
+	sepI = 1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	srfN = srfAttach,fuelTank2-2_4292611996
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = DMRoverGooMat
+		isEnabled = True
+		IsDeployed = False
+		experimentNumber = 0
+		experimentsReturned = 0
+		Deployed = False
+		Inoperable = False
+		EVENTS
+		{
+			deployEvent
+			{
+				active = True
+				guiActive = True
+				guiIcon = Deploy
+				guiName = Deploy
+				category = Deploy
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			retractEvent
+			{
+				active = False
+				guiActive = True
+				guiIcon = Retract
+				guiName = Retract
+				category = Retract
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			toggleEvent
+			{
+				active = True
+				guiActive = True
+				guiIcon = Toggle
+				guiName = Toggle
+				category = Toggle
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			editorDeployEvent
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiIcon = Deploy
+				guiName = Open Containment Pod
+				category = Deploy
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			editorRetractEvent
+			{
+				active = False
+				guiActive = False
+				guiActiveEditor = True
+				guiIcon = Retract
+				guiName = Close Containment Pod
+				category = Retract
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ReviewInitialData
+			{
+				active = False
+				guiActive = True
+				guiIcon = Review Initial Data
+				guiName = Review Initial Data
+				category = Review Initial Data
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			DeployExperiment
+			{
+				active = True
+				guiActive = True
+				guiIcon = Deploy
+				guiName = Deploy
+				category = Deploy
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			CollectDataExternalEvent
+			{
+				active = True
+				guiActive = False
+				guiIcon = 
+				guiName = 
+				category = 
+				guiActiveUnfocused = True
+				unfocusedRange = 1.5
+				externalToEVAOnly = True
+			}
+			ReviewDataEvent
+			{
+				active = True
+				guiActive = True
+				guiIcon = Review Data
+				guiName = Review Data
+				category = Review Data
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ResetExperiment
+			{
+				active = True
+				guiActive = True
+				guiIcon = Reset
+				guiName = Reset
+				category = Reset
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			DeployExperimentExternal
+			{
+				active = True
+				guiActive = False
+				guiIcon = Deploy
+				guiName = Deploy
+				category = Deploy
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ResetExperimentExternal
+			{
+				active = True
+				guiActive = False
+				guiIcon = Reset
+				guiName = Reset
+				category = Reset
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			CleanUpExperimentExternal
+			{
+				active = True
+				guiActive = False
+				guiIcon = Restore
+				guiName = Restore
+				category = Restore
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			deployAction
+			{
+				actionGroup = None
+				active = False
+			}
+			retractAction
+			{
+				actionGroup = None
+				active = False
+			}
+			toggleAction
+			{
+				actionGroup = None
+			}
+			DeployAction
+			{
+				actionGroup = Custom01
+			}
+			ResetAction
+			{
+				actionGroup = None
+				active = False
+			}
+		}
+	}
+}
+PART
+{
+	part = Engineer7500_4294373948
+	partName = Part
+	pos = 0.2894361,21.49411,0.7411406
+	attPos = 0,0,0
+	attPos0 = 0.6072085,0.4084816,1.051716
+	rot = 8.34695E-07,0.8660262,4.819097E-07,0.4999987
+	attRot = 0,0,0,1
+	attRot0 = 8.34695E-07,0.8660262,4.819097E-07,0.4999987
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 2
+	dstg = 2
+	sidx = -1
+	sqor = -1
+	sepI = 1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	srfN = srfAttach,fuelTank2-2_4292611996
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = FlightEngineerModule
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = TapeDriveAnimator
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = solarPanels1_4294352508
+	partName = Part
+	pos = -0.3177723,23.58088,-1.242514
+	attPos = 0,0,0
+	attPos0 = 8.940697E-08,0.2621765,-0.9319389
+	rot = -0.1398693,0.6931353,0.1398693,-0.6931353
+	attRot = 0,0,0,1
+	attRot0 = -0.1398693,0.6931353,0.1398693,-0.6931353
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
 	sidx = -1
 	sqor = -1
 	sepI = 0
@@ -9765,7 +10561,7 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	srfN = srfAttach,fuelTank2-2_4292611996
+	srfN = srfAttach,Mark1-2Pod_4292619704
 	EVENTS
 	{
 	}
@@ -9812,7 +10608,7 @@ PART
 		{
 			ExtendPanelsAction
 			{
-				actionGroup = Custom02
+				actionGroup = Light
 			}
 			ExtendAction
 			{
@@ -9823,47 +10619,5 @@ PART
 				actionGroup = None
 			}
 		}
-	}
-}
-PART
-{
-	part = ksp.r.largeBatteryPack_4291597380
-	partName = Part
-	pos = 0.7301257,20.68121,-0.9155798
-	attPos = 0,0,0
-	attPos0 = 1.047898,-0.4044209,-0.6050044
-	rot = -4.819166E-07,0.4999987,-2.782337E-07,-0.8660262
-	attRot = 0,0,0,1
-	attRot0 = -4.819166E-07,0.4999987,-2.782337E-07,-0.8660262
-	mir = 1,1,1
-	symMethod = Radial
-	istg = 2
-	dstg = 2
-	sidx = -1
-	sqor = -1
-	sepI = 0
-	attm = 1
-	modCost = 0
-	modMass = 0
-	modSize = (0.0, 0.0, 0.0)
-	srfN = srfAttach,fuelTank2-2_4292611996
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-	}
-	RESOURCE
-	{
-		name = ElectricCharge
-		amount = 400
-		maxAmount = 400
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		flowMode = Both
 	}
 }
