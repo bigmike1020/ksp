@@ -2,7 +2,7 @@ ship = Research Sat
 version = 1.0.2
 description = 
 type = VAB
-size = 6.529623,16.5904,6.730718
+size = 6.529624,16.5904,6.730718
 PART
 {
 	part = probeCoreOcto_4294321456
@@ -1374,15 +1374,15 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	link = sasModule_4294193462
 	link = strutConnector_4294144760
+	link = advSasModule_4290196266
 	sym = fuelTank.long_4294197408
 	sym = fuelTank.long_4294197370
 	sym = fuelTank.long_4294197332
 	sym = fuelTank.long_4294197294
 	sym = fuelTank.long_4294197256
 	srfN = srfAttach,fuelTank.long_4294209098
-	attN = top,sasModule_4294193462
+	attN = top,advSasModule_4290196266
 	attN = bottom,fuelTank.long_4294199432
 	EVENTS
 	{
@@ -1412,144 +1412,6 @@ PART
 		isTweakable = True
 		hideFlow = False
 		flowMode = Both
-	}
-}
-PART
-{
-	part = sasModule_4294193462
-	partName = Part
-	pos = 0.1315735,11.59102,-1.261225
-	attPos = 0,0,0
-	attPos0 = -9.301702E-15,1.966111,1.190953E-14
-	rot = 3.631686E-16,-0.5000002,7.313068E-16,0.8660254
-	attRot = 0,0,0,1
-	attRot0 = 1.557647E-15,-0.5000001,-5.314269E-16,0.8660254
-	mir = 1,1,1
-	symMethod = Radial
-	istg = 4
-	dstg = 4
-	sidx = -1
-	sqor = -1
-	sepI = 1
-	attm = 0
-	modCost = 0
-	modMass = 0
-	modSize = (0.0, 0.0, 0.0)
-	link = strutConnector_4293021754
-	sym = sasModule_4294195710
-	sym = sasModule_4294193430
-	sym = sasModule_4294193398
-	sym = sasModule_4294193366
-	sym = sasModule_4294193334
-	attN = bottom,fuelTank.long_4294198670
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleReactionWheel
-		isEnabled = True
-		stateString = Active
-		WheelState = Active
-		EVENTS
-		{
-			OnToggle
-			{
-				active = True
-				guiActive = True
-				guiActiveEditor = True
-				guiIcon = Toggle Torque
-				guiName = Toggle Torque
-				category = Toggle Torque
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			Activate
-			{
-				actionGroup = None
-			}
-			Deactivate
-			{
-				actionGroup = None
-			}
-			Toggle
-			{
-				actionGroup = None
-			}
-		}
-	}
-}
-PART
-{
-	part = strutConnector_4293021754
-	partName = CompoundPart
-	pos = 0.1315737,11.66651,-1.40239
-	attPos = 0,0,0
-	attPos0 = -0.1222524,0.07549572,-0.07058249
-	rot = -0.1830126,0.1830126,-0.683013,0.6830127
-	attRot = 0,0,0,1
-	attRot0 = -0.5000002,0.4999999,-0.5000002,0.4999999
-	mir = 1,1,1
-	symMethod = Radial
-	istg = 4
-	dstg = 4
-	sidx = -1
-	sqor = -1
-	sepI = 1
-	attm = 1
-	modCost = 0
-	modMass = 0
-	modSize = (0.0, 0.0, 0.0)
-	sym = strutConnector_4293022000
-	sym = strutConnector_4293021688
-	sym = strutConnector_4293021622
-	sym = strutConnector_4293021556
-	sym = strutConnector_4293021490
-	srfN = srfAttach,sasModule_4294193462
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-		tgt = 4294221606
-		pos = -2.466089,-0.3297769,0.6957424
-		rot = 0,0.6123728,0.3535529,0.7071068
-		dir = -0.9545583,-0.1276483,0.2693035
-	}
-	MODULE
-	{
-		name = CModuleLinkedMesh
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = CModuleStrut
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
 	}
 }
 PART
@@ -2153,7 +2015,7 @@ PART
 	pos = -0.9469112,9.624903,-0.6385602
 	attPos = 0,0,0
 	attPos0 = 9.898262E-08,3.7625,-5.161916E-08
-	rot = -9.89014E-15,0.5000002,5.390807E-15,0.8660254
+	rot = -1.315352E-14,0.5000002,7.274919E-15,0.8660254
 	attRot = 0,0,0,1
 	attRot0 = -1.210161E-08,-0.7071066,1.210162E-08,-0.707107
 	mir = 1,1,1
@@ -2167,14 +2029,15 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	link = sasModule_4294195710
 	link = strutConnector_4294146750
+	link = advSasModule_4290198152
 	sym = fuelTank.long_4294198670
 	sym = fuelTank.long_4294197370
 	sym = fuelTank.long_4294197332
 	sym = fuelTank.long_4294197294
 	sym = fuelTank.long_4294197256
 	srfN = srfAttach,fuelTank.long_4294209098
+	attN = top,advSasModule_4290198152
 	attN = bottom,fuelTank.long_4294199016
 	EVENTS
 	{
@@ -2204,144 +2067,6 @@ PART
 		isTweakable = True
 		hideFlow = False
 		flowMode = Both
-	}
-}
-PART
-{
-	part = sasModule_4294195710
-	partName = Part
-	pos = -0.9469112,11.59102,-0.6385602
-	attPos = 0,0,0
-	attPos0 = -5.809187E-15,1.966111,1.087212E-14
-	rot = 0,0,0,1
-	attRot = 0,0,0,1
-	attRot0 = 1.557647E-15,-0.5000001,-5.314269E-16,0.8660253
-	mir = 1,1,1
-	symMethod = Radial
-	istg = 4
-	dstg = 4
-	sidx = -1
-	sqor = -1
-	sepI = 1
-	attm = 0
-	modCost = 0
-	modMass = 0
-	modSize = (0.0, 0.0, 0.0)
-	link = strutConnector_4293022000
-	sym = sasModule_4294193462
-	sym = sasModule_4294193430
-	sym = sasModule_4294193398
-	sym = sasModule_4294193366
-	sym = sasModule_4294193334
-	attN = bottom,fuelTank.long_4294197408
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleReactionWheel
-		isEnabled = True
-		stateString = Active
-		WheelState = Active
-		EVENTS
-		{
-			OnToggle
-			{
-				active = True
-				guiActive = True
-				guiActiveEditor = True
-				guiIcon = Toggle Torque
-				guiName = Toggle Torque
-				category = Toggle Torque
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			Activate
-			{
-				actionGroup = None
-			}
-			Deactivate
-			{
-				actionGroup = None
-			}
-			Toggle
-			{
-				actionGroup = None
-			}
-		}
-	}
-}
-PART
-{
-	part = strutConnector_4293022000
-	partName = CompoundPart
-	pos = -1.069164,11.66651,-0.7091426
-	attPos = 0,0,0
-	attPos0 = -0.1222524,0.07549572,-0.07058247
-	rot = -0.5000002,0.4999999,-0.5000002,0.4999999
-	attRot = 0,0,0,1
-	attRot0 = -0.5000002,0.4999999,-0.5000002,0.4999998
-	mir = 1,1,1
-	symMethod = Radial
-	istg = 4
-	dstg = 4
-	sidx = -1
-	sqor = -1
-	sepI = 1
-	attm = 1
-	modCost = 0
-	modMass = 0
-	modSize = (0.0, 0.0, 0.0)
-	sym = strutConnector_4293021754
-	sym = strutConnector_4293021688
-	sym = strutConnector_4293021622
-	sym = strutConnector_4293021556
-	sym = strutConnector_4293021490
-	srfN = srfAttach,sasModule_4294195710
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-		tgt = 4294221606
-		pos = -2.466086,-0.3297772,0.695742
-		rot = 0,0.6123728,0.3535529,0.7071067
-		dir = -0.9545583,-0.1276483,0.2693035
-	}
-	MODULE
-	{
-		name = CModuleLinkedMesh
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = CModuleStrut
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
 	}
 }
 PART
@@ -2414,7 +2139,7 @@ PART
 	pos = -0.9469112,3.073077,-0.6385601
 	attPos = 0,0,0
 	attPos0 = -6.567228E-08,-2.789326,5.161916E-08
-	rot = -9.89014E-15,0.5000002,5.390807E-15,0.8660254
+	rot = -1.315352E-14,0.5000002,7.274919E-15,0.8660254
 	attRot = 0,0,0,1
 	attRot0 = -1.210161E-08,-0.7071066,1.210162E-08,-0.707107
 	mir = 1,1,1
@@ -2945,7 +2670,7 @@ PART
 	pos = -0.9469109,9.624903,0.6067672
 	attPos = 0,0,0
 	attPos0 = 9.898254E-08,3.7625,5.161911E-08
-	rot = -7.290715E-15,0.8660255,9.956017E-15,0.5000001
+	rot = -9.905322E-15,0.8660255,1.341513E-14,0.5000001
 	attRot = 0,0,0,1
 	attRot0 = -1.210161E-08,-0.7071065,1.210162E-08,-0.7071071
 	mir = 1,1,1
@@ -2959,15 +2684,15 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	link = sasModule_4294193430
 	link = strutConnector_4294144694
+	link = advSasModule_4290196234
 	sym = fuelTank.long_4294198670
 	sym = fuelTank.long_4294197408
 	sym = fuelTank.long_4294197332
 	sym = fuelTank.long_4294197294
 	sym = fuelTank.long_4294197256
 	srfN = srfAttach,fuelTank.long_4294209098
-	attN = top,sasModule_4294193430
+	attN = top,advSasModule_4290196234
 	attN = bottom,fuelTank.long_4294198978
 	EVENTS
 	{
@@ -3001,150 +2726,12 @@ PART
 }
 PART
 {
-	part = sasModule_4294193430
-	partName = Part
-	pos = -0.9469109,11.59102,0.6067672
-	attPos = 0,0,0
-	attPos0 = 2.792156E-15,1.966111,2.741701E-16
-	rot = 4.633614E-17,0.5,4.277183E-16,0.8660256
-	attRot = 0,0,0,1
-	attRot0 = 1.557647E-15,-0.5000001,-5.314269E-16,0.8660253
-	mir = 1,1,1
-	symMethod = Radial
-	istg = 4
-	dstg = 4
-	sidx = -1
-	sqor = -1
-	sepI = 1
-	attm = 0
-	modCost = 0
-	modMass = 0
-	modSize = (0.0, 0.0, 0.0)
-	link = strutConnector_4293021688
-	sym = sasModule_4294195710
-	sym = sasModule_4294193462
-	sym = sasModule_4294193398
-	sym = sasModule_4294193366
-	sym = sasModule_4294193334
-	attN = bottom,fuelTank.long_4294197370
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleReactionWheel
-		isEnabled = True
-		stateString = Active
-		WheelState = Active
-		EVENTS
-		{
-			OnToggle
-			{
-				active = True
-				guiActive = True
-				guiActiveEditor = True
-				guiIcon = Toggle Torque
-				guiName = Toggle Torque
-				category = Toggle Torque
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			Activate
-			{
-				actionGroup = None
-			}
-			Deactivate
-			{
-				actionGroup = None
-			}
-			Toggle
-			{
-				actionGroup = None
-			}
-		}
-	}
-}
-PART
-{
-	part = strutConnector_4293021688
-	partName = CompoundPart
-	pos = -1.069163,11.66651,0.6773496
-	attPos = 0,0,0
-	attPos0 = -0.1222524,0.07549572,-0.07058252
-	rot = -0.6830131,0.6830127,-0.1830129,0.1830128
-	attRot = 0,0,0,1
-	attRot0 = -0.5000002,0.4999999,-0.5000002,0.4999998
-	mir = 1,1,1
-	symMethod = Radial
-	istg = 4
-	dstg = 4
-	sidx = -1
-	sqor = -1
-	sepI = 1
-	attm = 1
-	modCost = 0
-	modMass = 0
-	modSize = (0.0, 0.0, 0.0)
-	sym = strutConnector_4293022000
-	sym = strutConnector_4293021754
-	sym = strutConnector_4293021622
-	sym = strutConnector_4293021556
-	sym = strutConnector_4293021490
-	srfN = srfAttach,sasModule_4294193430
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-		tgt = 4294221606
-		pos = -2.466085,-0.3297781,0.6957415
-		rot = 0,0.6123726,0.3535532,0.7071068
-		dir = -0.9545583,-0.1276483,0.2693035
-	}
-	MODULE
-	{
-		name = CModuleLinkedMesh
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = CModuleStrut
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-}
-PART
-{
 	part = strutConnector_4294144694
 	partName = CompoundPart
 	pos = -1.392864,11.20519,0.1608135
 	attPos = 0,0,0
 	attPos0 = 0.6091833,1.580293,-0.1632304
-	rot = 8.064443E-09,0.3826831,-1.946928E-08,-0.9238799
+	rot = 8.064445E-09,0.3826831,-1.946928E-08,-0.9238799
 	attRot = 0,0,0,1
 	attRot0 = 2.089311E-08,0.9914449,-2.750634E-09,-0.1305265
 	mir = 1,1,1
@@ -3207,7 +2794,7 @@ PART
 	pos = -0.9469109,3.073077,0.6067671
 	attPos = 0,0,0
 	attPos0 = -6.56722E-08,-2.789326,-5.161911E-08
-	rot = -7.290715E-15,0.8660255,9.956017E-15,0.5000001
+	rot = -9.905322E-15,0.8660255,1.341513E-14,0.5000001
 	attRot = 0,0,0,1
 	attRot0 = -1.210161E-08,-0.7071065,1.210162E-08,-0.7071071
 	mir = 1,1,1
@@ -3752,15 +3339,15 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	link = sasModule_4294193398
 	link = strutConnector_4294144628
+	link = advSasModule_4290196202
 	sym = fuelTank.long_4294198670
 	sym = fuelTank.long_4294197408
 	sym = fuelTank.long_4294197370
 	sym = fuelTank.long_4294197294
 	sym = fuelTank.long_4294197256
 	srfN = srfAttach,fuelTank.long_4294209098
-	attN = top,sasModule_4294193398
+	attN = top,advSasModule_4290196202
 	attN = bottom,fuelTank.long_4294198940
 	EVENTS
 	{
@@ -3790,144 +3377,6 @@ PART
 		isTweakable = True
 		hideFlow = False
 		flowMode = Both
-	}
-}
-PART
-{
-	part = sasModule_4294193398
-	partName = Part
-	pos = 0.1315744,11.59102,1.22943
-	attPos = 0,0,0
-	attPos0 = -1.279422E-14,1.966111,4.804102E-15
-	rot = -2.502153E-15,0.8660254,1.427668E-15,0.5000002
-	attRot = 0,0,0,1
-	attRot0 = 1.557647E-15,-0.5000001,-5.31427E-16,0.8660254
-	mir = 1,1,1
-	symMethod = Radial
-	istg = 4
-	dstg = 4
-	sidx = -1
-	sqor = -1
-	sepI = 1
-	attm = 0
-	modCost = 0
-	modMass = 0
-	modSize = (0.0, 0.0, 0.0)
-	link = strutConnector_4293021622
-	sym = sasModule_4294195710
-	sym = sasModule_4294193462
-	sym = sasModule_4294193430
-	sym = sasModule_4294193366
-	sym = sasModule_4294193334
-	attN = bottom,fuelTank.long_4294197332
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleReactionWheel
-		isEnabled = True
-		stateString = Active
-		WheelState = Active
-		EVENTS
-		{
-			OnToggle
-			{
-				active = True
-				guiActive = True
-				guiActiveEditor = True
-				guiIcon = Toggle Torque
-				guiName = Toggle Torque
-				category = Toggle Torque
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			Activate
-			{
-				actionGroup = None
-			}
-			Deactivate
-			{
-				actionGroup = None
-			}
-			Toggle
-			{
-				actionGroup = None
-			}
-		}
-	}
-}
-PART
-{
-	part = strutConnector_4293021622
-	partName = CompoundPart
-	pos = 0.1315745,11.66651,1.370595
-	attPos = 0,0,0
-	attPos0 = -0.1222524,0.07549572,-0.07058249
-	rot = -0.683013,0.6830124,0.1830128,-0.1830126
-	attRot = 0,0,0,1
-	attRot0 = -0.5000002,0.4999999,-0.5000002,0.4999999
-	mir = 1,1,1
-	symMethod = Radial
-	istg = 4
-	dstg = 4
-	sidx = -1
-	sqor = -1
-	sepI = 1
-	attm = 1
-	modCost = 0
-	modMass = 0
-	modSize = (0.0, 0.0, 0.0)
-	sym = strutConnector_4293022000
-	sym = strutConnector_4293021754
-	sym = strutConnector_4293021688
-	sym = strutConnector_4293021556
-	sym = strutConnector_4293021490
-	srfN = srfAttach,sasModule_4294193398
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-		tgt = 4294221606
-		pos = -2.466088,-0.3297776,0.6957422
-		rot = 0,0.6123726,0.3535534,0.7071066
-		dir = -0.9545583,-0.1276483,0.2693035
-	}
-	MODULE
-	{
-		name = CModuleLinkedMesh
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = CModuleStrut
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
 	}
 }
 PART
@@ -4531,7 +3980,7 @@ PART
 	pos = 1.210059,9.624903,0.6067664
 	attPos = 0,0,0
 	attPos0 = 9.898262E-08,3.7625,-5.161917E-08
-	rot = 5.823107E-15,0.8660254,9.9926E-15,-0.5000001
+	rot = 7.70722E-15,0.8660254,1.325598E-14,-0.5000001
 	attRot = 0,0,0,1
 	attRot0 = -1.210161E-08,-0.7071066,1.210162E-08,-0.7071071
 	mir = 1,1,1
@@ -4545,15 +3994,15 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	link = sasModule_4294193366
 	link = strutConnector_4294144562
+	link = advSasModule_4290196170
 	sym = fuelTank.long_4294198670
 	sym = fuelTank.long_4294197408
 	sym = fuelTank.long_4294197370
 	sym = fuelTank.long_4294197332
 	sym = fuelTank.long_4294197256
 	srfN = srfAttach,fuelTank.long_4294209098
-	attN = top,sasModule_4294193366
+	attN = top,advSasModule_4290196170
 	attN = bottom,fuelTank.long_4294198902
 	EVENTS
 	{
@@ -4583,144 +4032,6 @@ PART
 		isTweakable = True
 		hideFlow = False
 		flowMode = Both
-	}
-}
-PART
-{
-	part = sasModule_4294193366
-	partName = Part
-	pos = 1.210059,11.59102,0.6067664
-	attPos = 0,0,0
-	attPos0 = -9.301702E-15,1.966111,1.190953E-14
-	rot = -1.789902E-15,1,2.738683E-15,-1.54268E-08
-	attRot = 0,0,0,1
-	attRot0 = 1.557647E-15,-0.5000001,-5.314269E-16,0.8660254
-	mir = 1,1,1
-	symMethod = Radial
-	istg = 4
-	dstg = 4
-	sidx = -1
-	sqor = -1
-	sepI = 1
-	attm = 0
-	modCost = 0
-	modMass = 0
-	modSize = (0.0, 0.0, 0.0)
-	link = strutConnector_4293021556
-	sym = sasModule_4294195710
-	sym = sasModule_4294193462
-	sym = sasModule_4294193430
-	sym = sasModule_4294193398
-	sym = sasModule_4294193334
-	attN = bottom,fuelTank.long_4294197294
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleReactionWheel
-		isEnabled = True
-		stateString = Active
-		WheelState = Active
-		EVENTS
-		{
-			OnToggle
-			{
-				active = True
-				guiActive = True
-				guiActiveEditor = True
-				guiIcon = Toggle Torque
-				guiName = Toggle Torque
-				category = Toggle Torque
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			Activate
-			{
-				actionGroup = None
-			}
-			Deactivate
-			{
-				actionGroup = None
-			}
-			Toggle
-			{
-				actionGroup = None
-			}
-		}
-	}
-}
-PART
-{
-	part = strutConnector_4293021556
-	partName = CompoundPart
-	pos = 1.332311,11.66651,0.677349
-	attPos = 0,0,0
-	attPos0 = -0.1222524,0.07549572,-0.07058249
-	rot = -0.5000001,0.4999999,0.5000001,-0.4999999
-	attRot = 0,0,0,1
-	attRot0 = -0.5000002,0.4999999,-0.5000002,0.4999998
-	mir = 1,1,1
-	symMethod = Radial
-	istg = 4
-	dstg = 4
-	sidx = -1
-	sqor = -1
-	sepI = 1
-	attm = 1
-	modCost = 0
-	modMass = 0
-	modSize = (0.0, 0.0, 0.0)
-	sym = strutConnector_4293022000
-	sym = strutConnector_4293021754
-	sym = strutConnector_4293021688
-	sym = strutConnector_4293021622
-	sym = strutConnector_4293021490
-	srfN = srfAttach,sasModule_4294193366
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-		tgt = 4294221606
-		pos = -2.466086,-0.3297779,0.6957413
-		rot = 0,0.6123725,0.3535535,0.7071067
-		dir = -0.9545583,-0.1276483,0.2693035
-	}
-	MODULE
-	{
-		name = CModuleLinkedMesh
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = CModuleStrut
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
 	}
 }
 PART
@@ -4793,7 +4104,7 @@ PART
 	pos = 1.210059,3.073077,0.6067663
 	attPos = 0,0,0
 	attPos0 = -6.567228E-08,-2.789326,5.161917E-08
-	rot = 5.823107E-15,0.8660254,9.9926E-15,-0.5000001
+	rot = 7.70722E-15,0.8660254,1.325598E-14,-0.5000001
 	attRot = 0,0,0,1
 	attRot0 = -1.210161E-08,-0.7071066,1.210162E-08,-0.7071071
 	mir = 1,1,1
@@ -5014,7 +4325,7 @@ PART
 {
 	part = radialDecoupler1-2_4294173768
 	partName = Part
-	pos = 1.747499,6.656149,0.9170579
+	pos = 1.747499,6.656149,0.9170585
 	attPos = 0,0,0
 	attPos0 = -0.6205801,0.793745,2.637393E-08
 	rot = 1.439343E-08,-0.9659261,3.856682E-09,-0.2588184
@@ -5324,7 +4635,7 @@ PART
 	pos = 1.210059,9.624903,-0.6385608
 	attPos = 0,0,0
 	attPos0 = 9.898254E-08,3.7625,5.161913E-08
-	rot = 1.309529E-14,0.5000001,7.589825E-15,-0.8660254
+	rot = 1.635866E-14,0.5000001,9.473936E-15,-0.8660254
 	attRot = 0,0,0,1
 	attRot0 = -1.210161E-08,-0.7071066,1.210162E-08,-0.7071071
 	mir = 1,1,1
@@ -5338,15 +4649,15 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	link = sasModule_4294193334
 	link = strutConnector_4294144496
+	link = advSasModule_4290196138
 	sym = fuelTank.long_4294198670
 	sym = fuelTank.long_4294197408
 	sym = fuelTank.long_4294197370
 	sym = fuelTank.long_4294197332
 	sym = fuelTank.long_4294197294
 	srfN = srfAttach,fuelTank.long_4294209098
-	attN = top,sasModule_4294193334
+	attN = top,advSasModule_4290196138
 	attN = bottom,fuelTank.long_4294198864
 	EVENTS
 	{
@@ -5380,150 +4691,12 @@ PART
 }
 PART
 {
-	part = sasModule_4294193334
-	partName = Part
-	pos = 1.210059,11.59102,-0.6385608
-	attPos = 0,0,0
-	attPos0 = -9.301698E-15,1.966111,1.901496E-14
-	rot = -1.845734E-15,0.8660256,-3.340803E-16,-0.4999999
-	attRot = 0,0,0,1
-	attRot0 = 1.557647E-15,-0.5000001,-5.314269E-16,0.8660254
-	mir = 1,1,1
-	symMethod = Radial
-	istg = 4
-	dstg = 4
-	sidx = -1
-	sqor = -1
-	sepI = 1
-	attm = 0
-	modCost = 0
-	modMass = 0
-	modSize = (0.0, 0.0, 0.0)
-	link = strutConnector_4293021490
-	sym = sasModule_4294195710
-	sym = sasModule_4294193462
-	sym = sasModule_4294193430
-	sym = sasModule_4294193398
-	sym = sasModule_4294193366
-	attN = bottom,fuelTank.long_4294197256
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleReactionWheel
-		isEnabled = True
-		stateString = Active
-		WheelState = Active
-		EVENTS
-		{
-			OnToggle
-			{
-				active = True
-				guiActive = True
-				guiActiveEditor = True
-				guiIcon = Toggle Torque
-				guiName = Toggle Torque
-				category = Toggle Torque
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			Activate
-			{
-				actionGroup = None
-			}
-			Deactivate
-			{
-				actionGroup = None
-			}
-			Toggle
-			{
-				actionGroup = None
-			}
-		}
-	}
-}
-PART
-{
-	part = strutConnector_4293021490
-	partName = CompoundPart
-	pos = 1.332311,11.66651,-0.7091432
-	attPos = 0,0,0
-	attPos0 = -0.1222524,0.07549572,-0.07058255
-	rot = -0.1830129,0.1830128,0.683013,-0.6830124
-	attRot = 0,0,0,1
-	attRot0 = -0.5000002,0.4999999,-0.5000002,0.4999998
-	mir = 1,1,1
-	symMethod = Radial
-	istg = 4
-	dstg = 4
-	sidx = -1
-	sqor = -1
-	sepI = 1
-	attm = 1
-	modCost = 0
-	modMass = 0
-	modSize = (0.0, 0.0, 0.0)
-	sym = strutConnector_4293022000
-	sym = strutConnector_4293021754
-	sym = strutConnector_4293021688
-	sym = strutConnector_4293021622
-	sym = strutConnector_4293021556
-	srfN = srfAttach,sasModule_4294193334
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-		tgt = 4294221606
-		pos = -2.46609,-0.3297777,0.6957419
-		rot = 0,0.6123728,0.3535532,0.7071066
-		dir = -0.9545583,-0.1276483,0.2693035
-	}
-	MODULE
-	{
-		name = CModuleLinkedMesh
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = CModuleStrut
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-}
-PART
-{
 	part = strutConnector_4294144496
 	partName = CompoundPart
-	pos = 1.656012,11.20519,-0.1926063
+	pos = 1.656012,11.20519,-0.192606
 	attPos = 0,0,0
 	attPos0 = 0.6091835,1.580293,-0.1632305
-	rot = -1.946928E-08,-0.9238797,-8.064444E-09,-0.3826833
+	rot = -1.946928E-08,-0.9238797,-8.064445E-09,-0.3826833
 	attRot = 0,0,0,1
 	attRot0 = 2.089311E-08,0.9914448,-2.750634E-09,-0.1305264
 	mir = 1,1,1
@@ -5586,7 +4759,7 @@ PART
 	pos = 1.210059,3.073077,-0.6385607
 	attPos = 0,0,0
 	attPos0 = -6.567221E-08,-2.789326,-5.161913E-08
-	rot = 1.309529E-14,0.5000001,7.589825E-15,-0.8660254
+	rot = 1.635866E-14,0.5000001,9.473936E-15,-0.8660254
 	attRot = 0,0,0,1
 	attRot0 = -1.210161E-08,-0.7071066,1.210162E-08,-0.7071071
 	mir = 1,1,1
@@ -5807,7 +4980,7 @@ PART
 {
 	part = radialDecoupler1-2_4294173720
 	partName = Part
-	pos = 1.747497,6.656149,-0.9488524
+	pos = 1.747497,6.656149,-0.9488527
 	attPos = 0,0,0
 	attPos0 = -0.62058,0.793745,5.251475E-08
 	rot = 1.439341E-08,-0.9659257,-3.856728E-09,0.2588197
@@ -5902,7 +5075,7 @@ PART
 {
 	part = solidBooster1-1_4294149964
 	partName = Part
-	pos = 2.439284,6.488982,-1.348253
+	pos = 2.439286,6.488982,-1.348253
 	attPos = 0,0,0
 	attPos0 = -0.7988022,-0.1671657,-2.055825E-07
 	rot = 2.218212E-08,0.8660257,-3.842056E-08,0.4999996
@@ -7156,6 +6329,834 @@ PART
 			{
 				actionGroup = None
 			}
+		}
+	}
+}
+PART
+{
+	part = advSasModule_4290198152
+	partName = Part
+	pos = -0.9469112,11.69893,-0.6385602
+	attPos = 0,0,0
+	attPos0 = -9.611678E-15,2.074027,7.023066E-14
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	attRot0 = 1.315351E-14,-0.5000001,-7.274918E-15,0.8660253
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 4
+	dstg = 4
+	sidx = -1
+	sqor = -1
+	sepI = 1
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutConnector_4290194798
+	sym = advSasModule_4290196266
+	sym = advSasModule_4290196234
+	sym = advSasModule_4290196202
+	sym = advSasModule_4290196170
+	sym = advSasModule_4290196138
+	attN = bottom,fuelTank.long_4294197408
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleReactionWheel
+		isEnabled = True
+		stateString = Active
+		WheelState = Active
+		EVENTS
+		{
+			OnToggle
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Toggle Torque
+				guiName = Toggle Torque
+				category = Toggle Torque
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			Activate
+			{
+				actionGroup = None
+			}
+			Deactivate
+			{
+				actionGroup = None
+			}
+			Toggle
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = advSasModule_4290196266
+	partName = Part
+	pos = 0.1315735,11.69893,-1.261225
+	attPos = 0,0,0
+	attPos0 = 8.392369E-16,2.074027,-1.770681E-14
+	rot = 1.279644E-14,-0.5000001,-7.305713E-15,0.8660254
+	attRot = 0,0,0,1
+	attRot0 = 1.315351E-14,-0.5000001,-7.274918E-15,0.8660253
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 4
+	dstg = 4
+	sidx = -1
+	sqor = -1
+	sepI = 1
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutConnector_4290194720
+	sym = advSasModule_4290198152
+	sym = advSasModule_4290196234
+	sym = advSasModule_4290196202
+	sym = advSasModule_4290196170
+	sym = advSasModule_4290196138
+	attN = bottom,fuelTank.long_4294198670
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleReactionWheel
+		isEnabled = True
+		stateString = Active
+		WheelState = Active
+		EVENTS
+		{
+			OnToggle
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Toggle Torque
+				guiName = Toggle Torque
+				category = Toggle Torque
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			Activate
+			{
+				actionGroup = None
+			}
+			Deactivate
+			{
+				actionGroup = None
+			}
+			Toggle
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = advSasModule_4290196234
+	partName = Part
+	pos = -0.9469109,11.69893,0.6067672
+	attPos = 0,0,0
+	attPos0 = -8.17071E-15,2.074027,7.966294E-14
+	rot = -1.320152E-15,0.4999999,2.632888E-15,0.8660256
+	attRot = 0,0,0,1
+	attRot0 = 1.315351E-14,-0.5000002,-7.274918E-15,0.8660253
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 4
+	dstg = 4
+	sidx = -1
+	sqor = -1
+	sepI = 1
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutConnector_4290194654
+	sym = advSasModule_4290198152
+	sym = advSasModule_4290196266
+	sym = advSasModule_4290196202
+	sym = advSasModule_4290196170
+	sym = advSasModule_4290196138
+	attN = bottom,fuelTank.long_4294197370
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleReactionWheel
+		isEnabled = True
+		stateString = Active
+		WheelState = Active
+		EVENTS
+		{
+			OnToggle
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Toggle Torque
+				guiName = Toggle Torque
+				category = Toggle Torque
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			Activate
+			{
+				actionGroup = None
+			}
+			Deactivate
+			{
+				actionGroup = None
+			}
+			Toggle
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = advSasModule_4290196202
+	partName = Part
+	pos = 0.1315744,11.69893,1.22943
+	attPos = 0,0,0
+	attPos0 = -4.486518E-15,2.074027,1.07149E-14
+	rot = -7.084969E-15,0.8660254,-1.301718E-14,0.5000001
+	attRot = 0,0,0,1
+	attRot0 = 1.315351E-14,-0.5000001,-7.274918E-15,0.8660253
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 4
+	dstg = 4
+	sidx = -1
+	sqor = -1
+	sepI = 1
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutConnector_4290194588
+	sym = advSasModule_4290198152
+	sym = advSasModule_4290196266
+	sym = advSasModule_4290196234
+	sym = advSasModule_4290196170
+	sym = advSasModule_4290196138
+	attN = bottom,fuelTank.long_4294197332
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleReactionWheel
+		isEnabled = True
+		stateString = Active
+		WheelState = Active
+		EVENTS
+		{
+			OnToggle
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Toggle Torque
+				guiName = Toggle Torque
+				category = Toggle Torque
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			Activate
+			{
+				actionGroup = None
+			}
+			Deactivate
+			{
+				actionGroup = None
+			}
+			Toggle
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = advSasModule_4290196170
+	partName = Part
+	pos = 1.210059,11.69893,0.6067664
+	attPos = 0,0,0
+	attPos0 = -6.12804E-15,2.074027,7.282051E-14
+	rot = 7.646389E-16,1,6.831908E-17,4.214688E-08
+	attRot = 0,0,0,1
+	attRot0 = 1.315351E-14,-0.5000001,-7.274918E-15,0.8660253
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 4
+	dstg = 4
+	sidx = -1
+	sqor = -1
+	sepI = 1
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutConnector_4290194522
+	sym = advSasModule_4290198152
+	sym = advSasModule_4290196266
+	sym = advSasModule_4290196234
+	sym = advSasModule_4290196202
+	sym = advSasModule_4290196138
+	attN = bottom,fuelTank.long_4294197294
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleReactionWheel
+		isEnabled = True
+		stateString = Active
+		WheelState = Active
+		EVENTS
+		{
+			OnToggle
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Toggle Torque
+				guiName = Toggle Torque
+				category = Toggle Torque
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			Activate
+			{
+				actionGroup = None
+			}
+			Deactivate
+			{
+				actionGroup = None
+			}
+			Toggle
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = advSasModule_4290196138
+	partName = Part
+	pos = 1.210059,11.69893,-0.6385608
+	attPos = 0,0,0
+	attPos0 = -4.355005E-15,2.074027,8.361015E-14
+	rot = 4.342926E-15,0.8660256,-7.496285E-16,-0.4999998
+	attRot = 0,0,0,1
+	attRot0 = 1.315351E-14,-0.5000001,-7.274918E-15,0.8660253
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 4
+	dstg = 4
+	sidx = -1
+	sqor = -1
+	sepI = 1
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutConnector_4290194456
+	sym = advSasModule_4290198152
+	sym = advSasModule_4290196266
+	sym = advSasModule_4290196234
+	sym = advSasModule_4290196202
+	sym = advSasModule_4290196170
+	attN = bottom,fuelTank.long_4294197256
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleReactionWheel
+		isEnabled = True
+		stateString = Active
+		WheelState = Active
+		EVENTS
+		{
+			OnToggle
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Toggle Torque
+				guiName = Toggle Torque
+				category = Toggle Torque
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			Activate
+			{
+				actionGroup = None
+			}
+			Deactivate
+			{
+				actionGroup = None
+			}
+			Toggle
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = strutConnector_4290194798
+	partName = CompoundPart
+	pos = -1.163733,11.88181,-0.8553824
+	attPos = 0,0,0
+	attPos0 = -0.2168223,0.1828785,-0.2168223
+	rot = -0.5000003,0.4999999,-0.5000003,0.4999999
+	attRot = 0,0,0,1
+	attRot0 = -0.5000002,0.4999998,-0.5000002,0.4999998
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 4
+	dstg = 4
+	sidx = -1
+	sqor = -1
+	sepI = 1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = strutConnector_4290194720
+	sym = strutConnector_4290194654
+	sym = strutConnector_4290194588
+	sym = strutConnector_4290194522
+	sym = strutConnector_4290194456
+	srfN = srfAttach,advSasModule_4290198152
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+		tgt = 4294221606
+		pos = -1.868739,-0.3721532,0.8666055
+		rot = 0,0.3535535,0.6123726,0.7071066
+		dir = -0.8927461,-0.1777876,0.4140002
+	}
+	MODULE
+	{
+		name = CModuleLinkedMesh
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = CModuleStrut
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = strutConnector_4290194720
+	partName = CompoundPart
+	pos = 0.2109361,11.88181,-1.55741
+	attPos = 0,0,0
+	attPos0 = -0.2168222,0.1828785,-0.2168222
+	rot = -0.1830127,0.1830125,-0.6830131,0.6830124
+	attRot = 0,0,0,1
+	attRot0 = -0.5000002,0.4999998,-0.5000002,0.4999998
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 4
+	dstg = 4
+	sidx = -1
+	sqor = -1
+	sepI = 1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = strutConnector_4290194798
+	sym = strutConnector_4290194654
+	sym = strutConnector_4290194588
+	sym = strutConnector_4290194522
+	sym = strutConnector_4290194456
+	srfN = srfAttach,advSasModule_4290196266
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+		tgt = 4294221606
+		pos = -1.868742,-0.3721536,0.8666061
+		rot = 0,0.353554,0.6123725,0.7071065
+		dir = -0.8927461,-0.1777876,0.4140002
+	}
+	MODULE
+	{
+		name = CModuleLinkedMesh
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = CModuleStrut
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = strutConnector_4290194654
+	partName = CompoundPart
+	pos = -1.243096,11.88181,0.6861296
+	attPos = 0,0,0
+	attPos0 = -0.2168223,0.1828785,-0.2168223
+	rot = -0.6830131,0.6830125,-0.1830129,0.1830128
+	attRot = 0,0,0,1
+	attRot0 = -0.5000002,0.4999998,-0.5000002,0.4999998
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 4
+	dstg = 4
+	sidx = -1
+	sqor = -1
+	sepI = 1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = strutConnector_4290194798
+	sym = strutConnector_4290194720
+	sym = strutConnector_4290194588
+	sym = strutConnector_4290194522
+	sym = strutConnector_4290194456
+	srfN = srfAttach,advSasModule_4290196234
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+		tgt = 4294221606
+		pos = -1.868737,-0.3721536,0.8666047
+		rot = 0,0.3535538,0.6123724,0.7071067
+		dir = -0.8927461,-0.1777876,0.4140002
+	}
+	MODULE
+	{
+		name = CModuleLinkedMesh
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = CModuleStrut
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = strutConnector_4290194588
+	partName = CompoundPart
+	pos = 0.05221196,11.88181,1.525615
+	attPos = 0,0,0
+	attPos0 = -0.2168223,0.1828785,-0.2168223
+	rot = -0.683013,0.6830124,0.1830128,-0.1830126
+	attRot = 0,0,0,1
+	attRot0 = -0.5000002,0.4999998,-0.5000002,0.4999998
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 4
+	dstg = 4
+	sidx = -1
+	sqor = -1
+	sepI = 1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = strutConnector_4290194798
+	sym = strutConnector_4290194720
+	sym = strutConnector_4290194654
+	sym = strutConnector_4290194522
+	sym = strutConnector_4290194456
+	srfN = srfAttach,advSasModule_4290196202
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+		tgt = 4294221606
+		pos = -1.868738,-0.3721536,0.8666046
+		rot = 0,0.3535537,0.6123726,0.7071065
+		dir = -0.8927461,-0.1777876,0.4140002
+	}
+	MODULE
+	{
+		name = CModuleLinkedMesh
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = CModuleStrut
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = strutConnector_4290194522
+	partName = CompoundPart
+	pos = 1.426881,11.88181,0.8235887
+	attPos = 0,0,0
+	attPos0 = -0.2168223,0.1828785,-0.2168223
+	rot = -0.5000003,0.4999999,0.5000002,-0.4999998
+	attRot = 0,0,0,1
+	attRot0 = -0.5000002,0.4999998,-0.5000002,0.4999998
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 4
+	dstg = 4
+	sidx = -1
+	sqor = -1
+	sepI = 1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = strutConnector_4290194798
+	sym = strutConnector_4290194720
+	sym = strutConnector_4290194654
+	sym = strutConnector_4290194588
+	sym = strutConnector_4290194456
+	srfN = srfAttach,advSasModule_4290196170
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+		tgt = 4294221606
+		pos = -1.868739,-0.3721541,0.866605
+		rot = 0,0.3535537,0.6123726,0.7071065
+		dir = -0.8927461,-0.1777876,0.4140002
+	}
+	MODULE
+	{
+		name = CModuleLinkedMesh
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = CModuleStrut
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = strutConnector_4290194456
+	partName = CompoundPart
+	pos = 1.506244,11.88181,-0.7179232
+	attPos = 0,0,0
+	attPos0 = -0.2168223,0.1828785,-0.2168223
+	rot = -0.183013,0.1830128,0.6830131,-0.6830124
+	attRot = 0,0,0,1
+	attRot0 = -0.5000003,0.4999998,-0.5000002,0.4999998
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 4
+	dstg = 4
+	sidx = -1
+	sqor = -1
+	sepI = 1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = strutConnector_4290194798
+	sym = strutConnector_4290194720
+	sym = strutConnector_4290194654
+	sym = strutConnector_4290194588
+	sym = strutConnector_4290194522
+	srfN = srfAttach,advSasModule_4290196138
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+		tgt = 4294221606
+		pos = -1.868742,-0.3721538,0.8666056
+		rot = 0,0.353554,0.6123726,0.7071064
+		dir = -0.8927461,-0.1777876,0.4140002
+	}
+	MODULE
+	{
+		name = CModuleLinkedMesh
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = CModuleStrut
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
 		}
 	}
 }
