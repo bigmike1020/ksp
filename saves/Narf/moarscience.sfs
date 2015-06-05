@@ -7,7 +7,7 @@ GAME
 	linkCaption = 
 	Mode = CAREER
 	Status = 1
-	scene = 7
+	scene = 5
 	editor = None
 	flag = Squad/Flags/capsule
 	launchID = 32
@@ -87,7 +87,7 @@ GAME
 	{
 		name = ContractSystem
 		scene = 7, 8, 5, 6
-		update = 1669473.52856203
+		update = 1670114.67564226
 		CONTRACTS
 		{
 			CONTRACT
@@ -448,9 +448,9 @@ GAME
 					state = Complete
 					disableOnStateChange = False
 					values = 0,0,0,0,0
-					hasAntenna = True
-					hasPowerGenerator = True
-					hasDockingPort = True
+					hasAntenna = False
+					hasPowerGenerator = False
+					hasDockingPort = False
 					typeString = station
 					launchID = 24
 				}
@@ -486,7 +486,7 @@ GAME
 				PARAM
 				{
 					name = StabilityParameter
-					state = Complete
+					state = Incomplete
 					disableOnStateChange = False
 					values = 0,0,0,0,0
 					holdSeconds = 10
@@ -6479,8 +6479,8 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.0.2
-		UT = 1669476.80856204
-		activeVessel = 48
+		UT = 1670116.41564226
+		activeVessel = 0
 		mapViewFiltering = -1026
 		VESSEL
 		{
@@ -10347,13 +10347,13 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = 300129.7800707
+				SMA = 300129.779747807
 				ECC = 1
 				INC = NaN
-				LPE = 152.872890460495
-				LAN = 83.7818416737233
+				LPE = 143.324232499879
+				LAN = 92.1452090822118
 				MNA = 3.14159265358979
-				EPH = 1665657.55041615
+				EPH = 1670114.61564226
 				REF = 1
 			}
 			PART
@@ -38376,13 +38376,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 0
+				SMA = 102147.199263616
 				ECC = 1
 				INC = NaN
-				LPE = 80.9974353640858
-				LAN = 83.7818416737233
-				MNA = -8.40714670366795
-				EPH = 1665657.55041615
+				LPE = 78.1452809244436
+				LAN = 92.1452090822118
+				MNA = 3.14159265358979
+				EPH = 1670114.61564226
 				REF = 2
 			}
 			PART
@@ -38564,13 +38564,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 102120.442838147
+				SMA = 102150.083879836
 				ECC = 1
 				INC = NaN
-				LPE = 80.9911440692245
-				LAN = 83.7818416737233
+				LPE = 78.1387430106456
+				LAN = 92.1452090822118
 				MNA = 3.14159265358979
-				EPH = 1665657.55041615
+				EPH = 1670114.61564226
 				REF = 2
 			}
 			PART
@@ -38752,13 +38752,13 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = NaN
+				SMA = 102114.852945259
 				ECC = 1
 				INC = NaN
-				LPE = 81.3895565184888
-				LAN = 83.7818416737233
-				MNA = -8.40714670366795
-				EPH = 1665657.55041615
+				LPE = 78.5370702457236
+				LAN = 92.1452090822118
+				MNA = 0.967824194666955
+				EPH = 1670114.61564226
 				REF = 2
 			}
 			PART
@@ -39926,13 +39926,13 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = 0
+				SMA = NaN
 				ECC = 1
 				INC = NaN
-				LPE = 153.379687153582
-				LAN = 83.7818416737233
-				MNA = -8.40714670366795
-				EPH = 1665657.55041615
+				LPE = 142.721912076323
+				LAN = 92.1452090822118
+				MNA = 0
+				EPH = 1670114.61564226
 				REF = 1
 			}
 			PART
@@ -59368,13 +59368,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 0
+				SMA = 100838.011618477
 				ECC = 1
 				INC = NaN
-				LPE = 87.0720905438455
-				LAN = 83.7818416737233
-				MNA = -8.40714670366795
-				EPH = 1665657.55041615
+				LPE = 84.218923614253
+				LAN = 92.1452090822118
+				MNA = 3.14159265358979
+				EPH = 1670114.61564226
 				REF = 2
 			}
 			PART
@@ -59556,13 +59556,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = NaN
+				SMA = 100881.517337576
 				ECC = 1
 				INC = NaN
-				LPE = 87.007937480492
-				LAN = 83.7818416737233
-				MNA = -8.40714670366795
-				EPH = 1665657.55041615
+				LPE = 84.1549170422908
+				LAN = 92.1452090822118
+				MNA = 3.14159265358979
+				EPH = 1670114.61564226
 				REF = 2
 			}
 			PART
@@ -59744,13 +59744,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 100853.824853096
+				SMA = NaN
 				ECC = 1
 				INC = NaN
-				LPE = 87.0088374950189
-				LAN = 83.7818416737233
-				MNA = 3.14159265358979
-				EPH = 1665657.55041615
+				LPE = 84.1555921453318
+				LAN = 92.1452090822118
+				MNA = 0
+				EPH = 1670114.61564226
 				REF = 2
 			}
 			PART
@@ -59935,10 +59935,10 @@ GAME
 				SMA = NaN
 				ECC = 1
 				INC = NaN
-				LPE = 111.706403731291
-				LAN = 83.7818416737233
-				MNA = -8.40714670366795
-				EPH = 1665657.55041615
+				LPE = 140.877735156859
+				LAN = 92.1452090822118
+				MNA = 0
+				EPH = 1670114.61564226
 				REF = 3
 			}
 			PART
@@ -60123,10 +60123,10 @@ GAME
 				SMA = NaN
 				ECC = 1
 				INC = NaN
-				LPE = 111.698781090723
-				LAN = 83.7818416737233
+				LPE = 140.866195614517
+				LAN = 92.1452090822118
 				MNA = -8.40714670366795
-				EPH = 1665657.55041615
+				EPH = 1670114.61564226
 				REF = 3
 			}
 			PART
@@ -60308,13 +60308,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 32473.0650475207
+				SMA = NaN
 				ECC = 1
 				INC = NaN
-				LPE = 111.707466504943
-				LAN = 83.7818416737233
-				MNA = 3.14159265358979
-				EPH = 1665657.55041615
+				LPE = 140.875825311775
+				LAN = 92.1452090822118
+				MNA = -8.40714670366795
+				EPH = 1670114.61564226
 				REF = 3
 			}
 			PART
@@ -60499,10 +60499,10 @@ GAME
 				SMA = NaN
 				ECC = 1
 				INC = NaN
-				LPE = 140.239787893702
-				LAN = 83.7818416737233
+				LPE = 76.6475550696408
+				LAN = 92.1452090822118
 				MNA = -8.40714670366795
-				EPH = 1665657.55041615
+				EPH = 1670114.61564226
 				REF = 1
 			}
 			PART
@@ -60707,13 +60707,13 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = 299999.912993272
+				SMA = NaN
 				ECC = 1
 				INC = NaN
-				LPE = 140.239784467652
-				LAN = 83.7818416737233
-				MNA = 3.14159265358979
-				EPH = 1665657.55041615
+				LPE = 76.6476100573211
+				LAN = 92.1452090822118
+				MNA = -8.40714670366795
+				EPH = 1670114.61564226
 				REF = 1
 			}
 			PART
@@ -60918,13 +60918,13 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = 0
+				SMA = NaN
 				ECC = 1
 				INC = NaN
-				LPE = 140.239496217738
-				LAN = 83.7818416737233
+				LPE = 76.6472793516935
+				LAN = 92.1452090822118
 				MNA = -8.40714670366795
-				EPH = 1665657.55041615
+				EPH = 1670114.61564226
 				REF = 1
 			}
 			PART
@@ -61132,10 +61132,10 @@ GAME
 				SMA = NaN
 				ECC = 1
 				INC = NaN
-				LPE = 140.239836714033
-				LAN = 83.7818416737233
+				LPE = 76.6476255654488
+				LAN = 92.1452090822118
 				MNA = -8.40714670366795
-				EPH = 1665657.55041615
+				EPH = 1670114.61564226
 				REF = 1
 			}
 			PART
@@ -61410,32 +61410,32 @@ GAME
 			landed = False
 			landedAt = 
 			splashed = False
-			met = 3815.25814588345
+			met = 4453.0652261069
 			lct = 1665661.53041615
 			root = 0
-			lat = 0.286165635565813
-			lon = -41.1429317375156
-			alt = 400481.675186325
+			lat = -0.289088174368848
+			lon = 16.8476192186595
+			alt = 399858.865311561
 			hgt = -1
-			nrm = 0.9285655,0.004167077,0.3711452
-			rot = 0.6965773,0.37212,-0.1184989,0.6018844
-			CoM = 0.002497891,-1.261373,0.000377153
+			nrm = -0.4962771,-2.387318E-05,0.8681642
+			rot = 0.003682104,0.7820859,0.002462225,0.6231549
+			CoM = 0.002361082,-1.261045,0.0005080795
 			stg = 0
 			prst = False
 			ref = 2471779789
 			ctrl = True
-			cPch = 0.2213334
-			cHdg = -9.011203
+			cPch = 
+			cHdg = 
 			cMod = 0
 			ORBIT
 			{
-				SMA = 999545.695056594
-				ECC = 0.000936610642386405
-				INC = 0.510326579486296
-				LPE = 324.683765115752
-				LAN = 7.69078085030316
-				MNA = 3.16275705779783
-				EPH = 1669476.80856204
+				SMA = 999545.364189803
+				ECC = 0.000921682897348252
+				INC = 0.510330041220622
+				LPE = 324.459211522386
+				LAN = 7.6904819969111
+				MNA = 4.36606488284976
+				EPH = 1670114.59564226
 				REF = 1
 			}
 			PART
@@ -61460,18 +61460,16 @@ GAME
 				attN = top, 8
 				attN = bottom, 1
 				mass = 2.5
-				temp = 313.1089683665
+				temp = 312.678513652651
 				expt = 0.5
 				state = 1
 				connected = True
 				attached = True
 				flag = Squad/Flags/capsule
-				rTrf = crewCabin
+				rTrf = crewCabin (Home)
 				modCost = 0
-				crew = Bob Kerman
 				crew = Gildrien Kerman
 				crew = Bill Kerman
-				crew = Wilsey Kerman
 				EVENTS
 				{
 				}
@@ -61590,7 +61588,7 @@ GAME
 							active = True
 							guiActive = False
 							guiIcon = 
-							guiName = Store Experiments (5)
+							guiName = Store Experiments (4)
 							category = 
 							guiActiveUnfocused = True
 							unfocusedRange = 2
@@ -61688,7 +61686,7 @@ GAME
 				attN = top, 0
 				attN = bottom, 2
 				mass = 3.5
-				temp = 313.123051778049
+				temp = 312.675778603872
 				expt = 0.5
 				state = 1
 				connected = True
@@ -61696,8 +61694,8 @@ GAME
 				flag = Squad/Flags/capsule
 				rTrf = Large.Crewed.Lab
 				modCost = 0
-				crew = Wilris Kerman
-				crew = Barfurt Kerman
+				crew = Bob Kerman
+				crew = Wilsey Kerman
 				EVENTS
 				{
 				}
@@ -61718,7 +61716,7 @@ GAME
 							active = True
 							guiActive = False
 							guiIcon = 
-							guiName = Store Experiments (5)
+							guiName = Store Experiments (4)
 							category = 
 							guiActiveUnfocused = True
 							unfocusedRange = 2
@@ -61755,8 +61753,8 @@ GAME
 				{
 					name = ModuleScienceLab
 					isEnabled = True
-					dataStored = 218.9418
-					storedScience = 0.4045602
+					dataStored = 218.9292
+					storedScience = 0.498616
 					EVENTS
 					{
 						TransmitScience
@@ -61806,7 +61804,7 @@ GAME
 					DirtyFlag = True
 					EfficiencyBonus = 1
 					IsActivated = True
-					lastUpdateTime = 1669476.80856204
+					lastUpdateTime = 1670114.59564226
 					EVENTS
 					{
 						StartResourceConverter
@@ -61909,7 +61907,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 1
 				mass = 0.2
-				temp = 313.146536336741
+				temp = 312.652958529083
 				expt = 0.5
 				state = 1
 				connected = True
@@ -62058,7 +62056,7 @@ GAME
 				srfN = srfAttach, 1
 				attN = None, -1
 				mass = 0.01
-				temp = 313.222435950464
+				temp = 312.440580789198
 				expt = 0.5
 				state = 1
 				connected = True
@@ -62145,7 +62143,7 @@ GAME
 						}
 						ReviewInitialData
 						{
-							active = True
+							active = False
 							guiActive = True
 							guiIcon = Review Initial Data
 							guiName = Review Initial Data
@@ -62279,7 +62277,7 @@ GAME
 				attm = 1
 				srfN = srfAttach, 1
 				mass = 0.005
-				temp = 313.072546329022
+				temp = 312.630449110375
 				expt = 0.5
 				state = 1
 				connected = True
@@ -62450,7 +62448,7 @@ GAME
 				attm = 1
 				srfN = srfAttach, 1
 				mass = 0.005
-				temp = 314.088752447272
+				temp = 311.729565584327
 				expt = 0.5
 				state = 1
 				connected = True
@@ -62622,7 +62620,7 @@ GAME
 				srfN = srfAttach, 1
 				attN = None, -1
 				mass = 0.015
-				temp = 313.030737571446
+				temp = 312.437736035916
 				expt = 0.5
 				state = 1
 				connected = True
@@ -62709,7 +62707,7 @@ GAME
 						}
 						ReviewInitialData
 						{
-							active = True
+							active = False
 							guiActive = True
 							guiIcon = Review Initial Data
 							guiName = Review Initial Data
@@ -62843,7 +62841,7 @@ GAME
 				attm = 1
 				srfN = srfAttach, 1
 				mass = 0.005
-				temp = 313.925381134691
+				temp = 311.795620391268
 				expt = 0.5
 				state = 1
 				connected = True
@@ -63016,7 +63014,7 @@ GAME
 				attN = top, 9
 				attN = bottom, 0
 				mass = 2.5
-				temp = 313.110315336107
+				temp = 312.679765809126
 				expt = 0.5
 				state = 1
 				connected = True
@@ -63026,6 +63024,8 @@ GAME
 				modCost = 0
 				crew = Linla Kerman
 				crew = Tica Kerman
+				crew = Wilris Kerman
+				crew = Barfurt Kerman
 				EVENTS
 				{
 				}
@@ -63144,7 +63144,7 @@ GAME
 							active = True
 							guiActive = False
 							guiIcon = 
-							guiName = Store Experiments (5)
+							guiName = Store Experiments (4)
 							category = 
 							guiActiveUnfocused = True
 							unfocusedRange = 2
@@ -63242,7 +63242,7 @@ GAME
 				attN = bottom, 8
 				attN = None, -1
 				mass = 1.76
-				temp = 313.109080538743
+				temp = 312.680338878172
 				expt = 0.5
 				state = 1
 				connected = True
@@ -63298,7 +63298,7 @@ GAME
 				{
 					name = ModuleReactionWheel
 					isEnabled = True
-					stateString = Running
+					stateString = Idle
 					WheelState = Active
 					EVENTS
 					{
@@ -63440,7 +63440,7 @@ GAME
 							active = True
 							guiActive = False
 							guiIcon = 
-							guiName = Store Experiments (5)
+							guiName = Store Experiments (4)
 							category = 
 							guiActiveUnfocused = True
 							unfocusedRange = 1.6
@@ -63518,7 +63518,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 199.999700000007
+					amount = 0
 					maxAmount = 200
 					flowState = True
 					isTweakable = True
@@ -63557,7 +63557,7 @@ GAME
 				srfN = srfAttach, 8
 				attN = None, -1
 				mass = 0.04
-				temp = 312.699395527009
+				temp = 312.152068570968
 				expt = 0.5
 				state = 1
 				connected = True
@@ -63596,7 +63596,7 @@ GAME
 				srfN = , 10
 				attN = None, -1
 				mass = 0.1
-				temp = 312.539411456668
+				temp = 311.940412892992
 				expt = 0.5
 				state = 1
 				connected = True
@@ -63780,7 +63780,7 @@ GAME
 				attN = None, -1
 				attN = None, -1
 				mass = 0.125
-				temp = 313.848293103295
+				temp = 313.221479131333
 				expt = 0.5
 				state = 1
 				connected = True
@@ -63823,7 +63823,7 @@ GAME
 				attN = top, 26
 				attN = bottom, 14
 				mass = 0.5
-				temp = 313.869718902453
+				temp = 313.24120664761
 				expt = 0.5
 				state = 1
 				connected = True
@@ -63886,7 +63886,7 @@ GAME
 				attN = top, 13
 				attN = bottom, 15
 				mass = 0.5
-				temp = 313.724582103693
+				temp = 313.458476760195
 				expt = 0.5
 				state = 1
 				connected = True
@@ -63949,7 +63949,7 @@ GAME
 				attN = top, 14
 				attN = None, -1
 				mass = 0.5
-				temp = 314.095643628079
+				temp = 313.432114747191
 				expt = 0.5
 				state = 1
 				connected = True
@@ -63972,7 +63972,7 @@ GAME
 					isEnabled = True
 					staged = True
 					flameout = False
-					EngineIgnited = True
+					EngineIgnited = False
 					engineShutdown = False
 					currentThrottle = 0
 					thrustPercentage = 100
@@ -63988,7 +63988,7 @@ GAME
 					{
 						Activate
 						{
-							active = False
+							active = True
 							guiActive = True
 							guiIcon = Activate Engine
 							guiName = Activate Engine
@@ -63999,7 +63999,7 @@ GAME
 						}
 						Shutdown
 						{
-							active = True
+							active = False
 							guiActive = True
 							guiIcon = Shutdown Engine
 							guiName = Shutdown Engine
@@ -64156,7 +64156,7 @@ GAME
 				sym = 61
 				srfN = srfAttach, 14
 				mass = 0.05
-				temp = 315.53778625631
+				temp = 315.008655338262
 				expt = 0
 				state = 1
 				connected = True
@@ -64223,7 +64223,7 @@ GAME
 				sym = 62
 				srfN = srfAttach, 14
 				mass = 0.015
-				temp = 314.703577262941
+				temp = 312.521626744092
 				expt = 0.5
 				state = 1
 				connected = True
@@ -64336,7 +64336,7 @@ GAME
 				sym = 63
 				srfN = srfAttach, 14
 				mass = 0.15
-				temp = 313.798836091672
+				temp = 313.482853455532
 				expt = 0.5
 				state = 1
 				connected = True
@@ -64387,7 +64387,7 @@ GAME
 				sym = 64
 				srfN = srfAttach, 14
 				mass = 0.05
-				temp = 315.125770280847
+				temp = 313.368786197046
 				expt = 0.5
 				state = 1
 				connected = True
@@ -64464,7 +64464,7 @@ GAME
 				srfN = srfAttach, 14
 				attN = None, -1
 				mass = 0.025
-				temp = 314.422826416676
+				temp = 313.311289593743
 				expt = 0.5
 				state = 1
 				connected = True
@@ -64688,7 +64688,7 @@ GAME
 				sym = 66
 				srfN = srfAttach, 14
 				mass = 0.05
-				temp = 315.53633787915
+				temp = 315.007562701348
 				expt = 0
 				state = 1
 				connected = True
@@ -64755,7 +64755,7 @@ GAME
 				sym = 67
 				srfN = srfAttach, 14
 				mass = 0.05
-				temp = 315.536914769133
+				temp = 315.0079978998
 				expt = 0
 				state = 1
 				connected = True
@@ -64822,7 +64822,7 @@ GAME
 				sym = 68
 				srfN = srfAttach, 13
 				mass = 0.3
-				temp = 312.97625032994
+				temp = 311.629681792173
 				expt = 0.5
 				state = 1
 				connected = True
@@ -64843,10 +64843,10 @@ GAME
 				{
 					name = ModuleDeployableSolarPanel
 					isEnabled = True
-					currentRotation = (-0.4891478, -0.4892863, 0.5106282, -0.5104823)
+					currentRotation = (-0.7070915, -0.707112, 0.002772207, -0.002571027)
 					stateString = EXTENDED
 					storedAnimationTime = 0
-					storedAnimationSpeed = 1
+					storedAnimationSpeed = 0
 					EVENTS
 					{
 						Extend
@@ -64912,7 +64912,7 @@ GAME
 				sym = 71
 				srfN = srfAttach, 13
 				mass = 0.015
-				temp = 313.219900459634
+				temp = 312.363247442386
 				expt = 0.5
 				state = 1
 				connected = True
@@ -65025,7 +65025,7 @@ GAME
 				sym = 72
 				srfN = srfAttach, 13
 				mass = 0.05
-				temp = 313.743051960881
+				temp = 313.241064130979
 				expt = 0.5
 				state = 1
 				connected = True
@@ -65102,7 +65102,7 @@ GAME
 				srfN = , 13
 				attN = bottom, 13
 				mass = 0.1
-				temp = 313.824327349454
+				temp = 313.173894561874
 				expt = 0.5
 				state = 1
 				connected = True
@@ -65286,7 +65286,7 @@ GAME
 				attN = None, -1
 				attN = None, -1
 				mass = 0.125
-				temp = 313.701207821285
+				temp = 312.506079987076
 				expt = 0.5
 				state = 1
 				connected = True
@@ -65329,7 +65329,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 29
 				mass = 0.5
-				temp = 313.721308660557
+				temp = 312.501542437362
 				expt = 0.5
 				state = 1
 				connected = True
@@ -65392,7 +65392,7 @@ GAME
 				attN = top, 28
 				attN = bottom, 30
 				mass = 0.5
-				temp = 313.525873231129
+				temp = 312.782116383575
 				expt = 0.5
 				state = 1
 				connected = True
@@ -65455,7 +65455,7 @@ GAME
 				attN = top, 29
 				attN = None, -1
 				mass = 0.5
-				temp = 313.890889869803
+				temp = 312.760093819492
 				expt = 0.5
 				state = 1
 				connected = True
@@ -65478,7 +65478,7 @@ GAME
 					isEnabled = True
 					staged = True
 					flameout = False
-					EngineIgnited = True
+					EngineIgnited = False
 					engineShutdown = False
 					currentThrottle = 0
 					thrustPercentage = 100
@@ -65494,7 +65494,7 @@ GAME
 					{
 						Activate
 						{
-							active = False
+							active = True
 							guiActive = True
 							guiIcon = Activate Engine
 							guiName = Activate Engine
@@ -65505,7 +65505,7 @@ GAME
 						}
 						Shutdown
 						{
-							active = True
+							active = False
 							guiActive = True
 							guiIcon = Shutdown Engine
 							guiName = Shutdown Engine
@@ -65662,7 +65662,7 @@ GAME
 				sym = 61
 				srfN = srfAttach, 29
 				mass = 0.05
-				temp = 315.44313464563
+				temp = 314.779884320713
 				expt = 0
 				state = 1
 				connected = True
@@ -65729,7 +65729,7 @@ GAME
 				sym = 62
 				srfN = srfAttach, 29
 				mass = 0.015
-				temp = 314.364733614915
+				temp = 311.96600209563
 				expt = 0.5
 				state = 1
 				connected = True
@@ -65839,7 +65839,7 @@ GAME
 				attm = 1
 				srfN = srfAttach, 29
 				mass = 0.02
-				temp = 314.512686262505
+				temp = 312.670895447317
 				expt = 0.5
 				state = 1
 				connected = True
@@ -66063,7 +66063,7 @@ GAME
 				sym = 63
 				srfN = srfAttach, 29
 				mass = 0.15
-				temp = 313.595235441358
+				temp = 312.813503797312
 				expt = 0.5
 				state = 1
 				connected = True
@@ -66114,7 +66114,7 @@ GAME
 				sym = 64
 				srfN = srfAttach, 29
 				mass = 0.05
-				temp = 314.937809578361
+				temp = 312.830695706838
 				expt = 0.5
 				state = 1
 				connected = True
@@ -66193,7 +66193,7 @@ GAME
 				sym = 66
 				srfN = srfAttach, 29
 				mass = 0.05
-				temp = 315.441858703798
+				temp = 314.778921765967
 				expt = 0
 				state = 1
 				connected = True
@@ -66260,7 +66260,7 @@ GAME
 				sym = 67
 				srfN = srfAttach, 29
 				mass = 0.05
-				temp = 315.442335209948
+				temp = 314.779281235885
 				expt = 0
 				state = 1
 				connected = True
@@ -66327,7 +66327,7 @@ GAME
 				sym = 68
 				srfN = srfAttach, 28
 				mass = 0.3
-				temp = 312.841527667596
+				temp = 310.203429735598
 				expt = 0.5
 				state = 1
 				connected = True
@@ -66348,10 +66348,10 @@ GAME
 				{
 					name = ModuleDeployableSolarPanel
 					isEnabled = True
-					currentRotation = (0.5166842, 0.5166706, -0.4827388, 0.4827549)
+					currentRotation = (0.7067974, 0.7067996, -0.02086811, 0.02088852)
 					stateString = EXTENDED
 					storedAnimationTime = 0
-					storedAnimationSpeed = 1
+					storedAnimationSpeed = 0
 					EVENTS
 					{
 						Extend
@@ -66417,7 +66417,7 @@ GAME
 				sym = 71
 				srfN = srfAttach, 28
 				mass = 0.015
-				temp = 313.035537986191
+				temp = 311.686033117048
 				expt = 0.5
 				state = 1
 				connected = True
@@ -66528,7 +66528,7 @@ GAME
 				srfN = srfAttach, 28
 				attN = None, -1
 				mass = 0.025
-				temp = 313.504315082626
+				temp = 312.222776017164
 				expt = 0.5
 				state = 1
 				connected = True
@@ -66615,7 +66615,7 @@ GAME
 						}
 						ReviewInitialData
 						{
-							active = True
+							active = False
 							guiActive = True
 							guiIcon = Review Initial Data
 							guiName = Review Initial Data
@@ -66760,7 +66760,7 @@ GAME
 				sym = 72
 				srfN = srfAttach, 28
 				mass = 0.05
-				temp = 313.480193145235
+				temp = 312.560826608573
 				expt = 0.5
 				state = 1
 				connected = True
@@ -66841,7 +66841,7 @@ GAME
 				attN = None, -1
 				attN = None, -1
 				mass = 0.125
-				temp = 313.815803293846
+				temp = 313.171811797344
 				expt = 0.5
 				state = 1
 				connected = True
@@ -66884,7 +66884,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 44
 				mass = 0.5
-				temp = 313.8368739642
+				temp = 313.189678565648
 				expt = 0.5
 				state = 1
 				connected = True
@@ -66947,7 +66947,7 @@ GAME
 				attN = top, 43
 				attN = bottom, 45
 				mass = 0.5
-				temp = 313.713649558168
+				temp = 313.415532392185
 				expt = 0.5
 				state = 1
 				connected = True
@@ -67010,7 +67010,7 @@ GAME
 				attN = top, 44
 				attN = None, -1
 				mass = 0.5
-				temp = 314.085091932813
+				temp = 313.389697791438
 				expt = 0.5
 				state = 1
 				connected = True
@@ -67033,7 +67033,7 @@ GAME
 					isEnabled = True
 					staged = True
 					flameout = False
-					EngineIgnited = True
+					EngineIgnited = False
 					engineShutdown = False
 					currentThrottle = 0
 					thrustPercentage = 100
@@ -67049,7 +67049,7 @@ GAME
 					{
 						Activate
 						{
-							active = False
+							active = True
 							guiActive = True
 							guiIcon = Activate Engine
 							guiName = Activate Engine
@@ -67060,7 +67060,7 @@ GAME
 						}
 						Shutdown
 						{
-							active = True
+							active = False
 							guiActive = True
 							guiIcon = Shutdown Engine
 							guiName = Shutdown Engine
@@ -67217,7 +67217,7 @@ GAME
 				sym = 61
 				srfN = srfAttach, 44
 				mass = 0.05
-				temp = 315.543727137734
+				temp = 315.001855945348
 				expt = 0
 				state = 1
 				connected = True
@@ -67284,7 +67284,7 @@ GAME
 				sym = 62
 				srfN = srfAttach, 44
 				mass = 0.015
-				temp = 314.710925517219
+				temp = 312.482281214799
 				expt = 0.5
 				state = 1
 				connected = True
@@ -67397,7 +67397,7 @@ GAME
 				sym = 63
 				srfN = srfAttach, 44
 				mass = 0.15
-				temp = 313.790634659375
+				temp = 313.440697559284
 				expt = 0.5
 				state = 1
 				connected = True
@@ -67448,7 +67448,7 @@ GAME
 				sym = 64
 				srfN = srfAttach, 44
 				mass = 0.05
-				temp = 315.126247909529
+				temp = 313.332892769129
 				expt = 0.5
 				state = 1
 				connected = True
@@ -67525,7 +67525,7 @@ GAME
 				srfN = srfAttach, 44
 				attN = None, -1
 				mass = 0.015
-				temp = 315.276811957522
+				temp = 312.830048625337
 				expt = 0.5
 				state = 1
 				connected = True
@@ -67760,7 +67760,7 @@ GAME
 				sym = 66
 				srfN = srfAttach, 44
 				mass = 0.05
-				temp = 315.543311654202
+				temp = 315.001542509563
 				expt = 0
 				state = 1
 				connected = True
@@ -67827,7 +67827,7 @@ GAME
 				sym = 67
 				srfN = srfAttach, 44
 				mass = 0.05
-				temp = 315.542205926242
+				temp = 315.00070836315
 				expt = 0
 				state = 1
 				connected = True
@@ -67894,7 +67894,7 @@ GAME
 				sym = 68
 				srfN = srfAttach, 43
 				mass = 0.3
-				temp = 312.922254730897
+				temp = 311.583163124959
 				expt = 0.5
 				state = 1
 				connected = True
@@ -67915,10 +67915,10 @@ GAME
 				{
 					name = ModuleDeployableSolarPanel
 					isEnabled = True
-					currentRotation = (0.5127282, 0.5128798, -0.4869309, 0.486788)
+					currentRotation = (0.002566316, 0.002772988, -0.7071097, 0.7070938)
 					stateString = EXTENDED
 					storedAnimationTime = 0
-					storedAnimationSpeed = 1
+					storedAnimationSpeed = 0
 					EVENTS
 					{
 						Extend
@@ -67984,7 +67984,7 @@ GAME
 				sym = 71
 				srfN = srfAttach, 43
 				mass = 0.015
-				temp = 312.933229985779
+				temp = 312.314618289426
 				expt = 0.5
 				state = 1
 				connected = True
@@ -68097,7 +68097,7 @@ GAME
 				sym = 72
 				srfN = srfAttach, 43
 				mass = 0.05
-				temp = 313.662409527934
+				temp = 313.194298365457
 				expt = 0.5
 				state = 1
 				connected = True
@@ -68174,7 +68174,7 @@ GAME
 				srfN = , 43
 				attN = None, -1
 				mass = 0.1
-				temp = 313.747043297741
+				temp = 313.083654601386
 				expt = 0.5
 				state = 1
 				connected = True
@@ -68358,7 +68358,7 @@ GAME
 				attN = None, -1
 				attN = None, -1
 				mass = 0.125
-				temp = 313.659367057196
+				temp = 312.480505816415
 				expt = 0.5
 				state = 1
 				connected = True
@@ -68401,7 +68401,7 @@ GAME
 				attN = top, 69
 				attN = bottom, 59
 				mass = 0.5
-				temp = 313.678081891224
+				temp = 312.475249679351
 				expt = 0.5
 				state = 1
 				connected = True
@@ -68464,7 +68464,7 @@ GAME
 				attN = top, 58
 				attN = bottom, 60
 				mass = 0.5
-				temp = 313.465485272041
+				temp = 312.746978128322
 				expt = 0.5
 				state = 1
 				connected = True
@@ -68527,7 +68527,7 @@ GAME
 				attN = top, 59
 				attN = None, -1
 				mass = 0.5
-				temp = 313.837610358102
+				temp = 312.724510964936
 				expt = 0.5
 				state = 1
 				connected = True
@@ -68550,7 +68550,7 @@ GAME
 					isEnabled = True
 					staged = True
 					flameout = False
-					EngineIgnited = True
+					EngineIgnited = False
 					engineShutdown = False
 					currentThrottle = 0
 					thrustPercentage = 100
@@ -68566,7 +68566,7 @@ GAME
 					{
 						Activate
 						{
-							active = False
+							active = True
 							guiActive = True
 							guiIcon = Activate Engine
 							guiName = Activate Engine
@@ -68577,7 +68577,7 @@ GAME
 						}
 						Shutdown
 						{
-							active = True
+							active = False
 							guiActive = True
 							guiIcon = Shutdown Engine
 							guiName = Shutdown Engine
@@ -68734,7 +68734,7 @@ GAME
 				sym = 46
 				srfN = srfAttach, 59
 				mass = 0.05
-				temp = 315.430028962311
+				temp = 314.75582033862
 				expt = 0
 				state = 1
 				connected = True
@@ -68801,7 +68801,7 @@ GAME
 				sym = 47
 				srfN = srfAttach, 59
 				mass = 0.015
-				temp = 314.36937113746
+				temp = 311.931922766291
 				expt = 0.5
 				state = 1
 				connected = True
@@ -68914,7 +68914,7 @@ GAME
 				sym = 48
 				srfN = srfAttach, 59
 				mass = 0.15
-				temp = 313.534294153511
+				temp = 312.777568105271
 				expt = 0.5
 				state = 1
 				connected = True
@@ -68965,7 +68965,7 @@ GAME
 				sym = 49
 				srfN = srfAttach, 59
 				mass = 0.05
-				temp = 314.83361877108
+				temp = 312.790286064564
 				expt = 0.5
 				state = 1
 				connected = True
@@ -69042,7 +69042,7 @@ GAME
 				srfN = srfAttach, 59
 				attN = None, -1
 				mass = 0.025
-				temp = 314.81058801274
+				temp = 312.095969530883
 				expt = 0.5
 				state = 1
 				connected = True
@@ -69075,7 +69075,7 @@ GAME
 							guiActive = True
 							guiActiveEditor = True
 							guiIcon = Toggle
-							guiName = Extend
+							guiName = Retract
 							category = Toggle
 							guiActiveUnfocused = True
 							unfocusedRange = 5
@@ -69147,7 +69147,7 @@ GAME
 				sym = 51
 				srfN = srfAttach, 59
 				mass = 0.05
-				temp = 315.429484508505
+				temp = 314.755409609581
 				expt = 0
 				state = 1
 				connected = True
@@ -69214,7 +69214,7 @@ GAME
 				sym = 52
 				srfN = srfAttach, 59
 				mass = 0.05
-				temp = 315.428601914246
+				temp = 314.754743790956
 				expt = 0
 				state = 1
 				connected = True
@@ -69281,7 +69281,7 @@ GAME
 				sym = 53
 				srfN = srfAttach, 58
 				mass = 0.3
-				temp = 312.845526649146
+				temp = 310.17359252689
 				expt = 0.5
 				state = 1
 				connected = True
@@ -69302,10 +69302,10 @@ GAME
 				{
 					name = ModuleDeployableSolarPanel
 					isEnabled = True
-					currentRotation = (0.4827485, 0.4827447, -0.516681, 0.5166741)
+					currentRotation = (-0.706843, -0.7068283, 0.01956772, -0.0195972)
 					stateString = EXTENDED
 					storedAnimationTime = 0
-					storedAnimationSpeed = 1
+					storedAnimationSpeed = 0
 					EVENTS
 					{
 						Extend
@@ -69370,7 +69370,7 @@ GAME
 				attN = bottom, 58
 				attN = None, -1
 				mass = 0.04
-				temp = 313.650296159528
+				temp = 312.458052124843
 				expt = 0
 				state = 1
 				connected = True
@@ -69391,7 +69391,7 @@ GAME
 				{
 					name = ModuleCommand
 					isEnabled = True
-					controlSrcStatusText = Operational
+					controlSrcStatusText = Not Enough ElectricCharge (0.0/0.0)
 					EVENTS
 					{
 						MakeReference
@@ -69458,7 +69458,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 4.99970000000671
+					amount = 0
 					maxAmount = 5
 					flowState = True
 					isTweakable = True
@@ -69487,7 +69487,7 @@ GAME
 				srfN = srfAttach, 69
 				attN = None, -1
 				mass = 0.005
-				temp = 312.639720533838
+				temp = 311.940306849998
 				expt = 0.5
 				state = 1
 				connected = True
@@ -69592,7 +69592,7 @@ GAME
 				sym = 54
 				srfN = srfAttach, 58
 				mass = 0.015
-				temp = 313.006066900132
+				temp = 311.657913250711
 				expt = 0.5
 				state = 1
 				connected = True
@@ -69705,7 +69705,7 @@ GAME
 				sym = 55
 				srfN = srfAttach, 58
 				mass = 0.05
-				temp = 313.477268822595
+				temp = 312.531251484304
 				expt = 0.5
 				state = 1
 				connected = True
@@ -69781,7 +69781,7 @@ GAME
 				attm = 1
 				srfN = srfAttach, 0
 				mass = 0.005
-				temp = 312.255622259828
+				temp = 310.542608899305
 				expt = 0.5
 				state = 1
 				connected = True
@@ -69827,7 +69827,7 @@ GAME
 				Gear = True, 0
 				Light = False, 0
 				RCS = False, 0
-				SAS = True, 1667291.00780976
+				SAS = False, 1669627.02856217
 				Brakes = False, 0
 				Abort = False, 0
 				Custom01 = False, 1666375.79041682
@@ -69854,9 +69854,9 @@ GAME
 			}
 			CTRLSTATE
 			{
-				pitch = -0.1322157
-				yaw = 0.06243272
-				roll = 0.0004712001
+				pitch = 0
+				yaw = 0
+				roll = 0
 				trimPitch = 0
 				trimYaw = 0
 				trimRoll = 0
@@ -70310,7 +70310,7 @@ GAME
 			tour = False
 			state = Assigned
 			ToD = 1426054.87600456
-			idx = 3
+			idx = 1
 			CAREER_LOG
 			{
 				flight = 1
@@ -70433,7 +70433,7 @@ GAME
 			tour = False
 			state = Assigned
 			ToD = 1440367.23257194
-			idx = 0
+			idx = 2
 			CAREER_LOG
 			{
 				flight = 1
@@ -70510,7 +70510,7 @@ GAME
 			tour = False
 			state = Assigned
 			ToD = 1317897.49685417
-			idx = 1
+			idx = 3
 			CAREER_LOG
 			{
 				flight = 0
