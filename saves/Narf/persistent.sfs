@@ -87,7 +87,7 @@ GAME
 	{
 		name = ContractSystem
 		scene = 7, 8, 5, 6
-		update = 1362021.70321887
+		update = 1435440.51116662
 		CONTRACTS
 		{
 			CONTRACT
@@ -302,7 +302,7 @@ GAME
 				PARAM
 				{
 					name = StabilityParameter
-					state = Complete
+					state = Incomplete
 					disableOnStateChange = False
 					values = 0,0,0,0,0
 					holdSeconds = 10
@@ -378,48 +378,6 @@ GAME
 					state = Complete
 					values = 0,0,0,0,0
 					Science_Subject = 1|Radio Plasma Wave Scan|2|32||0
-				}
-			}
-			CONTRACT
-			{
-				guid = 101a82e1-9af8-4436-bf85-68038580f00e
-				type = PlantFlag
-				prestige = 1
-				seed = 1506395724
-				state = Active
-				agent = Moving Parts Experts Group
-				deadlineType = Floating
-				expiryType = Floating
-				values = 99889.0043495762,106381789.632299,152489.991555214,422993.985743046,164449.997532368,0,30.02784,3.703704,737231.908686851,669198.838675381,107050988.470974,0
-				body = 3
-				PARAM
-				{
-					name = PlantFlag
-					state = Incomplete
-					values = 0,0,0,0,0
-					body = 3
-				}
-			}
-			CONTRACT
-			{
-				guid = 279f3aba-8d9e-47ca-8837-cdcaa94caf03
-				type = CollectScience
-				prestige = 1
-				seed = 1032922066
-				state = Active
-				agent = Reaction Systems Ltd
-				deadlineType = Floating
-				expiryType = Floating
-				values = 108000,115020000,64688,173937.503769994,71156.8015422821,9,15.45455,2,1403163.6531029,1307292.54786992,116327292.54787,0
-				body = 3
-				location = Surface
-				PARAM
-				{
-					name = CollectScience
-					state = Incomplete
-					values = 0,0,0,0,0
-					body = 3
-					location = Surface
 				}
 			}
 			CONTRACT
@@ -660,110 +618,26 @@ GAME
 			}
 			CONTRACT
 			{
-				guid = 47af7203-3240-4a92-b588-ebd3f6e95bb1
-				type = WorldFirstContract
-				prestige = 2
-				seed = 281921886
-				state = Active
-				agent = Kerbin World-Firsts Record-Keeping Society
-				deadlineType = None
-				expiryType = Floating
-				values = 64800,0,194881.885349751,513779.51592207,247500,36,91.44,0,1046705.98469218,982099.004692363,0,0
-				targetBody = 3
-				targetType = LANDING
-				PARAM
-				{
-					name = ProgressTrackingParameter
-					state = Incomplete
-					values = 0,0,0,0,0
-					targetBody = 3
-					targetType = LANDING
-				}
-			}
-			CONTRACT
-			{
-				guid = 1ab63d2e-85e0-4135-b5a9-1e40f5d55ccb
-				type = PartTest
+				guid = a46624c3-d2cb-4fd9-8cf5-21059447e4f3
+				type = ARMContract
 				prestige = 0
-				seed = 1926212733
+				seed = 479504962
 				state = Offered
-				agent = O.M.B. Demolition Enterprises
+				agent = DMagic
 				deadlineType = Floating
 				expiryType = Floating
-				values = 21600,9201600,3600,9449.99957084656,3779.99982833862,2,1.904762,0,1373655.68105193,0,0,0
-				part = radialDecoupler
-				dest = 1
-				sit = PRELAUNCH
-				exp = False
+				values = 129600,64411200,92000,240000,92000,32,52,6,1509107.15777212,0,0,0
+				targetBody = 1
+				asteroidClass = A
+				isLanding = False
 				PARAM
 				{
-					name = PartTest
-					id = runTest
+					name = AsteroidParameter
 					state = Incomplete
 					values = 0,0,0,0,0
-					part = radialDecoupler
-					notes = To perform the test, activate the part through the staging sequence when all test conditions are met.
-					PARAM
-					{
-						name = ReachDestination
-						id = testDestination
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						dest = 1
-						title = 
-					}
-					PARAM
-					{
-						name = ReachSituation
-						id = testSituation
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						sit = PRELAUNCH
-						title = 
-					}
-				}
-			}
-			CONTRACT
-			{
-				guid = 386daa29-f924-4027-83bd-41797b446e14
-				type = ISRUContract
-				prestige = 0
-				seed = 1926212734
-				state = Offered
-				agent = Experimental Engineering Group
-				deadlineType = Floating
-				expiryType = Floating
-				values = 64158.4160327911,159433663.841486,325012.946931124,869678.88479343,337884.734655619,0,87.61906,12,1416214.09708472,0,0,0
-				targetBody = 3
-				gatherGoal = 600
-				targetResource = Ore
-				resourceTitle = ore
-				isDelivering = True
-				deliveryBody = 1
-				deliverySituation = 0
-				PARAM
-				{
-					name = ResourceExtractionParameter
-					state = Incomplete
-					values = 0,0,0,0,0
-					targetBody = 3
-					totalHarvested = 0
-					goalHarvested = 600
-					resourceName = Ore
-					resourceTitle = ore
-					notifyLevel = 0.25
-				}
-				PARAM
-				{
-					name = ResourcePossessionParameter
-					state = Incomplete
-					values = 0,0,0,0,0
-					goalResource = 600
-					resourceName = Ore
-					resourceTitle = ore
-					vesselName = vessel
+					forStation = False
+					asteroidClass = A
+					seedList = 
 				}
 				PARAM
 				{
@@ -771,8 +645,8 @@ GAME
 					state = Incomplete
 					values = 0,0,0,0,0
 					targetBody = 1
-					targetSituation = 0
-					noun = Ore
+					targetSituation = 5
+					noun = vessel
 					finalObjective = False
 				}
 				PARAM
@@ -785,25 +659,25 @@ GAME
 			}
 			CONTRACT
 			{
-				guid = f66278d4-66c9-46e3-9aa6-bb4ee393eeb2
-				type = BaseContract
+				guid = 1a57892a-fa21-4397-9a52-3f3e232c0e97
+				type = StationContract
 				prestige = 0
-				seed = 1926212736
+				seed = 1596628220
 				state = Offered
-				agent = Kerlington Model Rockets and Paper Products Inc
+				agent = Ionic Symphonic Protonic Electronics
 				deadlineType = Floating
 				expiryType = Floating
-				values = 64800,128822400,144000,364000,144000,0,42,7,1416855.68105193,0,0,0
-				targetBody = 2
+				values = 129600,161028000,176000,456500,176000,0,46,6,1558131.56176022,0,0,0
+				targetBody = 3
 				capacity = 5
 				PARAM
 				{
 					name = LocationAndSituationParameter
 					state = Incomplete
 					values = 0,0,0,0,0
-					targetBody = 2
-					targetSituation = 0
-					noun = outpost
+					targetBody = 3
+					targetSituation = 5
+					noun = station
 					finalObjective = False
 				}
 				PARAM
@@ -814,7 +688,7 @@ GAME
 					hasAntenna = False
 					hasPowerGenerator = False
 					hasDockingPort = False
-					typeString = outpost
+					typeString = station
 					launchID = 0
 				}
 				PARAM
@@ -826,6 +700,15 @@ GAME
 				}
 				PARAM
 				{
+					name = PartRequestParameter
+					state = Incomplete
+					values = 0,0,0,0,0
+					title = Have a viewing cupola at the station
+					partNames = cupola
+					moduleNames = 
+				}
+				PARAM
+				{
 					name = StabilityParameter
 					state = Incomplete
 					values = 0,0,0,0,0
@@ -834,243 +717,272 @@ GAME
 			}
 			CONTRACT
 			{
-				guid = c03ef3dc-db71-41fb-ba3b-2bf86229c521
-				type = TourismContract
-				prestige = 2
-				seed = 1926212737
+				guid = 7fe99232-f0f0-4c0a-8fdd-1047d1885421
+				type = SatelliteContract
+				prestige = 0
+				seed = 1596628224
 				state = Offered
-				agent = STEADLER Engineering Corps
+				agent = Jebediah Kerman's Junkyard and Spacecraft Parts Co
 				deadlineType = Floating
 				expiryType = Floating
-				values = 43200,230040000,0,0,0,0,69.86087,10.4,1395255.68105193,0,0,0
-				gender = 0
-				kerbalName = Hanoly Kerman
-				kerbalName = Malcolm Kerman
-				kerbalName = Podbro Kerman
-				kerbalName = Mellan Kerman
-				kerbalName = Ordo Kerman
-				kerbalName = Mauella Kerman
+				values = 122264.141178131,108509425.295591,74074.0728378296,199305.54317821,83999.9961853027,0,21.37815,1.960784,1550795.70293835,0,0,0
+				targetBody = 3
+				deviation = 7
+				orbitType = 3
 				PARAM
 				{
-					name = KerbalTourParameter
+					name = ProbeSystemsParameter
 					state = Incomplete
-					values = 351000,0,0,0,0
-					kerbalName = Hanoly Kerman
-					PARAM
-					{
-						name = KerbalDestinationParameter
-						state = Incomplete
-						values = 39000,0,0,0,0
-						targetBody = 2
-						targetType = Suborbit
-						kerbalName = Hanoly Kerman
-					}
-					PARAM
-					{
-						name = KerbalDestinationParameter
-						state = Incomplete
-						values = 39000,0,0,0,0
-						targetBody = 0
-						targetType = Orbit
-						kerbalName = Hanoly Kerman
-					}
-					PARAM
-					{
-						name = KerbalDestinationParameter
-						state = Incomplete
-						values = 39000,0,0,0,0
-						targetBody = 0
-						targetType = Suborbit
-						kerbalName = Hanoly Kerman
-					}
+					values = 0,0,0,0,0
+					hasAntenna = False
+					hasPowerGenerator = False
+					launchID = 0
 				}
 				PARAM
 				{
-					name = KerbalTourParameter
+					name = SpecificOrbitParameter
 					state = Incomplete
-					values = 585000,0,0,0,0
-					kerbalName = Malcolm Kerman
-					PARAM
-					{
-						name = KerbalDestinationParameter
-						state = Incomplete
-						values = 48750,0,0,0,0
-						targetBody = 2
-						targetType = Land
-						kerbalName = Malcolm Kerman
-					}
-					PARAM
-					{
-						name = KerbalDestinationParameter
-						state = Incomplete
-						values = 48750,0,0,0,0
-						targetBody = 6
-						targetType = Orbit
-						kerbalName = Malcolm Kerman
-					}
-					PARAM
-					{
-						name = KerbalDestinationParameter
-						state = Incomplete
-						values = 48750,0,0,0,0
-						targetBody = 3
-						targetType = Suborbit
-						kerbalName = Malcolm Kerman
-					}
-					PARAM
-					{
-						name = KerbalDestinationParameter
-						state = Incomplete
-						values = 48750,0,0,0,0
-						targetBody = 1
-						targetType = Suborbit
-						kerbalName = Malcolm Kerman
-					}
+					values = 0,0,0,0,0
+					targetBody = 3
+					deviationWindow = 7
+					orbitType = 3
+					inclination = 180
+					eccentricity = 0.00343492118874956
+					sma = 377129.171925399
+					lan = 250.566390140639
+					argumentOfPeriapsis = 159.267274401237
+					meanAnomalyAtEpoch = 6.06334284745021
+					epoch = 0
 				}
 				PARAM
 				{
-					name = KerbalTourParameter
+					name = StabilityParameter
 					state = Incomplete
-					values = 351000,0,0,0,0
-					kerbalName = Podbro Kerman
-					PARAM
-					{
-						name = KerbalDestinationParameter
-						state = Incomplete
-						values = 39000,0,0,0,0
-						targetBody = 0
-						targetType = Orbit
-						kerbalName = Podbro Kerman
-					}
-					PARAM
-					{
-						name = KerbalDestinationParameter
-						state = Incomplete
-						values = 39000,0,0,0,0
-						targetBody = 1
-						targetType = Suborbit
-						kerbalName = Podbro Kerman
-					}
-					PARAM
-					{
-						name = KerbalDestinationParameter
-						state = Incomplete
-						values = 39000,0,0,0,0
-						targetBody = 2
-						targetType = Flyby
-						kerbalName = Podbro Kerman
-					}
+					values = 0,0,0,0,0
+					holdSeconds = 10
+				}
+			}
+			CONTRACT
+			{
+				guid = 31fdf5f6-635d-47fb-a7fb-6f09393e062c
+				type = DMSurveyContract
+				prestige = 2
+				seed = 1596628226
+				state = Offered
+				agent = WinterOwl Aircraft Emporium
+				deadlineType = Floating
+				expiryType = Floating
+				values = 386734.869890213,77250636.8529152,209673.650665283,200937.244388389,288143.994026184,0,684.5867,95.41284,1815266.43165043,0,0,0
+				Survey_Target = 6
+				PARAM
+				{
+					name = EnterOrbit
+					state = Incomplete
+					values = 0,0,0,0,0
+					body = 6
 				}
 				PARAM
 				{
-					name = KerbalTourParameter
+					name = DMCollectScience
+					id = collectDMScience
 					state = Incomplete
-					values = 438750,0,0,0,0
-					kerbalName = Mellan Kerman
-					PARAM
-					{
-						name = KerbalDestinationParameter
-						state = Incomplete
-						values = 48750,0,0,0,0
-						targetBody = 0
-						targetType = Suborbit
-						kerbalName = Mellan Kerman
-					}
-					PARAM
-					{
-						name = KerbalDestinationParameter
-						state = Incomplete
-						values = 48750,0,0,0,0
-						targetBody = 0
-						targetType = Flyby
-						kerbalName = Mellan Kerman
-					}
-					PARAM
-					{
-						name = KerbalDestinationParameter
-						state = Incomplete
-						values = 48750,0,0,0,0
-						targetBody = 6
-						targetType = Flight
-						kerbalName = Mellan Kerman
-					}
+					values = 44640,4185,88,167,28
+					Science_Subject = 0|Orbital Telescope Observations|6|16||0
 				}
 				PARAM
 				{
-					name = KerbalTourParameter
+					name = DMCollectScience
+					id = collectDMScience
 					state = Incomplete
-					values = 585000,0,0,0,0
-					kerbalName = Ordo Kerman
-					PARAM
-					{
-						name = KerbalDestinationParameter
-						state = Incomplete
-						values = 48750,0,0,0,0
-						targetBody = 2
-						targetType = Land
-						kerbalName = Ordo Kerman
-					}
-					PARAM
-					{
-						name = KerbalDestinationParameter
-						state = Incomplete
-						values = 48750,0,0,0,0
-						targetBody = 3
-						targetType = Flyby
-						kerbalName = Ordo Kerman
-					}
-					PARAM
-					{
-						name = KerbalDestinationParameter
-						state = Incomplete
-						values = 48750,0,0,0,0
-						targetBody = 6
-						targetType = Suborbit
-						kerbalName = Ordo Kerman
-					}
-					PARAM
-					{
-						name = KerbalDestinationParameter
-						state = Incomplete
-						values = 48750,0,0,0,0
-						targetBody = 0
-						targetType = Suborbit
-						kerbalName = Ordo Kerman
-					}
+					values = 44640,4185,147,167,28
+					Science_Subject = 0|Mystery Goo Observation|6|16||0
 				}
 				PARAM
 				{
-					name = KerbalTourParameter
+					name = DMCollectScience
+					id = collectDMScience
 					state = Incomplete
-					values = 438750,0,0,0,0
-					kerbalName = Mauella Kerman
-					PARAM
-					{
-						name = KerbalDestinationParameter
-						state = Incomplete
-						values = 48750,0,0,0,0
-						targetBody = 6
-						targetType = Flight
-						kerbalName = Mauella Kerman
-					}
-					PARAM
-					{
-						name = KerbalDestinationParameter
-						state = Incomplete
-						values = 48750,0,0,0,0
-						targetBody = 2
-						targetType = Orbit
-						kerbalName = Mauella Kerman
-					}
-					PARAM
-					{
-						name = KerbalDestinationParameter
-						state = Incomplete
-						values = 48750,0,0,0,0
-						targetBody = 3
-						targetType = Suborbit
-						kerbalName = Mauella Kerman
-					}
+					values = 37440,3510,84,140,23
+					Science_Subject = 0|Multi Spectral Analysis|6|32||0
+				}
+				PARAM
+				{
+					name = DMCollectScience
+					id = collectDMScience
+					state = Incomplete
+					values = 49920,4680,176,187,31
+					Science_Subject = 0|Soil Moisture Scan|6|16||0
+				}
+				PARAM
+				{
+					name = DMCollectScience
+					id = collectDMScience
+					state = Incomplete
+					values = 48480,4545,176,182,30
+					Science_Subject = 0|Radio Plasma Wave Scan|6|16||0
+				}
+			}
+			CONTRACT
+			{
+				guid = 830c9e11-8e47-4923-8305-4315503a5c81
+				type = RecoverAsset
+				prestige = 2
+				seed = 220653387
+				state = Offered
+				agent = Kerbal Motion LLC
+				deadlineType = Floating
+				expiryType = Floating
+				values = 64800,115020000,214500,490050,214500,0,35,9,1498896.43330589,0,0,0
+				targetBody = 3
+				kerbalName = Jedmon Kerman
+				partName = landerCabinSmall
+				partID = 0
+				recoveryLocation = 2
+				recoveryType = 3
+				gender = 1
+				PARAM
+				{
+					name = AcquireCrew
+					state = Incomplete
+					values = 54450,0,0,15,0
+					title = Save Jedmon Kerman
+					winOn = 0
+				}
+				PARAM
+				{
+					name = AcquirePart
+					state = Incomplete
+					values = 54450,0,0,15,0
+					title = Obtain Jedmon's Shipwreck
+					winOn = 0
+				}
+				PARAM
+				{
+					name = RecoverKerbal
+					state = Incomplete
+					values = 0,0,0,0,0
+					title = Recover Jedmon Kerman on Kerbin
+					failOn = All
+					winOn = All
+				}
+				PARAM
+				{
+					name = RecoverPart
+					state = Incomplete
+					values = 0,0,0,0,0
+					title = Recover Jedmon's Shipwreck on Kerbin
+					failOn = AnyCandidate
+					winOn = AllCandidates
+				}
+			}
+			CONTRACT
+			{
+				guid = 147c754f-999e-463e-907c-232139bbe809
+				type = WorldFirstContract
+				prestige = 0
+				seed = 1697194981
+				state = Offered
+				agent = Kerbin World-Firsts Record-Keeping Society
+				deadlineType = None
+				expiryType = Floating
+				values = 21600,0,201834.85865593,532110.081911087,220000,16,34.88,0,1455736.31330593,0,0,0
+				targetBody = 6
+				targetType = FLYBY
+				PARAM
+				{
+					name = ProgressTrackingParameter
+					state = Incomplete
+					values = 0,0,0,0,0
+					targetBody = 6
+					targetType = FLYBY
+				}
+			}
+			CONTRACT
+			{
+				guid = adb968e4-6180-429c-b034-362007c3403b
+				type = DMAnomalyContract
+				prestige = 1
+				seed = 1798502944
+				state = Offered
+				agent = DMagic
+				deadlineType = Floating
+				expiryType = Floating
+				values = 403980,42235343.2102203,208125,183150,208125,0,166,21,1838126.33330594,0,0,0
+				Target_Anomaly = Monolith00|3|23.78|60.05
+				PARAM
+				{
+					name = DMCollectScience
+					state = Incomplete
+					values = 166500,20812,88,666,21
+					Science_Subject = 2|Anomaly Scan|3|4|Monolith 1|0
+				}
+				PARAM
+				{
+					name = DMAnomalyParameter
+					id = collectDMAnomaly
+					state = Incomplete
+					values = 39600,6600,200,88,6
+					Target_Anomaly = 16|False|Mystery Goo Observation
+				}
+				PARAM
+				{
+					name = DMAnomalyParameter
+					id = collectDMAnomaly
+					state = Incomplete
+					values = 38700,6450,100,86,5
+					Target_Anomaly = 16|False|Magnetometer Scan
+				}
+				PARAM
+				{
+					name = DMAnomalyParameter
+					id = collectDMAnomaly
+					state = Incomplete
+					values = 44100,7350,160,98,6
+					Target_Anomaly = 16|False|Multi Spectral Analysis
+				}
+			}
+			CONTRACT
+			{
+				guid = 2443c9b6-4cbd-44d4-ab3e-991f3c6024bc
+				type = DMSurveyContract
+				prestige = 1
+				seed = 1692384564
+				state = Offered
+				agent = DMagic
+				deadlineType = Floating
+				expiryType = Floating
+				values = 395760,46767131.8244934,111600,93000,111600,0,298,46,1830114.45330613,0,0,0
+				Survey_Target = 3
+				PARAM
+				{
+					name = EnterOrbit
+					state = Incomplete
+					values = 0,0,0,0,0
+					body = 3
+				}
+				PARAM
+				{
+					name = DMCollectScience
+					id = collectDMScience
+					state = Incomplete
+					values = 19600,1838,42,74,12
+					Science_Subject = 0|Orbital Telescope Observations|3|16||0
+				}
+				PARAM
+				{
+					name = DMCollectScience
+					id = collectDMScience
+					state = Incomplete
+					values = 17000,1594,56,64,11
+					Science_Subject = 0|Solar Particle Analysis|3|16||0
+				}
+				PARAM
+				{
+					name = DMCollectScience
+					id = collectDMScience
+					state = Incomplete
+					values = 22200,2081,84,83,14
+					Science_Subject = 0|Soil Moisture Scan|3|16||0
 				}
 			}
 			CONTRACT_FINISHED
@@ -2473,13 +2385,80 @@ GAME
 					body = 2
 				}
 			}
+			CONTRACT_FINISHED
+			{
+				guid = 47af7203-3240-4a92-b588-ebd3f6e95bb1
+				type = WorldFirstContract
+				prestige = 2
+				seed = 281921886
+				state = Completed
+				agent = Kerbin World-Firsts Record-Keeping Society
+				deadlineType = None
+				expiryType = Floating
+				values = 64800,0,194881.885349751,513779.51592207,247500,36,91.44,0,1046705.98469218,982099.004692363,0,0
+				targetBody = 3
+				targetType = LANDING
+				PARAM
+				{
+					name = ProgressTrackingParameter
+					enabled = False
+					state = Complete
+					values = 0,0,0,0,0
+					targetBody = 3
+					targetType = LANDING
+				}
+			}
+			CONTRACT_FINISHED
+			{
+				guid = 279f3aba-8d9e-47ca-8837-cdcaa94caf03
+				type = CollectScience
+				prestige = 1
+				seed = 1032922066
+				state = Completed
+				agent = Reaction Systems Ltd
+				deadlineType = Floating
+				expiryType = Floating
+				values = 108000,115020000,64688,173937.503769994,71156.8015422821,9,15.45455,2,1403163.6531029,1307292.54786992,116327292.54787,0
+				body = 3
+				location = Surface
+				PARAM
+				{
+					name = CollectScience
+					enabled = False
+					state = Complete
+					values = 0,0,0,0,0
+					body = 3
+					location = Surface
+				}
+			}
+			CONTRACT_FINISHED
+			{
+				guid = 101a82e1-9af8-4436-bf85-68038580f00e
+				type = PlantFlag
+				prestige = 1
+				seed = 1506395724
+				state = Completed
+				agent = Moving Parts Experts Group
+				deadlineType = Floating
+				expiryType = Floating
+				values = 99889.0043495762,106381789.632299,152489.991555214,422993.985743046,164449.997532368,0,30.02784,3.703704,737231.908686851,669198.838675381,107050988.470974,0
+				body = 3
+				PARAM
+				{
+					name = PlantFlag
+					enabled = False
+					state = Complete
+					values = 0,0,0,0,0
+					body = 3
+				}
+			}
 		}
 	}
 	SCENARIO
 	{
 		name = Funding
 		scene = 7, 8, 5, 6
-		funds = 1279986.08681596
+		funds = 2390697.09225107
 	}
 	SCENARIO
 	{
@@ -2775,6 +2754,19 @@ GAME
 				{
 					completed = 801992.514730949
 				}
+				Landing
+				{
+					completed = 1434096.39330589
+					vessel
+					{
+						name = Crazy Munar Lander
+						flag = Squad/Flags/capsule
+					}
+					crew
+					{
+						crews = Bob Kerman, Jebediah Kerman, Bill Kerman
+					}
+				}
 				Science
 				{
 					completed = 461143.431444271
@@ -2783,6 +2775,18 @@ GAME
 						name = Research Sat
 						flag = Squad/Flags/capsule
 					}
+				}
+				SurfaceEVA
+				{
+					completed = 1434246.17330603
+					crew
+					{
+						crews = Bob Kerman
+					}
+				}
+				FlagPlant
+				{
+					completed = 1434354.43330613
 				}
 				ReturnFromFlyBy
 				{
@@ -2817,7 +2821,7 @@ GAME
 	{
 		name = ResearchAndDevelopment
 		scene = 7, 8, 5, 6
-		sci = 1010.593
+		sci = 1843.593
 		Tech
 		{
 			id = start
@@ -4739,6 +4743,136 @@ GAME
 			sci = 30
 			cap = 36
 		}
+		Science
+		{
+			id = dmRadiometerScan@MinmusInSpaceHigh
+			title = Irradiance Scan while in space high over Minmus
+			dsc = 4
+			scv = 0
+			sbv = 2.5
+			sci = 30
+			cap = 30
+		}
+		Science
+		{
+			id = dmImagingPlatform@MinmusInSpaceLowHighlands
+			title = Multi Spectral Analysis from space just above Minmus's Highlands
+			dsc = 4
+			scv = 0
+			sbv = 4
+			sci = 32
+			cap = 32
+		}
+		Science
+		{
+			id = evaReport@MinmusInSpaceLowHighlands
+			title = EVA Report from space just above Minmus's Highlands
+			dsc = 1
+			scv = 0
+			sbv = 4
+			sci = 32
+			cap = 32
+		}
+		Science
+		{
+			id = crewReport@MinmusSrfLandedHighlands
+			title = Crew Report from Minmus's Highlands
+			dsc = 1
+			scv = 0
+			sbv = 5
+			sci = 25
+			cap = 25
+		}
+		Science
+		{
+			id = mysteryGoo@MinmusSrfLandedHighlands
+			title = Mystery Goo™ Observation from Minmus's Highlands
+			dsc = 1
+			scv = 0.7692308
+			sbv = 5
+			sci = 15
+			cap = 65
+		}
+		Science
+		{
+			id = temperatureScan@MinmusSrfLandedHighlands
+			title = Temperature Scan from Minmus's Highlands
+			dsc = 1
+			scv = 0.5
+			sbv = 5
+			sci = 20
+			cap = 40
+		}
+		Science
+		{
+			id = seismicScan@MinmusSrfLandedHighlands
+			title = Seismic Scan from Minmus's Highlands
+			dsc = 2.5
+			scv = 0.5909091
+			sbv = 5
+			sci = 45
+			cap = 110
+		}
+		Science
+		{
+			id = barometerScan@MinmusSrfLandedHighlands
+			title = Atmospheric Pressure Scan from Minmus's Highlands
+			dsc = 1
+			scv = 0.5
+			sbv = 5
+			sci = 30
+			cap = 60
+		}
+		Science
+		{
+			id = mobileMaterialsLab@MinmusSrfLandedHighlands
+			title = Materials Study from Minmus's Highlands
+			dsc = 1
+			scv = 0.765625
+			sbv = 5
+			sci = 37.5
+			cap = 160
+		}
+		Science
+		{
+			id = magScan@MinmusSrfLandedHighlands
+			title = Magnetometer Scan from Minmus's Highlands
+			dsc = 1
+			scv = 0
+			sbv = 5
+			sci = 25
+			cap = 25
+		}
+		Science
+		{
+			id = dmlaserblastscan@MinmusSrfLandedHighlands
+			title = Laser Surface Scan from Minmus's Highlands
+			dsc = 3
+			scv = 0
+			sbv = 5
+			sci = 30
+			cap = 30
+		}
+		Science
+		{
+			id = surfaceSample@MinmusSrfLandedHighlands
+			title = Surface Sample from Minmus's Highlands
+			dsc = 1
+			scv = 0.8375
+			sbv = 5
+			sci = 32.5
+			cap = 200
+		}
+		Science
+		{
+			id = evaReport@MinmusSrfLandedHighlands
+			title = EVA Report from Minmus's Highlands
+			dsc = 1
+			scv = 0
+			sbv = 5
+			sci = 40
+			cap = 40
+		}
 	}
 	SCENARIO
 	{
@@ -4749,7 +4883,7 @@ GAME
 	{
 		name = Reputation
 		scene = 7, 8, 5, 6
-		rep = 845.4056
+		rep = 835.0745
 	}
 	SCENARIO
 	{
@@ -6239,31 +6373,6 @@ GAME
 			{
 				Item
 				{
-					VesselID = 0eade6d9-54ac-451c-8fa8-f8f7916765a0
-					ID = 8a814559d4af4c67b03e2475b86d52ba
-					Name = Crazy Munar Lander
-					NotesStorage = Time to pay attention to\r\n    Crazy Munar Lander\r\nNearing SOI Change\r\n     Old SOI: Kerbin\r\n     New SOI: Minmus
-					TypeOfAlarm = SOIChange
-					AlarmTimeStorage = 1379677.77440374
-					AlarmMarginSecs = 300
-					Enabled = True
-					AlarmAction = KillWarp
-					DeleteWhenPassed = False
-					ManNodesStorage = 
-					XferOriginBodyName = 
-					XferTargetBodyName = 
-					RepeatAlarm = False
-					RepeatAlarmPeriodStorage = 0
-					TargetObjectStorage = 
-					ContractGUIDStorage = 00000000-0000-0000-0000-000000000000
-					ContractAlarmType = Expire
-					DeleteOnClose = False
-					Triggered = False
-					Actioned = False
-					AlarmWindowClosed = False
-				}
-				Item
-				{
 					VesselID = 46fa5714-9715-42c6-9ed8-5f1cf49302f8
 					ID = 507e71c05435430b9a775a279b01adaf
 					Name = Distant Research Sat
@@ -6293,7 +6402,7 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.0.2
-		UT = 1362027.40321888
+		UT = 1435444.67116662
 		activeVessel = 0
 		mapViewFiltering = -1026
 		VESSEL
@@ -10161,13 +10270,13 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = 0
+				SMA = 300129.779804878
 				ECC = 1
 				INC = NaN
-				LPE = 21.6841485783382
-				LAN = 235.600438049608
-				MNA = -8.40714670366795
-				EPH = 1362021.60321887
+				LPE = 67.5487560862353
+				LAN = 290.020336542279
+				MNA = 3.14159265358979
+				EPH = 1435440.45116662
 				REF = 1
 			}
 			PART
@@ -38190,13 +38299,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 0
+				SMA = NaN
 				ECC = 1
 				INC = NaN
-				LPE = 60.3726534907448
-				LAN = 235.600438049608
+				LPE = 163.870158595966
+				LAN = 290.020336542279
 				MNA = -8.40714670366795
-				EPH = 1362021.60321887
+				EPH = 1435440.45116662
 				REF = 2
 			}
 			PART
@@ -38378,13 +38487,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 102150.079398938
+				SMA = NaN
 				ECC = 1
 				INC = NaN
-				LPE = 60.3790324830986
-				LAN = 235.600438049608
-				MNA = 3.14159265358979
-				EPH = 1362021.60321887
+				LPE = 163.863784901704
+				LAN = 290.020336542279
+				MNA = 0
+				EPH = 1435440.45116662
 				REF = 2
 			}
 			PART
@@ -38566,13 +38675,13 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = NaN
+				SMA = 0
 				ECC = 1
 				INC = NaN
-				LPE = 59.9794107123363
-				LAN = 235.600438049608
-				MNA = 0
-				EPH = 1362021.60321887
+				LPE = 164.269365114724
+				LAN = 290.020336542279
+				MNA = -8.40714670366796
+				EPH = 1435440.45116662
 				REF = 2
 			}
 			PART
@@ -39740,13 +39849,13 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = 300082.1975994
+				SMA = NaN
 				ECC = 1
 				INC = NaN
-				LPE = 21.1942590034391
-				LAN = 235.600438049608
-				MNA = 3.14159265358979
-				EPH = 1362021.60321887
+				LPE = 68.1247473799594
+				LAN = 290.020336542279
+				MNA = -8.40714670366795
+				EPH = 1435440.45116662
 				REF = 1
 			}
 			PART
@@ -44095,4121 +44204,6 @@ GAME
 			}
 			CTRLSTATE
 			{
-			}
-		}
-		VESSEL
-		{
-			pid = 0eade6d954ac451c8fa8f8f7916765a0
-			name = Crazy Munar Lander
-			type = Ship
-			sit = ORBITING
-			landed = False
-			landedAt = 
-			splashed = False
-			met = 116414.157191489
-			lct = 1198565.81455681
-			root = 0
-			lat = -0.684219592756945
-			lon = 220.187421399495
-			alt = 40709657.4198157
-			hgt = -1
-			nrm = 0.4628739,-0.2405596,0.8531582
-			rot = -0.1239857,-0.9755675,-0.04733838,0.1750855
-			CoM = 0.001615254,-1.689955,3.468068E-05
-			stg = 2
-			prst = False
-			ref = 3519679287
-			ctrl = True
-			cPch = 
-			cHdg = 
-			cMod = 0
-			ORBIT
-			{
-				SMA = 23204624.1642036
-				ECC = 0.969437961162315
-				INC = 5.10458208751064
-				LPE = 12.4047856909664
-				LAN = 78.9272182562088
-				MNA = 1.93082241299792
-				EPH = 1314980.0117483
-				REF = 1
-			}
-			PART
-			{
-				name = Mark1-2Pod
-				cid = 4292619704
-				uid = 3519679287
-				mid = 2657394450
-				launchID = 25
-				parent = 0
-				position = 0,0,0
-				rotation = 0,0,0,1
-				mirror = 1,1,1
-				symMethod = Radial
-				istg = 0
-				dstg = 0
-				sqor = -1
-				sepI = 0
-				sidx = -1
-				attm = 0
-				srfN = None, -1
-				attN = bottom, 1
-				attN = top, 23
-				mass = 4
-				temp = 310.820810092294
-				expt = 0.5
-				state = 0
-				connected = True
-				attached = True
-				flag = Squad/Flags/capsule
-				rTrf = Mark1-2Pod (Crazy Munar Lander)
-				modCost = 0
-				crew = Jebediah Kerman
-				crew = Bill Kerman
-				crew = Bob Kerman
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-				PARTDATA
-				{
-				}
-				MODULE
-				{
-					name = ModuleCommand
-					isEnabled = True
-					controlSrcStatusText = Operational
-					EVENTS
-					{
-						MakeReference
-						{
-							active = True
-							guiActive = True
-							guiIcon = Control From Here
-							guiName = Control From Here
-							category = Control From Here
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						RenameVessel
-						{
-							active = True
-							guiActive = True
-							guiIcon = Rename Vessel
-							guiName = Rename Vessel
-							category = Rename Vessel
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-					}
-				}
-				MODULE
-				{
-					name = ModuleReactionWheel
-					isEnabled = True
-					stateString = Idle
-					WheelState = Active
-					EVENTS
-					{
-						OnToggle
-						{
-							active = True
-							guiActive = True
-							guiActiveEditor = True
-							guiIcon = Toggle Torque
-							guiName = Toggle Torque
-							category = Toggle Torque
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-						Activate
-						{
-							actionGroup = None
-						}
-						Deactivate
-						{
-							actionGroup = None
-						}
-						Toggle
-						{
-							actionGroup = None
-						}
-					}
-				}
-				MODULE
-				{
-					name = ModuleScienceExperiment
-					isEnabled = True
-					Deployed = False
-					Inoperable = False
-					EVENTS
-					{
-						DeployExperiment
-						{
-							active = True
-							guiActive = True
-							guiIcon = Deploy
-							guiName = Crew Report
-							category = Deploy
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						CollectDataExternalEvent
-						{
-							active = False
-							guiActive = False
-							guiIcon = 
-							guiName = Take Data
-							category = 
-							guiActiveUnfocused = True
-							unfocusedRange = 1.5
-							externalToEVAOnly = True
-						}
-						ReviewDataEvent
-						{
-							active = False
-							guiActive = True
-							guiIcon = Review Data
-							guiName = Review Report
-							category = Review Data
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ResetExperiment
-						{
-							active = False
-							guiActive = True
-							guiIcon = Reset
-							guiName = Discard Crew Report
-							category = Reset
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						DeployExperimentExternal
-						{
-							active = True
-							guiActive = False
-							guiIcon = Deploy
-							guiName = Crew Report
-							category = Deploy
-							guiActiveUnfocused = True
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ResetExperimentExternal
-						{
-							active = False
-							guiActive = False
-							guiIcon = Reset
-							guiName = Discard Crew Report
-							category = Reset
-							guiActiveUnfocused = True
-							unfocusedRange = 1.5
-							externalToEVAOnly = True
-						}
-						CleanUpExperimentExternal
-						{
-							active = False
-							guiActive = False
-							guiIcon = Restore
-							guiName = Restore
-							category = Restore
-							guiActiveUnfocused = True
-							unfocusedRange = 1.5
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-						DeployAction
-						{
-							actionGroup = Custom01
-						}
-						ResetAction
-						{
-							actionGroup = None
-						}
-					}
-				}
-				MODULE
-				{
-					name = ModuleScienceContainer
-					isEnabled = True
-					EVENTS
-					{
-						StoreDataExternalEvent
-						{
-							active = True
-							guiActive = False
-							guiIcon = 
-							guiName = Store Experiments (1)
-							category = 
-							guiActiveUnfocused = True
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						CollectDataExternalEvent
-						{
-							active = True
-							guiActive = False
-							guiIcon = 
-							guiName = Take Data (1)
-							category = 
-							guiActiveUnfocused = True
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ReviewDataEvent
-						{
-							active = True
-							guiActive = True
-							guiIcon = Review Data
-							guiName = Review Stored Data (1)
-							category = Review Data
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-					}
-					ScienceData
-					{
-						data = 5
-						subjectID = crewReport@KerbinInSpaceLow
-						xmit = 1
-						labBoost = 1.05
-						title = Crew Report while in space near Kerbin
-					}
-				}
-				MODULE
-				{
-					name = FlagDecal
-					isEnabled = True
-					flagDisplayed = True
-					EVENTS
-					{
-						ToggleFlag
-						{
-							active = True
-							guiActive = False
-							guiActiveEditor = True
-							guiIcon = Toggle Flag
-							guiName = Toggle Flag
-							category = Toggle Flag
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-					}
-				}
-				MODULE
-				{
-					name = ModuleTripLogger
-					isEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-					Log
-					{
-						flight = 0
-						0 = Land,Kerbin
-						0 = Flight,Kerbin
-						0 = Suborbit,Kerbin
-						0 = Orbit,Kerbin
-					}
-				}
-				RESOURCE
-				{
-					name = ElectricCharge
-					amount = 150
-					maxAmount = 150
-					flowState = True
-					isTweakable = True
-					hideFlow = False
-					flowMode = Both
-				}
-				RESOURCE
-				{
-					name = MonoPropellant
-					amount = 30
-					maxAmount = 30
-					flowState = True
-					isTweakable = True
-					hideFlow = False
-					flowMode = Both
-				}
-			}
-			PART
-			{
-				name = decoupler1-2
-				cid = 4292613778
-				uid = 1042959675
-				mid = 2657394450
-				launchID = 25
-				parent = 0
-				position = 0,-0.93010139465332,0
-				rotation = 0,0,0,1
-				mirror = 1,1,1
-				symMethod = Radial
-				istg = 1
-				dstg = 1
-				sqor = 1
-				sepI = 1
-				sidx = 0
-				attm = 0
-				srfN = None, -1
-				attN = bottom, 2
-				attN = top, 0
-				mass = 0.4
-				temp = 310.833561993889
-				expt = 0.5
-				state = 0
-				connected = True
-				attached = True
-				flag = Squad/Flags/capsule
-				rTrf = decoupler1-2
-				modCost = 0
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-				PARTDATA
-				{
-				}
-				MODULE
-				{
-					name = ModuleDecouple
-					isEnabled = True
-					ejectionForcePercent = 100
-					isDecoupled = False
-					ejectionForcePercent_UIFlight
-					{
-						controlEnabled = True
-						minValue = 0
-						maxValue = 100
-						stepIncrement = 1
-					}
-					EVENTS
-					{
-						Decouple
-						{
-							active = True
-							guiActive = True
-							guiIcon = Decouple
-							guiName = Decouple
-							category = Decouple
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-						DecoupleAction
-						{
-							actionGroup = None
-						}
-					}
-				}
-				MODULE
-				{
-					name = ModuleTestSubject
-					isEnabled = True
-					EVENTS
-					{
-						RunTestEvent
-						{
-							active = False
-							guiActive = True
-							guiIcon = Run Test
-							guiName = Run Test
-							category = Run Test
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-					}
-				}
-			}
-			PART
-			{
-				name = fuelTank2-2
-				cid = 4292611996
-				uid = 576047127
-				mid = 2657394450
-				launchID = 25
-				parent = 1
-				position = 0,-2.23307037353516,0
-				rotation = 0,0,0,1
-				mirror = 1,1,1
-				symMethod = Radial
-				istg = 2
-				dstg = 2
-				sqor = -1
-				sepI = 1
-				sidx = -1
-				attm = 0
-				srfN = None, -1
-				attN = top, 1
-				attN = bottom, 3
-				mass = 1
-				temp = 310.841283280809
-				expt = 0.5
-				state = 1
-				connected = True
-				attached = True
-				flag = Squad/Flags/capsule
-				rTrf = fuelTank2-2
-				modCost = 0
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-				PARTDATA
-				{
-				}
-				RESOURCE
-				{
-					name = LiquidFuel
-					amount = 547.533477410422
-					maxAmount = 720
-					flowState = True
-					isTweakable = True
-					hideFlow = False
-					flowMode = Both
-				}
-				RESOURCE
-				{
-					name = Oxidizer
-					amount = 669.207573348675
-					maxAmount = 880
-					flowState = True
-					isTweakable = True
-					hideFlow = False
-					flowMode = Both
-				}
-			}
-			PART
-			{
-				name = liquidEngine2-2
-				cid = 4292608414
-				uid = 3660509748
-				mid = 2657394450
-				launchID = 25
-				parent = 2
-				position = 0,-3.89751052856445,0
-				rotation = 0,0,0,1
-				mirror = 1,1,1
-				symMethod = Radial
-				istg = 2
-				dstg = 2
-				sqor = 2
-				sepI = 1
-				sidx = 0
-				attm = 0
-				srfN = None, -1
-				attN = top, 2
-				attN = None, -1
-				mass = 1.75
-				temp = 310.837753412833
-				expt = 0.5
-				state = 1
-				connected = True
-				attached = True
-				flag = Squad/Flags/capsule
-				rTrf = liquidEngine2-2
-				modCost = 0
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-				PARTDATA
-				{
-				}
-				MODULE
-				{
-					name = ModuleEngines
-					isEnabled = True
-					staged = True
-					flameout = False
-					EngineIgnited = True
-					engineShutdown = False
-					currentThrottle = 0
-					thrustPercentage = 100
-					manuallyOverridden = False
-					thrustPercentage_UIFlight
-					{
-						controlEnabled = True
-						minValue = 0
-						maxValue = 100
-						stepIncrement = 0.5
-					}
-					EVENTS
-					{
-						Activate
-						{
-							active = False
-							guiActive = True
-							guiIcon = Activate Engine
-							guiName = Activate Engine
-							category = Activate Engine
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						Shutdown
-						{
-							active = True
-							guiActive = True
-							guiIcon = Shutdown Engine
-							guiName = Shutdown Engine
-							category = Shutdown Engine
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-						OnAction
-						{
-							actionGroup = None
-						}
-						ShutdownAction
-						{
-							actionGroup = None
-						}
-						ActivateAction
-						{
-							actionGroup = None
-						}
-					}
-				}
-				MODULE
-				{
-					name = ModuleJettison
-					isEnabled = True
-					isJettisoned = True
-					EVENTS
-					{
-						Jettison
-						{
-							active = False
-							guiActive = True
-							guiIcon = Jettison
-							guiName = Jettison
-							category = Jettison
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-						JettisonAction
-						{
-							actionGroup = None
-						}
-					}
-				}
-				MODULE
-				{
-					name = ModuleGimbal
-					isEnabled = True
-					gimbalLock = True
-					gimbalLimiter = 100
-					gimbalLock_UIFlight
-					{
-						controlEnabled = True
-					}
-					gimbalLimiter_UIFlight
-					{
-						controlEnabled = True
-						minValue = 0
-						maxValue = 100
-						stepIncrement = 1
-					}
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-						ToggleAction
-						{
-							actionGroup = None
-						}
-						LockAction
-						{
-							actionGroup = None
-						}
-						FreeAction
-						{
-							actionGroup = None
-						}
-					}
-				}
-				MODULE
-				{
-					name = ModuleAnimateHeat
-					isEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-				}
-				MODULE
-				{
-					name = ModuleAlternator
-					isEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-				}
-				MODULE
-				{
-					name = ModuleTestSubject
-					isEnabled = True
-					EVENTS
-					{
-						RunTestEvent
-						{
-							active = False
-							guiActive = True
-							guiIcon = Run Test
-							guiName = Run Test
-							category = Run Test
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-					}
-				}
-				MODULE
-				{
-					name = ModuleSurfaceFX
-					isEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-				}
-				RESOURCE
-				{
-					name = ElectricCharge
-					amount = 0.0294575113803148
-					maxAmount = 0.159999996423721
-					flowState = True
-					isTweakable = False
-					hideFlow = True
-					flowMode = Both
-				}
-			}
-			PART
-			{
-				name = landingLeg1-2
-				cid = 4292602114
-				uid = 3953966692
-				mid = 2657394450
-				launchID = 25
-				parent = 2
-				position = -1.33941459655762,-2.8332405090332,8.94069671630859E-08
-				rotation = 0,-0.7071068,0,0.7071068
-				mirror = 1,1,1
-				symMethod = Radial
-				istg = 2
-				dstg = 2
-				sqor = -1
-				sepI = 1
-				sidx = -1
-				attm = 1
-				sym = 5
-				sym = 6
-				srfN = srfAttach, 2
-				mass = 0.1
-				temp = 310.836568790026
-				expt = 0.5
-				state = 1
-				connected = True
-				attached = True
-				flag = Squad/Flags/capsule
-				rTrf = landingLeg1-2
-				modCost = 0
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-				PARTDATA
-				{
-				}
-				MODULE
-				{
-					name = ModuleLandingLeg
-					isEnabled = True
-					StartDeployed = False
-					savedAnimationTime = 0
-					savedAnimationSpeed = 0
-					savedLegState = 0
-					savedLocalPosition = (0, 0, 0)
-					suspensionLocked = False
-					StartDeployed_UIFlight
-					{
-						controlEnabled = True
-					}
-					EVENTS
-					{
-						LowerLeg
-						{
-							active = True
-							guiActive = True
-							guiIcon = Lower Legs
-							guiName = Lower Legs
-							category = Lower Legs
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						RaiseLeg
-						{
-							active = False
-							guiActive = True
-							guiIcon = Raise Legs
-							guiName = Raise Legs
-							category = Raise Legs
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						RepairLeg
-						{
-							active = False
-							guiActive = False
-							guiIcon = Repair Leg
-							guiName = Repair Leg
-							category = Repair Leg
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						LockSuspension
-						{
-							active = True
-							guiActive = True
-							guiActiveEditor = True
-							guiIcon = Lock Suspension
-							guiName = Lock Suspension
-							category = Lock Suspension
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						UnLockSuspension
-						{
-							active = False
-							guiActive = True
-							guiActiveEditor = True
-							guiIcon = UnLock Suspension
-							guiName = UnLock Suspension
-							category = UnLock Suspension
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-						OnAction
-						{
-							actionGroup = Gear
-						}
-						ToggleSuspensionLockAction
-						{
-							actionGroup = None
-						}
-						RaiseAction
-						{
-							actionGroup = None
-						}
-						LowerAction
-						{
-							actionGroup = None
-						}
-					}
-				}
-			}
-			PART
-			{
-				name = landingLeg1-2
-				cid = 4292601054
-				uid = 2838402984
-				mid = 2657394450
-				launchID = 25
-				parent = 2
-				position = 0.669707417488098,-2.8332405090332,1.15996694564819
-				rotation = 0,0.2588191,0,0.9659259
-				mirror = 1,1,1
-				symMethod = Radial
-				istg = 2
-				dstg = 2
-				sqor = -1
-				sepI = 1
-				sidx = -1
-				attm = 1
-				sym = 4
-				sym = 6
-				srfN = srfAttach, 2
-				mass = 0.1
-				temp = 310.83756893045
-				expt = 0.5
-				state = 1
-				connected = True
-				attached = True
-				flag = Squad/Flags/capsule
-				rTrf = landingLeg1-2
-				modCost = 0
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-				PARTDATA
-				{
-				}
-				MODULE
-				{
-					name = ModuleLandingLeg
-					isEnabled = True
-					StartDeployed = False
-					savedAnimationTime = 0
-					savedAnimationSpeed = 0
-					savedLegState = 0
-					savedLocalPosition = (0, 0, 0)
-					suspensionLocked = False
-					StartDeployed_UIFlight
-					{
-						controlEnabled = True
-					}
-					EVENTS
-					{
-						LowerLeg
-						{
-							active = True
-							guiActive = True
-							guiIcon = Lower Legs
-							guiName = Lower Legs
-							category = Lower Legs
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						RaiseLeg
-						{
-							active = False
-							guiActive = True
-							guiIcon = Raise Legs
-							guiName = Raise Legs
-							category = Raise Legs
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						RepairLeg
-						{
-							active = False
-							guiActive = False
-							guiIcon = Repair Leg
-							guiName = Repair Leg
-							category = Repair Leg
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						LockSuspension
-						{
-							active = True
-							guiActive = True
-							guiActiveEditor = True
-							guiIcon = Lock Suspension
-							guiName = Lock Suspension
-							category = Lock Suspension
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						UnLockSuspension
-						{
-							active = False
-							guiActive = True
-							guiActiveEditor = True
-							guiIcon = UnLock Suspension
-							guiName = UnLock Suspension
-							category = UnLock Suspension
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-						OnAction
-						{
-							actionGroup = Gear
-						}
-						ToggleSuspensionLockAction
-						{
-							actionGroup = None
-						}
-						RaiseAction
-						{
-							actionGroup = None
-						}
-						LowerAction
-						{
-							actionGroup = None
-						}
-					}
-				}
-			}
-			PART
-			{
-				name = landingLeg1-2
-				cid = 4292600968
-				uid = 31463813
-				mid = 2657394450
-				launchID = 25
-				parent = 2
-				position = 0.669707059860229,-2.8332405090332,-1.15996766090393
-				rotation = 0,0.9659259,0,0.258819
-				mirror = 1,1,1
-				symMethod = Radial
-				istg = 2
-				dstg = 2
-				sqor = -1
-				sepI = 1
-				sidx = -1
-				attm = 1
-				sym = 4
-				sym = 5
-				srfN = srfAttach, 2
-				mass = 0.1
-				temp = 310.811907590367
-				expt = 0.5
-				state = 1
-				connected = True
-				attached = True
-				flag = Squad/Flags/capsule
-				rTrf = landingLeg1-2
-				modCost = 0
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-				PARTDATA
-				{
-				}
-				MODULE
-				{
-					name = ModuleLandingLeg
-					isEnabled = True
-					StartDeployed = False
-					savedAnimationTime = 0
-					savedAnimationSpeed = 0
-					savedLegState = 0
-					savedLocalPosition = (0, 0, 0)
-					suspensionLocked = False
-					StartDeployed_UIFlight
-					{
-						controlEnabled = True
-					}
-					EVENTS
-					{
-						LowerLeg
-						{
-							active = True
-							guiActive = True
-							guiIcon = Lower Legs
-							guiName = Lower Legs
-							category = Lower Legs
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						RaiseLeg
-						{
-							active = False
-							guiActive = True
-							guiIcon = Raise Legs
-							guiName = Raise Legs
-							category = Raise Legs
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						RepairLeg
-						{
-							active = False
-							guiActive = False
-							guiIcon = Repair Leg
-							guiName = Repair Leg
-							category = Repair Leg
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						LockSuspension
-						{
-							active = True
-							guiActive = True
-							guiActiveEditor = True
-							guiIcon = Lock Suspension
-							guiName = Lock Suspension
-							category = Lock Suspension
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						UnLockSuspension
-						{
-							active = False
-							guiActive = True
-							guiActiveEditor = True
-							guiIcon = UnLock Suspension
-							guiName = UnLock Suspension
-							category = UnLock Suspension
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-						OnAction
-						{
-							actionGroup = Gear
-						}
-						ToggleSuspensionLockAction
-						{
-							actionGroup = None
-						}
-						RaiseAction
-						{
-							actionGroup = None
-						}
-						LowerAction
-						{
-							actionGroup = None
-						}
-					}
-				}
-			}
-			PART
-			{
-				name = longAntenna
-				cid = 4292586018
-				uid = 3191187319
-				mid = 2657394450
-				launchID = 25
-				parent = 2
-				position = -1.21068358421326,-1.55364036560059,8.94069671630859E-08
-				rotation = 0.5,-0.5,0.5,0.5
-				mirror = 1,1,1
-				symMethod = Radial
-				istg = 2
-				dstg = 2
-				sqor = -1
-				sepI = 1
-				sidx = -1
-				attm = 1
-				srfN = srfAttach, 2
-				attN = None, -1
-				mass = 0.005
-				temp = 299.638893445972
-				expt = 0.5
-				state = 1
-				connected = True
-				attached = True
-				flag = Squad/Flags/capsule
-				rTrf = longAntenna
-				modCost = 0
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-				PARTDATA
-				{
-				}
-				MODULE
-				{
-					name = ModuleAnimateGeneric
-					isEnabled = True
-					status = Locked
-					animSwitch = True
-					animTime = 0
-					animSpeed = -1
-					EVENTS
-					{
-						Toggle
-						{
-							active = True
-							guiActive = True
-							guiActiveEditor = True
-							guiIcon = Toggle
-							guiName = Extend
-							category = Toggle
-							guiActiveUnfocused = True
-							unfocusedRange = 5
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-						ToggleAction
-						{
-							actionGroup = Custom02
-						}
-					}
-				}
-				MODULE
-				{
-					name = ModuleDataTransmitter
-					isEnabled = True
-					EVENTS
-					{
-						StartTransmission
-						{
-							active = True
-							guiActive = True
-							guiIcon = Transmit Data
-							guiName = Transmit Data
-							category = Transmit Data
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						StopTransmission
-						{
-							active = False
-							guiActive = True
-							guiIcon = Stop Transmitting
-							guiName = Stop Transmitting
-							category = Stop Transmitting
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-					}
-				}
-			}
-			PART
-			{
-				name = telescopicLadderBay
-				cid = 4292578860
-				uid = 2942915929
-				mid = 2657394450
-				launchID = 25
-				parent = 2
-				position = -0.605174124240875,-1.59498023986816,1.04819226264954
-				rotation = 4.819153E-07,0.5000011,8.346992E-07,0.8660249
-				mirror = 1,1,1
-				symMethod = Radial
-				istg = 2
-				dstg = 2
-				sqor = -1
-				sepI = 1
-				sidx = -1
-				attm = 1
-				srfN = srfAttach, 2
-				mass = 0.005
-				temp = 308.739286387379
-				expt = 0.5
-				state = 1
-				connected = True
-				attached = True
-				flag = Squad/Flags/capsule
-				rTrf = telescopicLadderBay
-				modCost = 0
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-				PARTDATA
-				{
-				}
-				MODULE
-				{
-					name = RetractableLadder
-					isEnabled = True
-					StateName = Retracted
-					EVENTS
-					{
-						Extend
-						{
-							active = True
-							guiActive = True
-							guiActiveEditor = True
-							guiIcon = Extend Ladder
-							guiName = Extend Ladder
-							category = Extend Ladder
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						Retract
-						{
-							active = False
-							guiActive = True
-							guiActiveEditor = True
-							guiIcon = Retract Ladder
-							guiName = Retract Ladder
-							category = Retract Ladder
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-						ToggleAction
-						{
-							actionGroup = Custom03
-						}
-						ExtendAction
-						{
-							actionGroup = None
-						}
-						RetractAction
-						{
-							actionGroup = None
-						}
-					}
-				}
-			}
-			PART
-			{
-				name = sensorAccelerometer
-				cid = 4292588200
-				uid = 830648665
-				mid = 2657394450
-				launchID = 25
-				parent = 2
-				position = -0.873757600784302,-2.34395027160645,0.873757362365723
-				rotation = -2.1295E-07,0.9238796,5.141067E-07,0.3826835
-				mirror = 1,1,1
-				symMethod = Radial
-				istg = 2
-				dstg = 2
-				sqor = -1
-				sepI = 1
-				sidx = -1
-				attm = 1
-				srfN = srfAttach, 2
-				mass = 0.005
-				temp = 306.627131590656
-				expt = 0.5
-				state = 1
-				connected = True
-				attached = True
-				flag = Squad/Flags/capsule
-				rTrf = sensorAccelerometer
-				modCost = 0
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-				PARTDATA
-				{
-				}
-				MODULE
-				{
-					name = ModuleEnviroSensor
-					isEnabled = True
-					sensorActive = False
-					EVENTS
-					{
-						Toggle
-						{
-							active = True
-							guiActive = True
-							guiIcon = Toggle Display
-							guiName = Toggle Display
-							category = Toggle Display
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-						ToggleAction
-						{
-							actionGroup = None
-						}
-					}
-				}
-				MODULE
-				{
-					name = ModuleScienceExperiment
-					isEnabled = True
-					Deployed = False
-					Inoperable = False
-					EVENTS
-					{
-						DeployExperiment
-						{
-							active = True
-							guiActive = True
-							guiIcon = Deploy
-							guiName = Log Seismic Data
-							category = Deploy
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						CollectDataExternalEvent
-						{
-							active = False
-							guiActive = False
-							guiIcon = 
-							guiName = Take Data
-							category = 
-							guiActiveUnfocused = True
-							unfocusedRange = 1.2
-							externalToEVAOnly = True
-						}
-						ReviewDataEvent
-						{
-							active = False
-							guiActive = True
-							guiIcon = Review Data
-							guiName = Review Data
-							category = Review Data
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ResetExperiment
-						{
-							active = False
-							guiActive = True
-							guiIcon = Reset
-							guiName = Delete Data
-							category = Reset
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						DeployExperimentExternal
-						{
-							active = True
-							guiActive = False
-							guiIcon = Deploy
-							guiName = Log Seismic Data
-							category = Deploy
-							guiActiveUnfocused = True
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ResetExperimentExternal
-						{
-							active = False
-							guiActive = False
-							guiIcon = Reset
-							guiName = Delete Data
-							category = Reset
-							guiActiveUnfocused = True
-							unfocusedRange = 1.2
-							externalToEVAOnly = True
-						}
-						CleanUpExperimentExternal
-						{
-							active = False
-							guiActive = False
-							guiIcon = Restore
-							guiName = Restore
-							category = Restore
-							guiActiveUnfocused = True
-							unfocusedRange = 1.2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-						DeployAction
-						{
-							actionGroup = Custom01
-						}
-						ResetAction
-						{
-							actionGroup = None
-						}
-					}
-				}
-			}
-			PART
-			{
-				name = sensorThermometer
-				cid = 4292587258
-				uid = 3825684934
-				mid = 2657394450
-				launchID = 25
-				parent = 2
-				position = -0.871122598648071,-1.98416137695313,0.871122002601624
-				rotation = -2.1295E-07,0.9238796,5.141067E-07,0.3826835
-				mirror = 1,1,1
-				symMethod = Radial
-				istg = 2
-				dstg = 2
-				sqor = -1
-				sepI = 1
-				sidx = -1
-				attm = 1
-				srfN = srfAttach, 2
-				mass = 0.005
-				temp = 306.801650211242
-				expt = 0.5
-				state = 1
-				connected = True
-				attached = True
-				flag = Squad/Flags/capsule
-				rTrf = sensorThermometer
-				modCost = 0
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-				PARTDATA
-				{
-				}
-				MODULE
-				{
-					name = ModuleEnviroSensor
-					isEnabled = True
-					sensorActive = False
-					EVENTS
-					{
-						Toggle
-						{
-							active = True
-							guiActive = True
-							guiIcon = Toggle Display
-							guiName = Toggle Display
-							category = Toggle Display
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-						ToggleAction
-						{
-							actionGroup = None
-						}
-					}
-				}
-				MODULE
-				{
-					name = ModuleScienceExperiment
-					isEnabled = True
-					Deployed = False
-					Inoperable = False
-					EVENTS
-					{
-						DeployExperiment
-						{
-							active = True
-							guiActive = True
-							guiIcon = Deploy
-							guiName = Log Temperature
-							category = Deploy
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						CollectDataExternalEvent
-						{
-							active = False
-							guiActive = False
-							guiIcon = 
-							guiName = Take Data
-							category = 
-							guiActiveUnfocused = True
-							unfocusedRange = 1.2
-							externalToEVAOnly = True
-						}
-						ReviewDataEvent
-						{
-							active = False
-							guiActive = True
-							guiIcon = Review Data
-							guiName = Review Data
-							category = Review Data
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ResetExperiment
-						{
-							active = False
-							guiActive = True
-							guiIcon = Reset
-							guiName = Delete Data
-							category = Reset
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						DeployExperimentExternal
-						{
-							active = True
-							guiActive = False
-							guiIcon = Deploy
-							guiName = Log Temperature
-							category = Deploy
-							guiActiveUnfocused = True
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ResetExperimentExternal
-						{
-							active = False
-							guiActive = False
-							guiIcon = Reset
-							guiName = Delete Data
-							category = Reset
-							guiActiveUnfocused = True
-							unfocusedRange = 1.2
-							externalToEVAOnly = True
-						}
-						CleanUpExperimentExternal
-						{
-							active = False
-							guiActive = False
-							guiIcon = Restore
-							guiName = Restore
-							category = Restore
-							guiActiveUnfocused = True
-							unfocusedRange = 1.2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-						DeployAction
-						{
-							actionGroup = Custom01
-						}
-						ResetAction
-						{
-							actionGroup = None
-						}
-					}
-				}
-			}
-			PART
-			{
-				name = sensorBarometer
-				cid = 4292559510
-				uid = 3393776654
-				mid = 2657394450
-				launchID = 25
-				parent = 2
-				position = -0.883232593536377,-2.76023101806641,0.883232474327087
-				rotation = -3.688413E-07,0.9238796,8.904614E-07,0.3826835
-				mirror = 1,1,1
-				symMethod = Radial
-				istg = 2
-				dstg = 2
-				sqor = -1
-				sepI = 1
-				sidx = -1
-				attm = 1
-				srfN = srfAttach, 2
-				mass = 0.005
-				temp = 308.567666730757
-				expt = 0.5
-				state = 1
-				connected = True
-				attached = True
-				flag = Squad/Flags/capsule
-				rTrf = sensorBarometer
-				modCost = 0
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-				PARTDATA
-				{
-				}
-				MODULE
-				{
-					name = ModuleEnviroSensor
-					isEnabled = True
-					sensorActive = False
-					EVENTS
-					{
-						Toggle
-						{
-							active = True
-							guiActive = True
-							guiIcon = Toggle Display
-							guiName = Toggle Display
-							category = Toggle Display
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-						ToggleAction
-						{
-							actionGroup = None
-						}
-					}
-				}
-				MODULE
-				{
-					name = ModuleScienceExperiment
-					isEnabled = True
-					Deployed = False
-					Inoperable = False
-					EVENTS
-					{
-						DeployExperiment
-						{
-							active = True
-							guiActive = True
-							guiIcon = Deploy
-							guiName = Log Pressure Data
-							category = Deploy
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						CollectDataExternalEvent
-						{
-							active = False
-							guiActive = False
-							guiIcon = 
-							guiName = Take Data
-							category = 
-							guiActiveUnfocused = True
-							unfocusedRange = 1.2
-							externalToEVAOnly = True
-						}
-						ReviewDataEvent
-						{
-							active = False
-							guiActive = True
-							guiIcon = Review Data
-							guiName = Review Data
-							category = Review Data
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ResetExperiment
-						{
-							active = False
-							guiActive = True
-							guiIcon = Reset
-							guiName = Delete Data
-							category = Reset
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						DeployExperimentExternal
-						{
-							active = True
-							guiActive = False
-							guiIcon = Deploy
-							guiName = Log Pressure Data
-							category = Deploy
-							guiActiveUnfocused = True
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ResetExperimentExternal
-						{
-							active = False
-							guiActive = False
-							guiIcon = Reset
-							guiName = Delete Data
-							category = Reset
-							guiActiveUnfocused = True
-							unfocusedRange = 1.2
-							externalToEVAOnly = True
-						}
-						CleanUpExperimentExternal
-						{
-							active = False
-							guiActive = False
-							guiIcon = Restore
-							guiName = Restore
-							category = Restore
-							guiActiveUnfocused = True
-							unfocusedRange = 1.2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-						DeployAction
-						{
-							actionGroup = Custom01
-						}
-						ResetAction
-						{
-							actionGroup = None
-						}
-					}
-				}
-			}
-			PART
-			{
-				name = rpwsAnt
-				cid = 4292543890
-				uid = 472600105
-				mid = 2657394450
-				launchID = 25
-				parent = 2
-				position = 1.28760504722595,-1.80105018615723,8.94069671630859E-08
-				rotation = 0,0.7071068,0,-0.7071068
-				mirror = 1,1,1
-				symMethod = Radial
-				istg = 2
-				dstg = 2
-				sqor = -1
-				sepI = 1
-				sidx = -1
-				attm = 1
-				srfN = srfAttach, 2
-				mass = 0.02
-				temp = 310.786128237018
-				expt = 0.5
-				state = 1
-				connected = True
-				attached = True
-				flag = Squad/Flags/capsule
-				rTrf = rpwsAnt
-				modCost = 0
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-				PARTDATA
-				{
-				}
-				MODULE
-				{
-					name = DMModuleScienceAnimate
-					isEnabled = True
-					IsDeployed = True
-					experimentNumber = 0
-					experimentsReturned = 0
-					Deployed = False
-					Inoperable = False
-					EVENTS
-					{
-						deployEvent
-						{
-							active = False
-							guiActive = False
-							guiIcon = Deploy
-							guiName = Deploy RPWS
-							category = Deploy
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						retractEvent
-						{
-							active = False
-							guiActive = False
-							guiIcon = Retract
-							guiName = Retract RPWS
-							category = Retract
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						toggleEvent
-						{
-							active = True
-							guiActive = True
-							guiIcon = Toggle
-							guiName = Toggle RPWS
-							category = Toggle
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						editorDeployEvent
-						{
-							active = True
-							guiActive = False
-							guiActiveEditor = True
-							guiIcon = Deploy
-							guiName = Deploy RPWS
-							category = Deploy
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						editorRetractEvent
-						{
-							active = False
-							guiActive = False
-							guiActiveEditor = True
-							guiIcon = Retract
-							guiName = Retract RPWS
-							category = Retract
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ReviewInitialData
-						{
-							active = False
-							guiActive = True
-							guiIcon = Review Initial Data
-							guiName = Review Initial Data
-							category = Review Initial Data
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						DeployExperiment
-						{
-							active = True
-							guiActive = True
-							guiIcon = Deploy
-							guiName = Log Radio Plasma Wave Data
-							category = Deploy
-							guiActiveUnfocused = True
-							unfocusedRange = 1.2
-							externalToEVAOnly = True
-						}
-						CollectDataExternalEvent
-						{
-							active = False
-							guiActive = False
-							guiIcon = 
-							guiName = Take Data
-							category = 
-							guiActiveUnfocused = True
-							unfocusedRange = 1.2
-							externalToEVAOnly = True
-						}
-						ReviewDataEvent
-						{
-							active = False
-							guiActive = True
-							guiIcon = Review Data
-							guiName = Review Data
-							category = Review Data
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ResetExperiment
-						{
-							active = False
-							guiActive = True
-							guiIcon = Reset
-							guiName = Discard Data
-							category = Reset
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						DeployExperimentExternal
-						{
-							active = True
-							guiActive = False
-							guiIcon = Deploy
-							guiName = Log Radio Plasma Wave Data
-							category = Deploy
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ResetExperimentExternal
-						{
-							active = False
-							guiActive = False
-							guiIcon = Reset
-							guiName = Discard Data
-							category = Reset
-							guiActiveUnfocused = True
-							unfocusedRange = 1.2
-							externalToEVAOnly = True
-						}
-						CleanUpExperimentExternal
-						{
-							active = False
-							guiActive = False
-							guiIcon = Restore
-							guiName = Restore
-							category = Restore
-							guiActiveUnfocused = True
-							unfocusedRange = 1.2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-						deployAction
-						{
-							actionGroup = None
-							active = False
-						}
-						retractAction
-						{
-							actionGroup = None
-							active = False
-						}
-						toggleAction
-						{
-							actionGroup = None
-						}
-						DeployAction
-						{
-							actionGroup = Custom01
-						}
-						ResetAction
-						{
-							actionGroup = None
-						}
-					}
-				}
-			}
-			PART
-			{
-				name = dmGoreSat
-				cid = 4292535448
-				uid = 1448344058
-				mid = 2657394450
-				launchID = 25
-				parent = 2
-				position = 1.41966640949249,-2.62091064453125,8.94069671630859E-08
-				rotation = 0.5,0.5,0.5,-0.5
-				mirror = 1,1,1
-				symMethod = Radial
-				istg = 2
-				dstg = 2
-				sqor = -1
-				sepI = 1
-				sidx = -1
-				attm = 1
-				srfN = srfAttach, 2
-				attN = None, -1
-				mass = 0.03
-				temp = 310.696955330049
-				expt = 0.5
-				state = 1
-				connected = True
-				attached = True
-				flag = Squad/Flags/capsule
-				rTrf = dmGoreSat
-				modCost = 0
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-				PARTDATA
-				{
-				}
-				MODULE
-				{
-					name = DMModuleScienceAnimate
-					isEnabled = True
-					IsDeployed = False
-					experimentNumber = 0
-					experimentsReturned = 0
-					Deployed = False
-					Inoperable = False
-					EVENTS
-					{
-						deployEvent
-						{
-							active = False
-							guiActive = False
-							guiIcon = Deploy
-							guiName = Deploy Scanners
-							category = Deploy
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						retractEvent
-						{
-							active = False
-							guiActive = False
-							guiIcon = Retract
-							guiName = Retract Scanners
-							category = Retract
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						toggleEvent
-						{
-							active = True
-							guiActive = True
-							guiIcon = Toggle
-							guiName = Toggle Scanners
-							category = Toggle
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						editorDeployEvent
-						{
-							active = True
-							guiActive = False
-							guiActiveEditor = True
-							guiIcon = Deploy
-							guiName = Deploy Scanners
-							category = Deploy
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						editorRetractEvent
-						{
-							active = False
-							guiActive = False
-							guiActiveEditor = True
-							guiIcon = Retract
-							guiName = Retract Scanners
-							category = Retract
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ReviewInitialData
-						{
-							active = False
-							guiActive = True
-							guiIcon = Review Initial Data
-							guiName = Review Initial Data
-							category = Review Initial Data
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						DeployExperiment
-						{
-							active = True
-							guiActive = True
-							guiIcon = Deploy
-							guiName = Log Irradiance Scan
-							category = Deploy
-							guiActiveUnfocused = True
-							unfocusedRange = 1.2
-							externalToEVAOnly = True
-						}
-						CollectDataExternalEvent
-						{
-							active = False
-							guiActive = False
-							guiIcon = 
-							guiName = Collect Data
-							category = 
-							guiActiveUnfocused = True
-							unfocusedRange = 1.2
-							externalToEVAOnly = True
-						}
-						ReviewDataEvent
-						{
-							active = False
-							guiActive = True
-							guiIcon = Review Data
-							guiName = Review Data
-							category = Review Data
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ResetExperiment
-						{
-							active = False
-							guiActive = True
-							guiIcon = Reset
-							guiName = Discard Data
-							category = Reset
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						DeployExperimentExternal
-						{
-							active = True
-							guiActive = False
-							guiIcon = Deploy
-							guiName = Log Irradiance Scan
-							category = Deploy
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ResetExperimentExternal
-						{
-							active = False
-							guiActive = False
-							guiIcon = Reset
-							guiName = Discard Data
-							category = Reset
-							guiActiveUnfocused = True
-							unfocusedRange = 1.2
-							externalToEVAOnly = True
-						}
-						CleanUpExperimentExternal
-						{
-							active = False
-							guiActive = False
-							guiIcon = Restore
-							guiName = Restore
-							category = Restore
-							guiActiveUnfocused = True
-							unfocusedRange = 1.2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-						deployAction
-						{
-							actionGroup = None
-							active = False
-						}
-						retractAction
-						{
-							actionGroup = None
-							active = False
-						}
-						toggleAction
-						{
-							actionGroup = None
-						}
-						DeployAction
-						{
-							actionGroup = Custom01
-						}
-						ResetAction
-						{
-							actionGroup = None
-						}
-					}
-				}
-			}
-			PART
-			{
-				name = dmmagBoom
-				cid = 4292525986
-				uid = 1927343966
-				mid = 2657394450
-				launchID = 25
-				parent = 2
-				position = -0.685495615005493,-1.62303161621094,-1.18731367588043
-				rotation = -0.1830129,0.6830133,-0.6830119,-0.1830133
-				mirror = 1,1,1
-				symMethod = Radial
-				istg = 2
-				dstg = 2
-				sqor = -1
-				sepI = 1
-				sidx = -1
-				attm = 1
-				srfN = srfAttach, 2
-				attN = None, -1
-				mass = 0.015
-				temp = 310.142698154437
-				expt = 0.5
-				state = 1
-				connected = True
-				attached = True
-				flag = Squad/Flags/capsule
-				rTrf = dmmagBoom
-				modCost = 0
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-				PARTDATA
-				{
-				}
-				MODULE
-				{
-					name = DMModuleScienceAnimate
-					isEnabled = True
-					IsDeployed = True
-					experimentNumber = 0
-					experimentsReturned = 0
-					Deployed = False
-					Inoperable = False
-					EVENTS
-					{
-						deployEvent
-						{
-							active = False
-							guiActive = False
-							guiIcon = Deploy
-							guiName = Deploy Magnetometer
-							category = Deploy
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						retractEvent
-						{
-							active = False
-							guiActive = False
-							guiIcon = Retract
-							guiName = Retract Magnetometer
-							category = Retract
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						toggleEvent
-						{
-							active = True
-							guiActive = True
-							guiIcon = Toggle
-							guiName = Toggle Magnetometer
-							category = Toggle
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						editorDeployEvent
-						{
-							active = True
-							guiActive = False
-							guiActiveEditor = True
-							guiIcon = Deploy
-							guiName = Deploy Magnetometer
-							category = Deploy
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						editorRetractEvent
-						{
-							active = False
-							guiActive = False
-							guiActiveEditor = True
-							guiIcon = Retract
-							guiName = Retract Magnetometer
-							category = Retract
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ReviewInitialData
-						{
-							active = False
-							guiActive = True
-							guiIcon = Review Initial Data
-							guiName = Review Initial Data
-							category = Review Initial Data
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						DeployExperiment
-						{
-							active = True
-							guiActive = True
-							guiIcon = Deploy
-							guiName = Log Magnetometer Data
-							category = Deploy
-							guiActiveUnfocused = True
-							unfocusedRange = 1.2
-							externalToEVAOnly = True
-						}
-						CollectDataExternalEvent
-						{
-							active = False
-							guiActive = False
-							guiIcon = 
-							guiName = Take Data
-							category = 
-							guiActiveUnfocused = True
-							unfocusedRange = 1.2
-							externalToEVAOnly = True
-						}
-						ReviewDataEvent
-						{
-							active = False
-							guiActive = True
-							guiIcon = Review Data
-							guiName = Review Data
-							category = Review Data
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ResetExperiment
-						{
-							active = False
-							guiActive = True
-							guiIcon = Reset
-							guiName = Discard Magnetometer Data
-							category = Reset
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						DeployExperimentExternal
-						{
-							active = True
-							guiActive = False
-							guiIcon = Deploy
-							guiName = Log Magnetometer Data
-							category = Deploy
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ResetExperimentExternal
-						{
-							active = False
-							guiActive = False
-							guiIcon = Reset
-							guiName = Discard Magnetometer Data
-							category = Reset
-							guiActiveUnfocused = True
-							unfocusedRange = 1.2
-							externalToEVAOnly = True
-						}
-						CleanUpExperimentExternal
-						{
-							active = False
-							guiActive = False
-							guiIcon = Restore
-							guiName = Restore
-							category = Restore
-							guiActiveUnfocused = True
-							unfocusedRange = 1.2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-						deployAction
-						{
-							actionGroup = None
-							active = False
-						}
-						retractAction
-						{
-							actionGroup = None
-							active = False
-						}
-						toggleAction
-						{
-							actionGroup = None
-						}
-						DeployAction
-						{
-							actionGroup = Custom01
-						}
-						ResetAction
-						{
-							actionGroup = None
-						}
-					}
-				}
-				MODULE
-				{
-					name = DMMagBoomModule
-					isEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-				}
-			}
-			PART
-			{
-				name = dmImagingPlatform
-				cid = 4292519542
-				uid = 914652170
-				mid = 2657394450
-				launchID = 25
-				parent = 2
-				position = -1.21775257587433,-2.09668159484863,8.94069671630859E-08
-				rotation = 0.5,-0.5,0.5,0.5
-				mirror = 1,1,1
-				symMethod = Radial
-				istg = 2
-				dstg = 2
-				sqor = -1
-				sepI = 1
-				sidx = -1
-				attm = 1
-				srfN = srfAttach, 2
-				mass = 0.025
-				temp = 310.803184409938
-				expt = 0.5
-				state = 1
-				connected = True
-				attached = True
-				flag = Squad/Flags/capsule
-				rTrf = dmImagingPlatform
-				modCost = 0
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-				PARTDATA
-				{
-				}
-				MODULE
-				{
-					name = DMModuleScienceAnimate
-					isEnabled = True
-					IsDeployed = True
-					experimentNumber = 0
-					experimentsReturned = 0
-					Deployed = False
-					Inoperable = False
-					EVENTS
-					{
-						deployEvent
-						{
-							active = False
-							guiActive = False
-							guiIcon = Deploy
-							guiName = Deploy Imager
-							category = Deploy
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						retractEvent
-						{
-							active = False
-							guiActive = False
-							guiIcon = Retract
-							guiName = Retract Imager
-							category = Retract
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						toggleEvent
-						{
-							active = True
-							guiActive = True
-							guiIcon = Toggle
-							guiName = Toggle Imager
-							category = Toggle
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						editorDeployEvent
-						{
-							active = True
-							guiActive = False
-							guiActiveEditor = True
-							guiIcon = Deploy
-							guiName = Deploy Imager
-							category = Deploy
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						editorRetractEvent
-						{
-							active = False
-							guiActive = False
-							guiActiveEditor = True
-							guiIcon = Retract
-							guiName = Retract Imager
-							category = Retract
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ReviewInitialData
-						{
-							active = False
-							guiActive = True
-							guiIcon = Review Initial Data
-							guiName = Review Initial Data
-							category = Review Initial Data
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						DeployExperiment
-						{
-							active = True
-							guiActive = True
-							guiIcon = Deploy
-							guiName = Log Imaging Data
-							category = Deploy
-							guiActiveUnfocused = True
-							unfocusedRange = 1.2
-							externalToEVAOnly = True
-						}
-						CollectDataExternalEvent
-						{
-							active = False
-							guiActive = False
-							guiIcon = 
-							guiName = Take Data
-							category = 
-							guiActiveUnfocused = True
-							unfocusedRange = 1.2
-							externalToEVAOnly = True
-						}
-						ReviewDataEvent
-						{
-							active = False
-							guiActive = True
-							guiIcon = Review Data
-							guiName = Review Data
-							category = Review Data
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ResetExperiment
-						{
-							active = False
-							guiActive = True
-							guiIcon = Reset
-							guiName = Discard Data
-							category = Reset
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						DeployExperimentExternal
-						{
-							active = True
-							guiActive = False
-							guiIcon = Deploy
-							guiName = Log Imaging Data
-							category = Deploy
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ResetExperimentExternal
-						{
-							active = False
-							guiActive = False
-							guiIcon = Reset
-							guiName = Discard Data
-							category = Reset
-							guiActiveUnfocused = True
-							unfocusedRange = 1.2
-							externalToEVAOnly = True
-						}
-						CleanUpExperimentExternal
-						{
-							active = False
-							guiActive = False
-							guiIcon = Restore
-							guiName = Restore
-							category = Restore
-							guiActiveUnfocused = True
-							unfocusedRange = 1.2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-						deployAction
-						{
-							actionGroup = None
-							active = False
-						}
-						retractAction
-						{
-							actionGroup = None
-							active = False
-						}
-						toggleAction
-						{
-							actionGroup = None
-						}
-						DeployAction
-						{
-							actionGroup = Custom01
-						}
-						ResetAction
-						{
-							actionGroup = None
-						}
-					}
-				}
-			}
-			PART
-			{
-				name = dmsurfacelaser
-				cid = 4292507978
-				uid = 1854679007
-				mid = 2657394450
-				launchID = 25
-				parent = 2
-				position = -0.607092618942261,-2.38084030151367,-1.05151462554932
-				rotation = 0.2499993,0.4330125,-0.4330121,-0.7500007
-				mirror = 1,1,1
-				symMethod = Radial
-				istg = 2
-				dstg = 2
-				sqor = -1
-				sepI = 1
-				sidx = -1
-				attm = 1
-				srfN = srfAttach, 2
-				attN = None, -1
-				mass = 0.015
-				temp = 310.788072167529
-				expt = 0.5
-				state = 1
-				connected = True
-				attached = True
-				flag = Squad/Flags/capsule
-				rTrf = dmsurfacelaser
-				modCost = 0
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-				PARTDATA
-				{
-				}
-				MODULE
-				{
-					name = DMModuleScienceAnimate
-					isEnabled = True
-					IsDeployed = False
-					experimentNumber = 0
-					experimentsReturned = 0
-					Deployed = False
-					Inoperable = False
-					EVENTS
-					{
-						deployEvent
-						{
-							active = True
-							guiActive = True
-							guiIcon = Deploy
-							guiName = Systems Check
-							category = Deploy
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						retractEvent
-						{
-							active = False
-							guiActive = False
-							guiIcon = Retract
-							guiName = Retract
-							category = Retract
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						toggleEvent
-						{
-							active = True
-							guiActive = False
-							guiIcon = Toggle
-							guiName = Toggle
-							category = Toggle
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						editorDeployEvent
-						{
-							active = True
-							guiActive = False
-							guiActiveEditor = True
-							guiIcon = Deploy
-							guiName = Systems Check
-							category = Deploy
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						editorRetractEvent
-						{
-							active = False
-							guiActive = False
-							guiActiveEditor = True
-							guiIcon = Retract
-							guiName = Retract
-							category = Retract
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ReviewInitialData
-						{
-							active = False
-							guiActive = True
-							guiIcon = Review Initial Data
-							guiName = Review Initial Data
-							category = Review Initial Data
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						DeployExperiment
-						{
-							active = True
-							guiActive = True
-							guiIcon = Deploy
-							guiName = Collect Laser Data
-							category = Deploy
-							guiActiveUnfocused = True
-							unfocusedRange = 1.2
-							externalToEVAOnly = True
-						}
-						CollectDataExternalEvent
-						{
-							active = False
-							guiActive = False
-							guiIcon = 
-							guiName = Take Data
-							category = 
-							guiActiveUnfocused = True
-							unfocusedRange = 1.2
-							externalToEVAOnly = True
-						}
-						ReviewDataEvent
-						{
-							active = False
-							guiActive = True
-							guiIcon = Review Data
-							guiName = Review Data
-							category = Review Data
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ResetExperiment
-						{
-							active = False
-							guiActive = True
-							guiIcon = Reset
-							guiName = Discard Laser Data
-							category = Reset
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						DeployExperimentExternal
-						{
-							active = True
-							guiActive = False
-							guiIcon = Deploy
-							guiName = Collect Laser Data
-							category = Deploy
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ResetExperimentExternal
-						{
-							active = False
-							guiActive = False
-							guiIcon = Reset
-							guiName = Discard Laser Data
-							category = Reset
-							guiActiveUnfocused = True
-							unfocusedRange = 1.2
-							externalToEVAOnly = True
-						}
-						CleanUpExperimentExternal
-						{
-							active = False
-							guiActive = False
-							guiIcon = Restore
-							guiName = Restore
-							category = Restore
-							guiActiveUnfocused = True
-							unfocusedRange = 1.2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-						deployAction
-						{
-							actionGroup = None
-						}
-						retractAction
-						{
-							actionGroup = None
-							active = False
-						}
-						toggleAction
-						{
-							actionGroup = None
-							active = False
-						}
-						DeployAction
-						{
-							actionGroup = Custom01
-						}
-						ResetAction
-						{
-							actionGroup = None
-						}
-					}
-				}
-			}
-			PART
-			{
-				name = ksp.r.largeBatteryPack
-				cid = 4291597380
-				uid = 978687968
-				mid = 2657394450
-				launchID = 25
-				parent = 2
-				position = 1.04789805412292,-2.63749122619629,-0.6050044298172
-				rotation = -4.819166E-07,0.4999987,-2.782337E-07,-0.8660262
-				mirror = 1,1,1
-				symMethod = Radial
-				istg = 2
-				dstg = 2
-				sqor = -1
-				sepI = 1
-				sidx = -1
-				attm = 1
-				srfN = srfAttach, 2
-				mass = 0.02
-				temp = 310.646507335227
-				expt = 0.5
-				state = 1
-				connected = True
-				attached = True
-				flag = Squad/Flags/capsule
-				rTrf = ksp.r.largeBatteryPack
-				modCost = 0
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-				PARTDATA
-				{
-				}
-				RESOURCE
-				{
-					name = ElectricCharge
-					amount = 400
-					maxAmount = 400
-					flowState = True
-					isTweakable = True
-					hideFlow = False
-					flowMode = Both
-				}
-			}
-			PART
-			{
-				name = dmbioDrill
-				cid = 4294534580
-				uid = 638209185
-				mid = 2657394450
-				launchID = 25
-				parent = 2
-				position = 0,-2.34116172790527,1.28820824623108
-				rotation = -0.5000006,0.4999995,0.5000006,-0.4999995
-				mirror = 1,1,1
-				symMethod = Radial
-				istg = 2
-				dstg = 2
-				sqor = -1
-				sepI = 1
-				sidx = -1
-				attm = 1
-				srfN = srfAttach, 2
-				attN = None, -1
-				mass = 0.025
-				temp = 310.786761672976
-				expt = 0.5
-				state = 1
-				connected = True
-				attached = True
-				flag = Squad/Flags/capsule
-				rTrf = dmbioDrill
-				modCost = 0
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-				PARTDATA
-				{
-				}
-				MODULE
-				{
-					name = DMBioDrill
-					isEnabled = True
-					IsDeployed = False
-					experimentNumber = 0
-					experimentsReturned = 0
-					Deployed = False
-					Inoperable = False
-					EVENTS
-					{
-						deployEvent
-						{
-							active = True
-							guiActive = True
-							guiIcon = Deploy
-							guiName = Systems Check
-							category = Deploy
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						retractEvent
-						{
-							active = False
-							guiActive = False
-							guiIcon = Retract
-							guiName = Retract
-							category = Retract
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						toggleEvent
-						{
-							active = True
-							guiActive = False
-							guiIcon = Toggle
-							guiName = Toggle
-							category = Toggle
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						editorDeployEvent
-						{
-							active = True
-							guiActive = False
-							guiActiveEditor = True
-							guiIcon = Deploy
-							guiName = Systems Check
-							category = Deploy
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						editorRetractEvent
-						{
-							active = False
-							guiActive = False
-							guiActiveEditor = True
-							guiIcon = Retract
-							guiName = Retract
-							category = Retract
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ReviewInitialData
-						{
-							active = False
-							guiActive = True
-							guiIcon = Review Initial Data
-							guiName = Review Initial Data
-							category = Review Initial Data
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						DeployExperiment
-						{
-							active = True
-							guiActive = True
-							guiIcon = Deploy
-							guiName = Collect Core Sample
-							category = Deploy
-							guiActiveUnfocused = True
-							unfocusedRange = 1.2
-							externalToEVAOnly = True
-						}
-						CollectDataExternalEvent
-						{
-							active = False
-							guiActive = False
-							guiIcon = 
-							guiName = Take Data
-							category = 
-							guiActiveUnfocused = True
-							unfocusedRange = 1.2
-							externalToEVAOnly = True
-						}
-						ReviewDataEvent
-						{
-							active = False
-							guiActive = True
-							guiIcon = Review Data
-							guiName = Review Data
-							category = Review Data
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ResetExperiment
-						{
-							active = False
-							guiActive = True
-							guiIcon = Reset
-							guiName = Reset Experiment
-							category = Reset
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						DeployExperimentExternal
-						{
-							active = True
-							guiActive = False
-							guiIcon = Deploy
-							guiName = Collect Core Sample
-							category = Deploy
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ResetExperimentExternal
-						{
-							active = False
-							guiActive = False
-							guiIcon = Reset
-							guiName = Reset Experiment
-							category = Reset
-							guiActiveUnfocused = True
-							unfocusedRange = 1.2
-							externalToEVAOnly = True
-						}
-						CleanUpExperimentExternal
-						{
-							active = False
-							guiActive = False
-							guiIcon = Restore
-							guiName = Restore
-							category = Restore
-							guiActiveUnfocused = True
-							unfocusedRange = 1.2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-						deployAction
-						{
-							actionGroup = None
-						}
-						retractAction
-						{
-							actionGroup = None
-							active = False
-						}
-						toggleAction
-						{
-							actionGroup = None
-							active = False
-						}
-						DeployAction
-						{
-							actionGroup = Custom01
-						}
-						ResetAction
-						{
-							actionGroup = None
-						}
-					}
-				}
-			}
-			PART
-			{
-				name = dmRoverMat
-				cid = 4294526790
-				uid = 1361562400
-				mid = 2657394450
-				launchID = 25
-				parent = 2
-				position = 1.06448245048523,-2.09979057312012,0.614579319953918
-				rotation = 0.612373,0.3535529,-0.3535533,0.6123723
-				mirror = 1,1,1
-				symMethod = Radial
-				istg = 2
-				dstg = 2
-				sqor = -1
-				sepI = 1
-				sidx = -1
-				attm = 1
-				srfN = srfAttach, 2
-				attN = None, -1
-				mass = 0.015
-				temp = 310.849442753383
-				expt = 0.5
-				state = 1
-				connected = True
-				attached = True
-				flag = Squad/Flags/capsule
-				rTrf = dmRoverMat
-				modCost = 0
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-				PARTDATA
-				{
-				}
-				MODULE
-				{
-					name = DMRoverGooMat
-					isEnabled = True
-					IsDeployed = False
-					experimentNumber = 0
-					experimentsReturned = 0
-					Deployed = False
-					Inoperable = False
-					EVENTS
-					{
-						deployEvent
-						{
-							active = False
-							guiActive = False
-							guiIcon = Deploy
-							guiName = Open Materials Bay
-							category = Deploy
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						retractEvent
-						{
-							active = False
-							guiActive = False
-							guiIcon = Retract
-							guiName = Close Materials Bay
-							category = Retract
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						toggleEvent
-						{
-							active = True
-							guiActive = True
-							guiIcon = Toggle
-							guiName = Toggle Materials Bay
-							category = Toggle
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						editorDeployEvent
-						{
-							active = True
-							guiActive = False
-							guiActiveEditor = True
-							guiIcon = Deploy
-							guiName = Open Materials Bay
-							category = Deploy
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						editorRetractEvent
-						{
-							active = False
-							guiActive = False
-							guiActiveEditor = True
-							guiIcon = Retract
-							guiName = Close Materials Bay
-							category = Retract
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ReviewInitialData
-						{
-							active = False
-							guiActive = True
-							guiIcon = Review Initial Data
-							guiName = Review Initial Data
-							category = Review Initial Data
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						DeployExperiment
-						{
-							active = True
-							guiActive = True
-							guiIcon = Deploy
-							guiName = Observe Materials Bay
-							category = Deploy
-							guiActiveUnfocused = True
-							unfocusedRange = 1.8
-							externalToEVAOnly = True
-						}
-						CollectDataExternalEvent
-						{
-							active = False
-							guiActive = False
-							guiIcon = 
-							guiName = Take Materials Data
-							category = 
-							guiActiveUnfocused = True
-							unfocusedRange = 1.8
-							externalToEVAOnly = True
-						}
-						ReviewDataEvent
-						{
-							active = False
-							guiActive = True
-							guiIcon = Review Data
-							guiName = Review Data
-							category = Review Data
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ResetExperiment
-						{
-							active = False
-							guiActive = True
-							guiIcon = Reset
-							guiName = Reset Materials Bay
-							category = Reset
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						DeployExperimentExternal
-						{
-							active = True
-							guiActive = False
-							guiIcon = Deploy
-							guiName = Observe Materials Bay
-							category = Deploy
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ResetExperimentExternal
-						{
-							active = False
-							guiActive = False
-							guiIcon = Reset
-							guiName = Reset Materials Bay
-							category = Reset
-							guiActiveUnfocused = True
-							unfocusedRange = 1.8
-							externalToEVAOnly = True
-						}
-						CleanUpExperimentExternal
-						{
-							active = False
-							guiActive = False
-							guiIcon = Restore
-							guiName = Restore
-							category = Restore
-							guiActiveUnfocused = True
-							unfocusedRange = 1.8
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-						deployAction
-						{
-							actionGroup = None
-							active = False
-						}
-						retractAction
-						{
-							actionGroup = None
-							active = False
-						}
-						toggleAction
-						{
-							actionGroup = Custom01
-						}
-						DeployAction
-						{
-							actionGroup = None
-						}
-						ResetAction
-						{
-							actionGroup = None
-						}
-					}
-				}
-			}
-			PART
-			{
-				name = SurfaceScanner
-				cid = 4294518794
-				uid = 664334983
-				mid = 2657394450
-				launchID = 25
-				parent = 2
-				position = -1.13592064380646,-1.82688140869141,-0.655824422836304
-				rotation = -4.819166E-07,-0.4999987,2.782337E-07,-0.8660262
-				mirror = 1,1,1
-				symMethod = Radial
-				istg = 2
-				dstg = 2
-				sqor = -1
-				sepI = 1
-				sidx = -1
-				attm = 1
-				srfN = srfAttach, 2
-				mass = 0.005
-				temp = 309.348575613813
-				expt = 0.5
-				state = 1
-				connected = True
-				attached = True
-				flag = Squad/Flags/capsule
-				rTrf = SurfaceScanner
-				modCost = 0
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-				PARTDATA
-				{
-				}
-				MODULE
-				{
-					name = ModuleGPS
-					isEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-				}
-				MODULE
-				{
-					name = ModuleResourceScanner
-					isEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-				}
-				MODULE
-				{
-					name = ModuleBiomeScanner
-					isEnabled = True
-					EVENTS
-					{
-						RunAnalysis
-						{
-							active = False
-							guiActive = True
-							guiActiveEditor = True
-							guiIcon = Run Analysis
-							guiName = Run Analysis
-							category = Run Analysis
-							guiActiveUnfocused = True
-							unfocusedRange = 3
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-					}
-				}
-				MODULE
-				{
-					name = ModuleAsteroidAnalysis
-					isEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-				}
-				MODULE
-				{
-					name = ModuleAnalysisResource
-					isEnabled = True
-					abundance = 0
-					resourceName = Ore
-					displayAbundance = 0
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-				}
-			}
-			PART
-			{
-				name = dmRoverGoo
-				cid = 4294503000
-				uid = 4224313320
-				mid = 2657394450
-				launchID = 25
-				parent = 2
-				position = -0.918316602706909,-1.57888984680176,0.918316245079041
-				rotation = 0.6532819,-0.2705979,0.2705982,0.6532812
-				mirror = 1,1,1
-				symMethod = Radial
-				istg = 2
-				dstg = 2
-				sqor = -1
-				sepI = 1
-				sidx = -1
-				attm = 1
-				srfN = srfAttach, 2
-				attN = None, -1
-				mass = 0.01
-				temp = 308.485513552846
-				expt = 0.5
-				state = 1
-				connected = True
-				attached = True
-				flag = Squad/Flags/capsule
-				rTrf = dmRoverGoo
-				modCost = 0
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-				PARTDATA
-				{
-				}
-				MODULE
-				{
-					name = DMRoverGooMat
-					isEnabled = True
-					IsDeployed = False
-					experimentNumber = 0
-					experimentsReturned = 0
-					Deployed = False
-					Inoperable = False
-					EVENTS
-					{
-						deployEvent
-						{
-							active = False
-							guiActive = False
-							guiIcon = Deploy
-							guiName = Open Containment Pod
-							category = Deploy
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						retractEvent
-						{
-							active = False
-							guiActive = False
-							guiIcon = Retract
-							guiName = Close Containment Pod
-							category = Retract
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						toggleEvent
-						{
-							active = True
-							guiActive = True
-							guiIcon = Toggle
-							guiName = Toggle Containment Pod
-							category = Toggle
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						editorDeployEvent
-						{
-							active = True
-							guiActive = False
-							guiActiveEditor = True
-							guiIcon = Deploy
-							guiName = Open Containment Pod
-							category = Deploy
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						editorRetractEvent
-						{
-							active = False
-							guiActive = False
-							guiActiveEditor = True
-							guiIcon = Retract
-							guiName = Close Containment Pod
-							category = Retract
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ReviewInitialData
-						{
-							active = False
-							guiActive = True
-							guiIcon = Review Initial Data
-							guiName = Review Initial Data
-							category = Review Initial Data
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						DeployExperiment
-						{
-							active = True
-							guiActive = True
-							guiIcon = Deploy
-							guiName = Observe Mystery Goo
-							category = Deploy
-							guiActiveUnfocused = True
-							unfocusedRange = 1.8
-							externalToEVAOnly = True
-						}
-						CollectDataExternalEvent
-						{
-							active = False
-							guiActive = False
-							guiIcon = 
-							guiName = Take Goo Data
-							category = 
-							guiActiveUnfocused = True
-							unfocusedRange = 1.8
-							externalToEVAOnly = True
-						}
-						ReviewDataEvent
-						{
-							active = False
-							guiActive = True
-							guiIcon = Review Data
-							guiName = Review Data
-							category = Review Data
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ResetExperiment
-						{
-							active = False
-							guiActive = True
-							guiIcon = Reset
-							guiName = Reset Goo Canister
-							category = Reset
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						DeployExperimentExternal
-						{
-							active = True
-							guiActive = False
-							guiIcon = Deploy
-							guiName = Observe Mystery Goo
-							category = Deploy
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ResetExperimentExternal
-						{
-							active = False
-							guiActive = False
-							guiIcon = Reset
-							guiName = Reset Goo Canister
-							category = Reset
-							guiActiveUnfocused = True
-							unfocusedRange = 1.8
-							externalToEVAOnly = True
-						}
-						CleanUpExperimentExternal
-						{
-							active = False
-							guiActive = False
-							guiIcon = Restore
-							guiName = Restore
-							category = Restore
-							guiActiveUnfocused = True
-							unfocusedRange = 1.8
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-						deployAction
-						{
-							actionGroup = None
-							active = False
-						}
-						retractAction
-						{
-							actionGroup = None
-							active = False
-						}
-						toggleAction
-						{
-							actionGroup = None
-						}
-						DeployAction
-						{
-							actionGroup = Custom01
-						}
-						ResetAction
-						{
-							actionGroup = None
-						}
-					}
-				}
-			}
-			PART
-			{
-				name = Engineer7500
-				cid = 4294373948
-				uid = 3691358675
-				mid = 2657394450
-				launchID = 25
-				parent = 2
-				position = 0.607208490371704,-1.8245906829834,1.05171597003937
-				rotation = 8.34695E-07,0.8660262,4.819097E-07,0.4999987
-				mirror = 1,1,1
-				symMethod = Radial
-				istg = 2
-				dstg = 2
-				sqor = -1
-				sepI = 1
-				sidx = -1
-				attm = 1
-				srfN = srfAttach, 2
-				mass = 0.005
-				temp = 310.510872589696
-				expt = 0.5
-				state = 1
-				connected = True
-				attached = True
-				flag = Squad/Flags/capsule
-				rTrf = Engineer7500
-				modCost = 0
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-				PARTDATA
-				{
-				}
-				MODULE
-				{
-					name = FlightEngineerModule
-					isEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-				}
-				MODULE
-				{
-					name = TapeDriveAnimator
-					isEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-				}
-			}
-			PART
-			{
-				name = parachuteLarge
-				cid = 4292594462
-				uid = 1062311445
-				mid = 2657394450
-				launchID = 25
-				parent = 0
-				position = 0,1.19524955749512,0
-				rotation = 0,0,0,1
-				mirror = 1,1,1
-				symMethod = Radial
-				istg = 0
-				dstg = 0
-				sqor = 0
-				sepI = 0
-				sidx = 0
-				attm = 0
-				srfN = None, -1
-				attN = bottom, 0
-				mass = 0.3
-				temp = 310.820060635747
-				expt = 0.5
-				state = 0
-				connected = True
-				attached = True
-				flag = Squad/Flags/capsule
-				rTrf = parachuteLarge
-				modCost = 0
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-				PARTDATA
-				{
-				}
-				MODULE
-				{
-					name = ModuleParachute
-					isEnabled = True
-					persistentState = STOWED
-					minAirPressureToOpen = 0.04
-					deployAltitude = 500
-					minAirPressureToOpen_UIFlight
-					{
-						controlEnabled = True
-						minValue = 0.01
-						maxValue = 0.5
-						stepIncrement = 0.01
-					}
-					deployAltitude_UIFlight
-					{
-						controlEnabled = True
-						minValue = 50
-						maxValue = 5000
-						stepIncrement = 50
-					}
-					EVENTS
-					{
-						Deploy
-						{
-							active = True
-							guiActive = True
-							guiIcon = Deploy Chute
-							guiName = Deploy Chute
-							category = Deploy Chute
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						CutParachute
-						{
-							active = False
-							guiActive = True
-							guiIcon = Cut Parachute
-							guiName = Cut Parachute
-							category = Cut Parachute
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						Repack
-						{
-							active = False
-							guiActive = False
-							guiIcon = Repack Chute
-							guiName = Repack Chute
-							category = Repack Chute
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-						DeployAction
-						{
-							actionGroup = None
-						}
-						CutAction
-						{
-							actionGroup = None
-						}
-					}
-				}
-				MODULE
-				{
-					name = ModuleTestSubject
-					isEnabled = True
-					EVENTS
-					{
-						RunTestEvent
-						{
-							active = False
-							guiActive = True
-							guiIcon = Run Test
-							guiName = Run Test
-							category = Run Test
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-					}
-				}
-				MODULE
-				{
-					name = ModuleDragModifier
-					isEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-				}
-				MODULE
-				{
-					name = ModuleDragModifier
-					isEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-				}
-			}
-			PART
-			{
-				name = solarPanels1
-				cid = 4294352508
-				uid = 650300341
-				mid = 2657394450
-				launchID = 25
-				parent = 0
-				position = 8.94069671630859E-08,0.262178421020508,-0.931938648223877
-				rotation = -0.1398693,0.6931353,0.1398693,-0.6931353
-				mirror = 1,1,1
-				symMethod = Radial
-				istg = 0
-				dstg = 0
-				sqor = -1
-				sepI = 0
-				sidx = -1
-				attm = 1
-				srfN = srfAttach, 0
-				mass = 0.025
-				temp = 308.554939468963
-				expt = 0.5
-				state = 0
-				connected = True
-				attached = True
-				flag = Squad/Flags/capsule
-				rTrf = solarPanels1
-				modCost = 0
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-				PARTDATA
-				{
-				}
-				MODULE
-				{
-					name = ModuleDeployableSolarPanel
-					isEnabled = True
-					currentRotation = (0.5223446, -0.4765899, 0.4766168, -0.522355)
-					stateString = EXTENDED
-					storedAnimationTime = 0
-					storedAnimationSpeed = 0
-					EVENTS
-					{
-						Extend
-						{
-							active = False
-							guiActive = True
-							guiIcon = Extend Panels
-							guiName = Extend Panels
-							category = Extend Panels
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						Retract
-						{
-							active = True
-							guiActive = True
-							guiIcon = Retract Panels
-							guiName = Retract Panels
-							category = Retract Panels
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-						ExtendPanelsAction
-						{
-							actionGroup = Light
-						}
-						ExtendAction
-						{
-							actionGroup = None
-						}
-						RetractAction
-						{
-							actionGroup = None
-						}
-					}
-				}
-			}
-			ACTIONGROUPS
-			{
-				Stage = False, 1200145.74362234
-				Gear = False, 1200263.08362244
-				Light = True, 1198754.37455699
-				RCS = False, 0
-				SAS = False, 1314712.60131058
-				Brakes = False, 0
-				Abort = False, 0
-				Custom01 = True, 1198795.75455703
-				Custom02 = False, 1200253.98362244
-				Custom03 = False, 0
-				Custom04 = False, 0
-				Custom05 = False, 0
-				Custom06 = False, 0
-				Custom07 = False, 0
-				Custom08 = False, 0
-				Custom09 = False, 0
-				Custom10 = False, 0
-			}
-			DISCOVERY
-			{
-				state = -1
-				lastObservedTime = 0
-				lifetime = Infinity
-				refTime = Infinity
-				size = 2
-			}
-			FLIGHTPLAN
-			{
-			}
-			TARGET
-			{
-				type = CelestialBody
-				tgtId = Minmus
-			}
-			CTRLSTATE
-			{
-				pitch = 0
-				yaw = 0
-				roll = 0
-				trimPitch = 0
-				trimYaw = 0
-				trimRoll = 0
-				mainThrottle = 0
 			}
 		}
 		VESSEL
@@ -63297,13 +59291,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 0
+				SMA = 100808.70320058
 				ECC = 1
 				INC = NaN
-				LPE = 54.311549270536
-				LAN = 235.600438049608
-				MNA = -8.40714670366795
-				EPH = 1362021.60321887
+				LPE = 169.853792858977
+				LAN = 290.020336542279
+				MNA = 3.14159265358979
+				EPH = 1435440.45116662
 				REF = 2
 			}
 			PART
@@ -63488,10 +59482,10 @@ GAME
 				SMA = NaN
 				ECC = 1
 				INC = NaN
-				LPE = 54.3768523596437
-				LAN = 235.600438049608
+				LPE = 169.781971924292
+				LAN = 290.020336542279
 				MNA = -8.40714670366795
-				EPH = 1362021.60321887
+				EPH = 1435440.45116662
 				REF = 2
 			}
 			PART
@@ -63673,13 +59667,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = NaN
+				SMA = 100853.845997352
 				ECC = 1
 				INC = NaN
-				LPE = 54.3761247985003
-				LAN = 235.600438049608
-				MNA = -8.40714670366795
-				EPH = 1362021.60321887
+				LPE = 169.782089302239
+				LAN = 290.020336542279
+				MNA = 3.14159265358979
+				EPH = 1435440.45116662
 				REF = 2
 			}
 			PART
@@ -63845,12 +59839,12 @@ GAME
 			dumb = 0.5
 			badS = True
 			tour = False
-			state = Assigned
-			ToD = 0
-			idx = 0
+			state = Missing
+			ToD = 1442636.55116662
+			idx = 1
 			CAREER_LOG
 			{
-				flight = 6
+				flight = 7
 				0 = Flight,Kerbin
 				0 = Suborbit,Kerbin
 				0 = Land,Kerbin
@@ -63903,16 +59897,25 @@ GAME
 				5 = BoardVessel,Kerbin
 				5 = Land,Kerbin
 				5 = Recover
-			}
-			FLIGHT_LOG
-			{
-				flight = 6
 				6 = Land,Kerbin
 				6 = Flight,Kerbin
 				6 = Suborbit,Kerbin
 				6 = Orbit,Kerbin
 				6 = ExitVessel,Kerbin
 				6 = BoardVessel,Kerbin
+				6 = Flyby,Minmus
+				6 = Escape,Minmus
+				6 = Orbit,Minmus
+				6 = Suborbit,Minmus
+				6 = ExitVessel,Minmus
+				6 = BoardVessel,Minmus
+				6 = Land,Minmus
+				6 = PlantFlag,Minmus
+				6 = Die
+			}
+			FLIGHT_LOG
+			{
+				flight = 7
 			}
 		}
 		KERBAL
@@ -63924,12 +59927,12 @@ GAME
 			dumb = 0.8
 			badS = False
 			tour = False
-			state = Assigned
-			ToD = 0
-			idx = 1
+			state = Missing
+			ToD = 1442636.57116662
+			idx = -1
 			CAREER_LOG
 			{
-				flight = 3
+				flight = 4
 				0 = Flight,Kerbin
 				0 = Land,Kerbin
 				0 = ExitVessel,Kerbin
@@ -63957,14 +59960,23 @@ GAME
 				2 = Flyby,Kerbin
 				2 = Land,Kerbin
 				2 = Recover
-			}
-			FLIGHT_LOG
-			{
-				flight = 3
 				3 = Land,Kerbin
 				3 = Flight,Kerbin
 				3 = Suborbit,Kerbin
 				3 = Orbit,Kerbin
+				3 = Flyby,Minmus
+				3 = Escape,Minmus
+				3 = Orbit,Minmus
+				3 = Suborbit,Minmus
+				3 = ExitVessel,Minmus
+				3 = BoardVessel,Minmus
+				3 = Land,Minmus
+				3 = PlantFlag,Minmus
+				3 = Die
+			}
+			FLIGHT_LOG
+			{
+				flight = 4
 			}
 		}
 		KERBAL
@@ -63976,9 +59988,9 @@ GAME
 			dumb = 0.1
 			badS = False
 			tour = False
-			state = Assigned
-			ToD = 0
-			idx = 2
+			state = Missing
+			ToD = 1437443.39116662
+			idx = -1
 			CAREER_LOG
 			{
 				flight = 3
@@ -64014,6 +60026,16 @@ GAME
 				3 = Flight,Kerbin
 				3 = Suborbit,Kerbin
 				3 = Orbit,Kerbin
+				3 = Flyby,Minmus
+				3 = Escape,Minmus
+				3 = Orbit,Minmus
+				3 = Suborbit,Minmus
+				3 = Land,Minmus
+				3 = ExitVessel,Minmus
+				3 = BoardVessel,Minmus
+				3 = PlantFlag,Minmus
+				3 = Flyby,Sun
+				3 = Escape,Sun
 			}
 		}
 		KERBAL
@@ -64025,7 +60047,7 @@ GAME
 			dumb = 0.4
 			badS = True
 			tour = False
-			state = Missing
+			state = Available
 			ToD = 1369194.50321884
 			idx = -1
 			CAREER_LOG
@@ -64066,6 +60088,7 @@ GAME
 			{
 				flight = 4
 				4 = Flight,Kerbin
+				4 = Spawn
 			}
 		}
 		KERBAL
@@ -64461,132 +60484,6 @@ GAME
 		}
 		KERBAL
 		{
-			name = Hanoly Kerman
-			gender = Male
-			type = Unowned
-			brave = 0.6800994
-			dumb = 0.2451043
-			badS = False
-			tour = False
-			state = Assigned
-			ToD = 0
-			idx = -1
-			CAREER_LOG
-			{
-				flight = 0
-			}
-			FLIGHT_LOG
-			{
-				flight = 0
-			}
-		}
-		KERBAL
-		{
-			name = Malcolm Kerman
-			gender = Male
-			type = Unowned
-			brave = 0.972116
-			dumb = 0.4421616
-			badS = False
-			tour = False
-			state = Assigned
-			ToD = 0
-			idx = -1
-			CAREER_LOG
-			{
-				flight = 0
-			}
-			FLIGHT_LOG
-			{
-				flight = 0
-			}
-		}
-		KERBAL
-		{
-			name = Podbro Kerman
-			gender = Male
-			type = Unowned
-			brave = 0.7502344
-			dumb = 0.1605978
-			badS = False
-			tour = False
-			state = Assigned
-			ToD = 0
-			idx = -1
-			CAREER_LOG
-			{
-				flight = 0
-			}
-			FLIGHT_LOG
-			{
-				flight = 0
-			}
-		}
-		KERBAL
-		{
-			name = Mellan Kerman
-			gender = Male
-			type = Unowned
-			brave = 0.5983472
-			dumb = 0.4484854
-			badS = False
-			tour = False
-			state = Assigned
-			ToD = 0
-			idx = -1
-			CAREER_LOG
-			{
-				flight = 0
-			}
-			FLIGHT_LOG
-			{
-				flight = 0
-			}
-		}
-		KERBAL
-		{
-			name = Ordo Kerman
-			gender = Male
-			type = Unowned
-			brave = 0.8249049
-			dumb = 0.5851957
-			badS = False
-			tour = False
-			state = Assigned
-			ToD = 0
-			idx = -1
-			CAREER_LOG
-			{
-				flight = 0
-			}
-			FLIGHT_LOG
-			{
-				flight = 0
-			}
-		}
-		KERBAL
-		{
-			name = Mauella Kerman
-			gender = Female
-			type = Unowned
-			brave = 0.6737424
-			dumb = 0.2188191
-			badS = True
-			tour = False
-			state = Assigned
-			ToD = 0
-			idx = -1
-			CAREER_LOG
-			{
-				flight = 0
-			}
-			FLIGHT_LOG
-			{
-				flight = 0
-			}
-		}
-		KERBAL
-		{
 			name = Jeddon Kerman
 			gender = Male
 			type = Applicant
@@ -64743,6 +60640,27 @@ GAME
 			tour = False
 			state = Available
 			ToD = 1576489.93508289
+			idx = -1
+			CAREER_LOG
+			{
+				flight = 0
+			}
+			FLIGHT_LOG
+			{
+				flight = 0
+			}
+		}
+		KERBAL
+		{
+			name = Jedmon Kerman
+			gender = Male
+			type = Unowned
+			brave = 0.2129842
+			dumb = 0.3471151
+			badS = False
+			tour = False
+			state = Assigned
+			ToD = 0
 			idx = -1
 			CAREER_LOG
 			{
