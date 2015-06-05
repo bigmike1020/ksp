@@ -6,14 +6,14 @@
   </SettingItem>
   <SettingItem>
     <Name>showControlBar</Name>
-    <Value xsi:type="boolean">true</Value>
+    <Value xsi:type="boolean">false</Value>
   </SettingItem>
   <SettingItem>
     <Name>windowPositionX</Name>
-    <Value xsi:type="float">1293</Value>
+    <Value xsi:type="float">1307</Value>
   </SettingItem>
   <SettingItem>
     <Name>windowPositionY</Name>
-    <Value xsi:type="float">233</Value>
+    <Value xsi:type="float">368</Value>
   </SettingItem>
 </ArrayOfSettingItem>

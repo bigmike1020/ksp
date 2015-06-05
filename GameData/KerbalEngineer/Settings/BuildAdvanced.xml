@@ -6,11 +6,11 @@
   </SettingItem>
   <SettingItem>
     <Name>windowPositionX</Name>
-    <Value xsi:type="float">480</Value>
+    <Value xsi:type="float">488</Value>
   </SettingItem>
   <SettingItem>
     <Name>windowPositionY</Name>
-    <Value xsi:type="float">60</Value>
+    <Value xsi:type="float">73</Value>
   </SettingItem>
   <SettingItem>
     <Name>compactMode</Name>
@@ -26,7 +26,7 @@
   </SettingItem>
   <SettingItem>
     <Name>showAtmosphericDetails</Name>
-    <Value xsi:type="boolean">true</Value>
+    <Value xsi:type="boolean">false</Value>
   </SettingItem>
   <SettingItem>
     <Name>showSettings</Name>
