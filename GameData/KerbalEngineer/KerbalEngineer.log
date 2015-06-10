@@ -1,3 +1,101 @@
 Executing: KerbalEngineer - 1.0.16.6
 Assembly: C:\Games\Kerbal Space Program\GameData\KerbalEngineer\KerbalEngineer.dll
 
+[Log 23:32:27.8928965]: BuildToolbar->Awake
+[Log 23:32:28.3662201]: BuildToolbar->OnGuiAppLauncherReady
+[Log 23:33:40.1712175]: BuildToolbar->OnDestroy
+[Log 23:33:58.9645532]: ActionMenu was created.
+[Log 23:33:58.9655545]: ActionMenu->Awake
+[Log 23:33:58.9675557]: FlightEngineerCore->Awake
+[Log 23:33:59.9542569]: ActionMenuGui was created.
+[Log 23:33:59.9552570]: ActionMenu->Start
+[Log 23:33:59.9752719]: FlightEngineerCore->Start
+[Log 23:34:24.8419946]: ActionMenu->OnDestroy
+[Log 23:34:24.8599337]: FlightEngineerCore->OnDestroy
+[Log 23:34:24.8689411]: ActionMenu was destroyed.
+[Log 23:34:25.2213440]: ActionMenuGui was destroyed.
+[Log 23:34:31.5417413]: BuildToolbar->Awake
+[Log 23:34:31.9910547]: BuildToolbar->OnGuiAppLauncherReady
+[Log 23:49:09.1805312]: BuildToolbar->OnDestroy
+[Log 23:50:51.1406893]: BuildToolbar->Awake
+[Log 23:50:51.8892158]: BuildToolbar->OnGuiAppLauncherReady
+[Log 23:53:46.4720256]: BuildToolbar->OnDestroy
+[Log 23:53:48.1705727]: ActionMenu was created.
+[Log 23:53:48.1705727]: ActionMenu->Awake
+[Log 23:53:48.1715731]: FlightEngineerCore->Awake
+[Log 23:53:50.3831458]: ActionMenuGui was created.
+[Log 23:53:50.3841465]: ActionMenu->Start
+[Log 23:53:50.3871487]: FlightEngineerCore->Start
+[Exception 23:53:50.4461907]: Array index is out of range.
+[]:   at MapSO.GetPixelColor (Int32 x, Int32 y) [0x00000] in <filename unknown>:0 
+  at MapSO.GetPixelColor (Single x, Single y) [0x00000] in <filename unknown>:0 
+  at CBAttributeMapSO.GetAtt (Double lat, Double lon) [0x00000] in <filename unknown>:0 
+  at ScienceUtil.GetExperimentBiome (.CelestialBody body, Double lat, Double lon) [0x00000] in <filename unknown>:0 
+  at KerbalEngineer.Flight.Readouts.Surface.ImpactProcessor.Update () [0x00000] in <filename unknown>:0 
+  at KerbalEngineer.Flight.FlightEngineerCore.UpdateModules () [0x00000] in <filename unknown>:0 
+
+[Exception 23:53:50.4982277]: Array index is out of range.
+[]:   at MapSO.GetPixelColor (Int32 x, Int32 y) [0x00000] in <filename unknown>:0 
+  at MapSO.GetPixelColor (Single x, Single y) [0x00000] in <filename unknown>:0 
+  at CBAttributeMapSO.GetAtt (Double lat, Double lon) [0x00000] in <filename unknown>:0 
+  at ScienceUtil.GetExperimentBiome (.CelestialBody body, Double lat, Double lon) [0x00000] in <filename unknown>:0 
+  at KerbalEngineer.Flight.Readouts.Surface.ImpactProcessor.Update () [0x00000] in <filename unknown>:0 
+  at KerbalEngineer.Flight.FlightEngineerCore.UpdateModules () [0x00000] in <filename unknown>:0 
+
+[Log 23:56:57.9832268]: FlightEngineerCore->OnDestroy
+[Log 23:56:57.9852276]: ActionMenu->OnDestroy
+[Log 23:56:57.9912180]: ActionMenu was destroyed.
+[Log 23:56:58.5449170]: ActionMenu was created.
+[Log 23:56:58.5449170]: ActionMenu->Awake
+[Log 23:56:58.5459174]: FlightEngineerCore->Awake
+[Log 23:57:00.3614103]: ActionMenuGui was created.
+[Log 23:57:00.3624110]: ActionMenu->Start
+[Log 23:57:00.3654132]: FlightEngineerCore->Start
+[Log 23:57:00.4284577]: ActionMenuGui was destroyed.
+[Exception 23:57:00.4711701]: Array index is out of range.
+[]:   at MapSO.GetPixelColor (Int32 x, Int32 y) [0x00000] in <filename unknown>:0 
+  at MapSO.GetPixelColor (Single x, Single y) [0x00000] in <filename unknown>:0 
+  at CBAttributeMapSO.GetAtt (Double lat, Double lon) [0x00000] in <filename unknown>:0 
+  at ScienceUtil.GetExperimentBiome (.CelestialBody body, Double lat, Double lon) [0x00000] in <filename unknown>:0 
+  at KerbalEngineer.Flight.Readouts.Surface.ImpactProcessor.Update () [0x00000] in <filename unknown>:0 
+  at KerbalEngineer.Flight.FlightEngineerCore.UpdateModules () [0x00000] in <filename unknown>:0 
+
+[Log 23:57:09.5605664]: ActionMenu->OnDestroy
+[Log 23:57:09.5615671]: ActionMenu was destroyed.
+[Log 23:57:09.5720364]: FlightEngineerCore->OnDestroy
+[Log 23:57:10.0383661]: BuildToolbar->Awake
+[Log 23:57:11.3334701]: BuildToolbar->OnGuiAppLauncherReady
+[Log 23:57:11.9799297]: ActionMenuGui was destroyed.
+[Log 00:00:34.4180660]: BuildToolbar->OnDestroy
+[Log 00:00:36.2448354]: ActionMenu was created.
+[Log 00:00:36.2458364]: ActionMenu->Awake
+[Log 00:00:36.2458364]: FlightEngineerCore->Awake
+[Log 00:00:38.1642007]: ActionMenuGui was created.
+[Log 00:00:38.1642007]: ActionMenu->Start
+[Log 00:00:38.1672028]: FlightEngineerCore->Start
+[Exception 00:00:38.2232427]: Array index is out of range.
+[]:   at MapSO.GetPixelColor (Int32 x, Int32 y) [0x00000] in <filename unknown>:0 
+  at MapSO.GetPixelColor (Single x, Single y) [0x00000] in <filename unknown>:0 
+  at CBAttributeMapSO.GetAtt (Double lat, Double lon) [0x00000] in <filename unknown>:0 
+  at ScienceUtil.GetExperimentBiome (.CelestialBody body, Double lat, Double lon) [0x00000] in <filename unknown>:0 
+  at KerbalEngineer.Flight.Readouts.Surface.ImpactProcessor.Update () [0x00000] in <filename unknown>:0 
+  at KerbalEngineer.Flight.FlightEngineerCore.UpdateModules () [0x00000] in <filename unknown>:0 
+
+[Exception 00:00:38.2752709]: Array index is out of range.
+[]:   at MapSO.GetPixelColor (Int32 x, Int32 y) [0x00000] in <filename unknown>:0 
+  at MapSO.GetPixelColor (Single x, Single y) [0x00000] in <filename unknown>:0 
+  at CBAttributeMapSO.GetAtt (Double lat, Double lon) [0x00000] in <filename unknown>:0 
+  at ScienceUtil.GetExperimentBiome (.CelestialBody body, Double lat, Double lon) [0x00000] in <filename unknown>:0 
+  at KerbalEngineer.Flight.Readouts.Surface.ImpactProcessor.Update () [0x00000] in <filename unknown>:0 
+  at KerbalEngineer.Flight.FlightEngineerCore.UpdateModules () [0x00000] in <filename unknown>:0 
+
+[Log 00:02:24.7686196]: ActionMenu was destroyed.
+[Log 00:02:24.7766256]: ActionMenu->OnDestroy
+[Log 00:02:24.7796190]: FlightEngineerCore->OnDestroy
+[Log 00:02:25.3520347]: ActionMenu was created.
+[Log 00:02:25.3530351]: ActionMenu->Awake
+[Log 00:02:25.3530351]: FlightEngineerCore->Awake
+[Log 00:02:27.0423596]: ActionMenuGui was created.
+[Log 00:02:27.0433600]: ActionMenu->Start
+[Log 00:02:27.0463625]: FlightEngineerCore->Start
+[Log 00:02:27.0883924]: ActionMenuGui was destroyed.
