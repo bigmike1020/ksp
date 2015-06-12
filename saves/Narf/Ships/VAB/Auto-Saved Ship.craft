@@ -2,7 +2,7 @@ ship = Asteroid Attachment
 version = 1.0.2
 description = qqaadsdq
 type = VAB
-size = 11.72531,30.41198,11.72531
+size = 11.72531,30.41199,11.72531
 PART
 {
 	part = fuelTank1-2_4293157956
@@ -130,10 +130,10 @@ PART
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 1
+	istg = 3
 	dstg = 0
 	sidx = 0
-	sqor = 1
+	sqor = 3
 	sepI = 0
 	attm = 0
 	modCost = 0
@@ -3905,11 +3905,11 @@ PART
 	attRot0 = 0,0.7071068,0,0.7071068
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 0
+	istg = 1
 	dstg = 1
 	sidx = 0
-	sqor = 0
-	sepI = 0
+	sqor = 1
+	sepI = 1
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -3996,11 +3996,11 @@ PART
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 1
+	istg = 3
 	dstg = 1
 	sidx = 1
-	sqor = 1
-	sepI = 1
+	sqor = 3
+	sepI = 3
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -4091,7 +4091,7 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 1
+	sepI = 3
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -4149,11 +4149,11 @@ PART
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 2
+	istg = 4
 	dstg = 2
 	sidx = 0
-	sqor = 2
-	sepI = 1
+	sqor = 4
+	sepI = 3
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -4370,11 +4370,11 @@ PART
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 2
+	istg = 4
 	dstg = 3
 	sidx = 1
-	sqor = 2
-	sepI = 2
+	sqor = 4
+	sepI = 4
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -4465,7 +4465,7 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 1
+	sepI = 3
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -4524,11 +4524,11 @@ PART
 	attRot0 = 0,0,-1.112932E-06,-1
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 2
+	istg = 4
 	dstg = 2
 	sidx = 2
-	sqor = 2
-	sepI = 1
+	sqor = 4
+	sepI = 3
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -4724,7 +4724,7 @@ PART
 	pos = 0.02891756,21.26,-1.787423
 	attPos = 0,0,0
 	attPos0 = -2.039686E-07,1.96611,-4.973851E-13
-	rot = 1.791557E-13,-0.3826835,2.06683E-13,0.9238796
+	rot = 2.997388E-13,-0.3826835,3.272661E-13,0.9238796
 	attRot = 0,0,0,1
 	attRot0 = 4.259006E-07,-0.3826835,-1.028215E-06,-0.9238796
 	mir = 1,1,1
@@ -4733,7 +4733,7 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 1
+	sepI = 3
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -4810,7 +4810,7 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 1
+	sepI = 3
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -4869,11 +4869,11 @@ PART
 	attRot0 = 0,2.092425E-20,-1.112932E-06,-1
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 2
+	istg = 4
 	dstg = 2
 	sidx = 3
-	sqor = 2
-	sepI = 1
+	sqor = 4
+	sepI = 3
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -5078,7 +5078,7 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 1
+	sepI = 3
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -5155,7 +5155,7 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 1
+	sepI = 3
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -5214,11 +5214,11 @@ PART
 	attRot0 = 0,0,-1.112932E-06,-1
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 2
+	istg = 4
 	dstg = 2
 	sidx = 4
-	sqor = 2
-	sepI = 1
+	sqor = 4
+	sepI = 3
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -5423,7 +5423,7 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 1
+	sepI = 3
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -5500,7 +5500,7 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 1
+	sepI = 3
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -5559,11 +5559,11 @@ PART
 	attRot0 = 0,-2.580441E-20,-1.112932E-06,-1
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 2
+	istg = 4
 	dstg = 2
 	sidx = 5
-	sqor = 2
-	sepI = 1
+	sqor = 4
+	sepI = 3
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -5759,7 +5759,7 @@ PART
 	pos = -1.268767,21.26,1.345467
 	attPos = 0,0,0
 	attPos0 = -1.616091E-07,1.96611,1.546968E-13
-	rot = -1.733364E-13,0.7071068,1.845607E-13,0.7071068
+	rot = -3.308859E-13,0.7071068,2.498198E-13,0.7071068
 	attRot = 0,0,0,1
 	attRot0 = 4.259005E-07,-0.3826834,-1.028215E-06,-0.9238795
 	mir = 1,1,1
@@ -5768,7 +5768,7 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 1
+	sepI = 3
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -5845,7 +5845,7 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 1
+	sepI = 3
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -5904,11 +5904,11 @@ PART
 	attRot0 = 0,-1.494045E-20,-1.112932E-06,-1
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 2
+	istg = 4
 	dstg = 2
 	sidx = 6
-	sqor = 2
-	sepI = 1
+	sqor = 4
+	sepI = 3
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -6113,7 +6113,7 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 1
+	sepI = 3
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -6190,7 +6190,7 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 1
+	sepI = 3
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -6249,11 +6249,11 @@ PART
 	attRot0 = 0,2.107085E-21,-1.112932E-06,-1
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 2
+	istg = 4
 	dstg = 2
 	sidx = 7
-	sqor = 2
-	sepI = 1
+	sqor = 4
+	sepI = 3
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -6458,7 +6458,7 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 1
+	sepI = 3
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -6535,7 +6535,7 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 1
+	sepI = 3
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -6594,11 +6594,11 @@ PART
 	attRot0 = 0,0,-1.112932E-06,-1
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 2
+	istg = 4
 	dstg = 2
 	sidx = 8
-	sqor = 2
-	sepI = 1
+	sqor = 4
+	sepI = 3
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -6803,7 +6803,7 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 1
+	sepI = 3
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -6880,7 +6880,7 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 1
+	sepI = 3
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -6939,11 +6939,11 @@ PART
 	attRot0 = 0,-4.92341E-20,-1.112932E-06,-1
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 2
+	istg = 4
 	dstg = 2
 	sidx = 9
-	sqor = 2
-	sepI = 1
+	sqor = 4
+	sepI = 3
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -7148,7 +7148,7 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 1
+	sepI = 3
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -7441,7 +7441,7 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 0
+	sepI = 1
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -7480,7 +7480,7 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 0
+	sepI = 1
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -7528,7 +7528,7 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 0
+	sepI = 1
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -7669,7 +7669,7 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 0
+	sepI = 1
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -7751,7 +7751,7 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 0
+	sepI = 1
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -7833,7 +7833,7 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 0
+	sepI = 1
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -7877,7 +7877,7 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 0
+	sepI = 1
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -8023,7 +8023,7 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 0
+	sepI = 1
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -8208,7 +8208,7 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 0
+	sepI = 1
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -8281,7 +8281,7 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 0
+	sepI = 1
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -8354,7 +8354,7 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 0
+	sepI = 1
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -8427,7 +8427,7 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 0
+	sepI = 1
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -8500,7 +8500,7 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 0
+	sepI = 1
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -8604,7 +8604,7 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 0
+	sepI = 1
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -8893,7 +8893,7 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 1
+	sepI = 3
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -8915,9 +8915,9 @@ PART
 	PARTDATA
 	{
 		tgt = 4293157956
-		pos = -2.12841,-0.7017232,-0.003527728
-		rot = -1.415253E-08,-4.073162E-07,0.7071084,0.7071061
-		dir = -0.949714,-0.3131147,-0.001574102
+		pos = -2.12841,-0.7017234,-0.003527771
+		rot = -1.415252E-08,-4.073163E-07,0.7071085,0.7071062
+		dir = -0.9497139,-0.3131148,-0.00157412
 	}
 	MODULE
 	{
@@ -8958,7 +8958,7 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 1
+	sepI = 3
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -8980,9 +8980,9 @@ PART
 	PARTDATA
 	{
 		tgt = 4293157956
-		pos = -2.106056,-0.6943558,-0.003490226
+		pos = -2.106056,-0.6943566,-0.003490016
 		rot = 0,0,0,1
-		dir = -0.9497137,-0.3131157,-0.001573897
+		dir = -0.9497136,-0.313116,-0.001573802
 	}
 	MODULE
 	{
@@ -9023,7 +9023,7 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 1
+	sepI = 3
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -9045,9 +9045,9 @@ PART
 	PARTDATA
 	{
 		tgt = 4293157956
-		pos = -2.128419,-0.7017272,-0.003528032
-		rot = 1.403696E-15,-1.834934E-07,0.7071073,0.7071067
-		dir = -0.9497139,-0.313115,-0.00157423
+		pos = -2.128419,-0.7017277,-0.003527948
+		rot = -1.296224E-15,-1.834935E-07,0.7071075,0.7071069
+		dir = -0.9497138,-0.3131152,-0.001574192
 	}
 	MODULE
 	{
@@ -9088,7 +9088,7 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 1
+	sepI = 3
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -9110,9 +9110,9 @@ PART
 	PARTDATA
 	{
 		tgt = 4293157956
-		pos = -2.106052,-0.6943525,-0.003491038
+		pos = -2.106052,-0.6943529,-0.003490996
 		rot = 0,0,0,1
-		dir = -0.9497139,-0.3131149,-0.001574267
+		dir = -0.9497139,-0.3131151,-0.001574248
 	}
 	MODULE
 	{
@@ -9153,7 +9153,7 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 1
+	sepI = 3
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -9175,9 +9175,9 @@ PART
 	PARTDATA
 	{
 		tgt = 4293157956
-		pos = -2.128429,-0.7017311,-0.00352811
-		rot = -5.113353E-09,-2.899152E-07,0.7071068,0.7071076
-		dir = -0.9497139,-0.3131153,-0.001574257
+		pos = -2.128429,-0.7017318,-0.003528025
+		rot = -5.113312E-09,-2.899153E-07,0.7071071,0.7071078
+		dir = -0.9497138,-0.3131156,-0.001574219
 	}
 	MODULE
 	{
@@ -9218,7 +9218,7 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 1
+	sepI = 3
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -9240,9 +9240,9 @@ PART
 	PARTDATA
 	{
 		tgt = 4293157956
-		pos = -2.106052,-0.6943535,-0.003491286
+		pos = -2.106052,-0.6943546,-0.003490991
 		rot = 0,0,0,1
-		dir = -0.9497138,-0.3131153,-0.001574378
+		dir = -0.9497137,-0.3131157,-0.001574245
 	}
 	MODULE
 	{
@@ -9283,7 +9283,7 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 1
+	sepI = 3
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -9305,9 +9305,9 @@ PART
 	PARTDATA
 	{
 		tgt = 4293157956
-		pos = -2.128425,-0.701728,-0.003528075
-		rot = -5.944568E-16,-1.834935E-07,0.7071077,0.7071068
-		dir = -0.9497141,-0.3131146,-0.001574245
+		pos = -2.128425,-0.7017284,-0.003528011
+		rot = -1.619211E-15,-1.834935E-07,0.7071079,0.707107
+		dir = -0.949714,-0.3131147,-0.001574216
 	}
 	MODULE
 	{
@@ -9348,7 +9348,7 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 1
+	sepI = 3
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -9370,9 +9370,9 @@ PART
 	PARTDATA
 	{
 		tgt = 4293157956
-		pos = -2.10606,-0.6943552,-0.00349012
+		pos = -2.106062,-0.6943563,-0.003489867
 		rot = 0,0,0,1
-		dir = -0.9497139,-0.3131149,-0.001573847
+		dir = -0.9497138,-0.3131151,-0.001573731
 	}
 	MODULE
 	{
@@ -9413,7 +9413,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 4
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -9447,7 +9447,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 4
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -9501,7 +9501,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 4
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -9559,11 +9559,11 @@ PART
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 4
+	istg = 6
 	dstg = 4
 	sidx = 0
-	sqor = 4
-	sepI = 2
+	sqor = 6
+	sepI = 4
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -9755,7 +9755,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 4
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -9819,7 +9819,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 4
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -9883,7 +9883,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 4
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -9947,7 +9947,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 4
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -10011,7 +10011,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 4
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -10075,7 +10075,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 4
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -10139,7 +10139,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 4
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -10203,7 +10203,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 4
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -10263,11 +10263,11 @@ PART
 	attRot0 = -5.1451E-08,0.7071069,-5.145099E-08,-0.7071067
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 4
+	istg = 6
 	dstg = 4
 	sidx = 1
-	sqor = 4
-	sepI = 2
+	sqor = 6
+	sepI = 4
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -10484,16 +10484,16 @@ PART
 	pos = 0.02891735,3.448082,-3.054099
 	attPos = 0,0,0
 	attPos0 = 6.888305E-08,-3.75,-1.776354E-15
-	rot = -1.10914E-15,-1,-2.117582E-22,-8.42937E-08
+	rot = -1.10914E-15,-1,0,-8.42937E-08
 	attRot = 0,0,0,1
 	attRot0 = -5.1451E-08,0.7071069,-5.145099E-08,-0.7071067
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 4
+	istg = 6
 	dstg = 4
 	sidx = 2
-	sqor = 4
-	sepI = 2
+	sqor = 6
+	sepI = 4
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -10710,16 +10710,16 @@ PART
 	pos = -2.164444,3.448082,-2.145579
 	attPos = 0,0,0
 	attPos0 = -1.286293E-07,-3.75,-1.14575E-13
-	rot = -6.378581E-15,-0.9238796,-4.312305E-15,0.3826834
+	rot = -1.791487E-14,-0.9238796,-3.216337E-14,0.3826834
 	attRot = 0,0,0,1
 	attRot0 = -5.1451E-08,0.7071069,-5.145099E-08,-0.7071066
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 4
+	istg = 6
 	dstg = 4
 	sidx = 3
-	sqor = 4
-	sepI = 2
+	sqor = 6
+	sepI = 4
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -10936,16 +10936,16 @@ PART
 	pos = -3.072963,3.448082,0.04778199
 	attPos = 0,0,0
 	attPos0 = 6.888306E-08,-3.75,-5.322907E-14
-	rot = -2.151423E-15,-0.7071068,-1.367142E-15,0.7071068
+	rot = -2.151423E-15,-0.7071068,-2.151423E-15,0.7071068
 	attRot = 0,0,0,1
 	attRot0 = -5.1451E-08,0.7071069,-5.145099E-08,-0.7071067
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 4
+	istg = 6
 	dstg = 4
 	sidx = 4
-	sqor = 4
-	sepI = 2
+	sqor = 6
+	sepI = 4
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -11167,11 +11167,11 @@ PART
 	attRot0 = -5.1451E-08,0.7071069,-5.145099E-08,-0.7071067
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 4
+	istg = 6
 	dstg = 4
 	sidx = 5
-	sqor = 4
-	sepI = 2
+	sqor = 6
+	sepI = 4
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -11388,16 +11388,16 @@ PART
 	pos = 2.222279,3.448082,2.241143
 	attPos = 0,0,0
 	attPos0 = -1.286294E-07,-3.75,-2.007283E-13
-	rot = -3.377191E-15,0.3826835,2.071588E-15,0.9238796
+	rot = -2.307087E-14,0.3826835,-6.085797E-15,0.9238796
 	attRot = 0,0,0,1
 	attRot0 = -5.1451E-08,0.7071069,-5.145099E-08,-0.7071067
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 4
+	istg = 6
 	dstg = 4
 	sidx = 6
-	sqor = 4
-	sepI = 2
+	sqor = 6
+	sepI = 4
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -11614,16 +11614,16 @@ PART
 	pos = 3.130798,3.448082,0.04778152
 	attPos = 0,0,0
 	attPos0 = 6.888306E-08,-3.75,-5.322907E-14
-	rot = -1.367142E-15,0.7071068,2.151423E-15,0.7071068
+	rot = -2.151423E-15,0.7071068,2.151423E-15,0.7071068
 	attRot = 0,0,0,1
 	attRot0 = -5.1451E-08,0.7071069,-5.145099E-08,-0.7071067
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 4
+	istg = 6
 	dstg = 4
 	sidx = 7
-	sqor = 4
-	sepI = 2
+	sqor = 6
+	sepI = 4
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -11845,11 +11845,11 @@ PART
 	attRot0 = -5.1451E-08,0.7071069,-5.145099E-08,-0.7071067
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 4
+	istg = 6
 	dstg = 4
 	sidx = 8
-	sqor = 4
-	sepI = 2
+	sqor = 6
+	sepI = 4
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -12075,7 +12075,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 4
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -12127,7 +12127,7 @@ PART
 	pos = -2.164443,12.82308,-2.145578
 	attPos = 0,0,0
 	attPos0 = -1.442308E-07,5.625,1.079137E-13
-	rot = 3.377191E-15,0.3826835,-2.071588E-15,0.9238796
+	rot = 2.307087E-14,0.3826835,6.085797E-15,0.9238796
 	attRot = 0,0,0,1
 	attRot0 = 5.145099E-08,-0.7071067,-5.1451E-08,-0.7071069
 	mir = 1,1,1
@@ -12136,7 +12136,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 4
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -12197,7 +12197,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 4
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -12258,7 +12258,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 4
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -12319,7 +12319,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 4
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -12371,7 +12371,7 @@ PART
 	pos = 2.222278,12.82308,2.241142
 	attPos = 0,0,0
 	attPos0 = -1.442307E-07,5.625,1.874056E-13
-	rot = -2.071588E-15,0.9238796,-3.377191E-15,-0.3826835
+	rot = 6.085797E-15,0.9238796,-2.307087E-14,-0.3826835
 	attRot = 0,0,0,1
 	attRot0 = 5.1451E-08,-0.7071068,-5.1451E-08,-0.7071069
 	mir = 1,1,1
@@ -12380,7 +12380,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 4
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -12441,7 +12441,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 4
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -12493,7 +12493,7 @@ PART
 	pos = 2.222277,12.82308,-2.145579
 	attPos = 0,0,0
 	attPos0 = -1.442307E-07,5.625,2.242651E-13
-	rot = 2.146419E-15,0.3826833,1.032131E-15,-0.9238797
+	rot = 2.184009E-14,0.3826833,-7.125262E-15,-0.9238797
 	attRot = 0,0,0,1
 	attRot0 = 5.1451E-08,-0.7071068,-5.1451E-08,-0.7071069
 	mir = 1,1,1
@@ -12502,7 +12502,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 4
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -12563,7 +12563,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 4
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -12633,7 +12633,7 @@ PART
 	pos = 0.02891735,14.89711,-3.054098
 	attPos = 0,0,0
 	attPos0 = 2.622046E-14,2.074027,2.649127E-15
-	rot = 6.949461E-16,-0.3826835,1.367149E-16,0.9238796
+	rot = 4.606982E-15,-0.3826835,9.045318E-15,0.9238796
 	attRot = 0,0,0,1
 	attRot0 = -1.0737E-15,-0.3826834,2.452364E-15,0.9238795
 	mir = 1,1,1
@@ -12642,7 +12642,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 4
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -12712,7 +12712,7 @@ PART
 	pos = -3.072962,14.89711,0.04778199
 	attPos = 0,0,0
 	attPos0 = 2.650492E-14,2.074027,3.107084E-14
-	rot = -4.231692E-16,0.3826835,5.214481E-15,0.9238796
+	rot = 5.689063E-16,0.3826835,5.214481E-15,0.9238796
 	attRot = 0,0,0,1
 	attRot0 = -1.0737E-15,-0.3826834,2.452364E-15,0.9238795
 	mir = 1,1,1
@@ -12721,7 +12721,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 4
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -12800,7 +12800,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 4
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -12879,7 +12879,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 4
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -12958,7 +12958,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 4
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -13028,7 +13028,7 @@ PART
 	pos = 3.130797,14.89711,0.04778152
 	attPos = 0,0,0
 	attPos0 = 2.650492E-14,2.074027,3.107084E-14
-	rot = 5.214481E-15,0.9238796,4.231692E-16,-0.3826835
+	rot = 5.214481E-15,0.9238796,-5.689063E-16,-0.3826835
 	attRot = 0,0,0,1
 	attRot0 = -1.0737E-15,-0.3826834,2.452364E-15,0.9238795
 	mir = 1,1,1
@@ -13037,7 +13037,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 4
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -13116,7 +13116,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 4
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -13186,16 +13186,16 @@ PART
 	pos = 0.02891721,8.198767,-4.261554
 	attPos = 0,0,0
 	attPos0 = -1.207456,1.000685,7.145373E-08
-	rot = 2.107346E-08,0.707107,-2.107339E-08,-0.7071066
+	rot = 2.107345E-08,0.7071072,-2.107337E-08,-0.7071065
 	attRot = 0,0,0,1
 	attRot0 = -3.058657E-14,-3.371748E-07,1.02565E-07,1
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 3
+	istg = 5
 	dstg = 5
 	sidx = 0
-	sqor = 3
-	sepI = 3
+	sqor = 5
+	sepI = 5
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -13283,16 +13283,16 @@ PART
 	pos = -3.018244,8.198767,-2.999378
 	attPos = 0,0,0
 	attPos0 = -1.207456,1.000685,1.081678E-07
-	rot = 1.14049E-08,0.3826836,-2.753372E-08,-0.9238795
+	rot = 1.14049E-08,0.3826836,-2.753371E-08,-0.9238795
 	attRot = 0,0,0,1
 	attRot0 = -3.183373E-14,-3.20957E-07,1.02565E-07,1
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 3
+	istg = 5
 	dstg = 5
 	sidx = 1
-	sqor = 3
-	sepI = 3
+	sqor = 5
+	sepI = 5
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -13385,11 +13385,11 @@ PART
 	attRot0 = -3.058657E-14,-3.371748E-07,1.02565E-07,1
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 3
+	istg = 5
 	dstg = 5
 	sidx = 2
-	sqor = 3
-	sepI = 3
+	sqor = 5
+	sepI = 5
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -13482,11 +13482,11 @@ PART
 	attRot0 = -2.946814E-14,-3.484907E-07,1.02565E-07,1
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 3
+	istg = 5
 	dstg = 5
 	sidx = 3
-	sqor = 3
-	sepI = 3
+	sqor = 5
+	sepI = 5
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -13579,11 +13579,11 @@ PART
 	attRot0 = -3.043964E-14,-3.371748E-07,1.02565E-07,1
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 3
+	istg = 5
 	dstg = 5
 	sidx = 4
-	sqor = 3
-	sepI = 3
+	sqor = 5
+	sepI = 5
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -13676,11 +13676,11 @@ PART
 	attRot0 = -3.173774E-14,-3.20957E-07,1.02565E-07,1
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 3
+	istg = 5
 	dstg = 5
 	sidx = 5
-	sqor = 3
-	sepI = 3
+	sqor = 5
+	sepI = 5
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -13773,11 +13773,11 @@ PART
 	attRot0 = -3.058657E-14,-3.371748E-07,1.02565E-07,1
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 3
+	istg = 5
 	dstg = 5
 	sidx = 6
-	sqor = 3
-	sepI = 3
+	sqor = 5
+	sepI = 5
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -13870,11 +13870,11 @@ PART
 	attRot0 = -2.98426E-14,-3.484907E-07,1.02565E-07,1
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 3
+	istg = 5
 	dstg = 5
 	sidx = 7
-	sqor = 3
-	sepI = 3
+	sqor = 5
+	sepI = 5
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -13959,23 +13959,27 @@ PART
 {
 	part = MassiveBooster_4294565072
 	partName = Part
-	pos = 0.02891798,8.415091,-5.060058
+	pos = 0.02891798,8.415091,-5.060061
 	attPos = 0,0,0
 	attPos0 = -0.7985041,0.2163239,-2.783961E-07
-	rot = 1.203295E-13,1,-1.639128E-07,5.057622E-07
+	rot = 9.794061E-14,1,-1.639128E-07,3.793216E-07
 	attRot = 0,0,0,1
 	attRot0 = 9.48304E-08,-0.707107,9.483045E-08,0.7071066
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 4
+	istg = 6
 	dstg = 6
 	sidx = 9
-	sqor = 4
-	sepI = 3
+	sqor = 6
+	sepI = 5
 	attm = 1
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
+	link = sepMotor1_4293730710
+	link = sepMotor1_4293747230
+	link = sepMotor1_4293723230
+	link = sepMotor1_4293716326
 	sym = MassiveBooster_4294562812
 	sym = MassiveBooster_4294562738
 	sym = MassiveBooster_4294562664
@@ -14138,20 +14142,24 @@ PART
 	pos = -3.582871,8.415091,-3.564006
 	attPos = 0,0,0
 	attPos0 = -0.7985039,0.2163239,-1.446363E-07
-	rot = -6.272662E-08,0.9238798,-1.514357E-07,-0.382683
+	rot = -6.272663E-08,0.9238798,-1.514357E-07,-0.382683
 	attRot = 0,0,0,1
 	attRot0 = 9.483041E-08,-0.707107,9.483046E-08,0.7071066
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 4
+	istg = 6
 	dstg = 6
 	sidx = 10
-	sqor = 4
-	sepI = 3
+	sqor = 6
+	sepI = 5
 	attm = 1
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
+	link = sepMotor1_4293727030
+	link = sepMotor1_4293725750
+	link = sepMotor1_4293717400
+	link = sepMotor1_4293714792
 	sym = MassiveBooster_4294565072
 	sym = MassiveBooster_4294562738
 	sym = MassiveBooster_4294562664
@@ -14319,15 +14327,19 @@ PART
 	attRot0 = 9.48304E-08,-0.707107,9.483045E-08,0.7071066
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 4
+	istg = 6
 	dstg = 6
 	sidx = 11
-	sqor = 4
-	sepI = 3
+	sqor = 6
+	sepI = 5
 	attm = 1
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
+	link = sepMotor1_4293726974
+	link = sepMotor1_4293725694
+	link = sepMotor1_4293717344
+	link = sepMotor1_4293714736
 	sym = MassiveBooster_4294565072
 	sym = MassiveBooster_4294562812
 	sym = MassiveBooster_4294562664
@@ -14495,15 +14507,19 @@ PART
 	attRot0 = 9.48304E-08,-0.7071069,9.483045E-08,0.7071066
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 4
+	istg = 6
 	dstg = 6
 	sidx = 12
-	sqor = 4
-	sepI = 3
+	sqor = 6
+	sepI = 5
 	attm = 1
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
+	link = sepMotor1_4293726918
+	link = sepMotor1_4293725638
+	link = sepMotor1_4293717288
+	link = sepMotor1_4293714680
 	sym = MassiveBooster_4294565072
 	sym = MassiveBooster_4294562812
 	sym = MassiveBooster_4294562738
@@ -14671,15 +14687,19 @@ PART
 	attRot0 = 9.483041E-08,-0.707107,9.483046E-08,0.7071066
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 4
+	istg = 6
 	dstg = 6
 	sidx = 13
-	sqor = 4
-	sepI = 3
+	sqor = 6
+	sepI = 5
 	attm = 1
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
+	link = sepMotor1_4293726862
+	link = sepMotor1_4293725582
+	link = sepMotor1_4293717232
+	link = sepMotor1_4293714624
 	sym = MassiveBooster_4294565072
 	sym = MassiveBooster_4294562812
 	sym = MassiveBooster_4294562738
@@ -14847,15 +14867,19 @@ PART
 	attRot0 = 9.483041E-08,-0.707107,9.483047E-08,0.7071066
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 4
+	istg = 6
 	dstg = 6
 	sidx = 14
-	sqor = 4
-	sepI = 3
+	sqor = 6
+	sepI = 5
 	attm = 1
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
+	link = sepMotor1_4293726806
+	link = sepMotor1_4293725526
+	link = sepMotor1_4293717176
+	link = sepMotor1_4293714568
 	sym = MassiveBooster_4294565072
 	sym = MassiveBooster_4294562812
 	sym = MassiveBooster_4294562738
@@ -15023,15 +15047,19 @@ PART
 	attRot0 = 9.48304E-08,-0.707107,9.483045E-08,0.7071066
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 4
+	istg = 6
 	dstg = 6
 	sidx = 15
-	sqor = 4
-	sepI = 3
+	sqor = 6
+	sepI = 5
 	attm = 1
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
+	link = sepMotor1_4293726750
+	link = sepMotor1_4293725470
+	link = sepMotor1_4293717120
+	link = sepMotor1_4293714512
 	sym = MassiveBooster_4294565072
 	sym = MassiveBooster_4294562812
 	sym = MassiveBooster_4294562738
@@ -15191,23 +15219,27 @@ PART
 {
 	part = MassiveBooster_4294562368
 	partName = Part
-	pos = 3.640708,8.415091,-3.564009
+	pos = 3.640712,8.415091,-3.564013
 	attPos = 0,0,0
 	attPos0 = -0.7985049,0.2163239,-4.543512E-07
-	rot = -6.272678E-08,-0.9238796,1.514357E-07,-0.3826837
+	rot = -6.272676E-08,-0.9238796,1.514357E-07,-0.3826837
 	attRot = 0,0,0,1
 	attRot0 = 9.48304E-08,-0.7071069,9.483045E-08,0.7071066
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 4
+	istg = 6
 	dstg = 6
 	sidx = 16
-	sqor = 4
-	sepI = 3
+	sqor = 6
+	sepI = 5
 	attm = 1
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
+	link = sepMotor1_4293726694
+	link = sepMotor1_4293725414
+	link = sepMotor1_4293717064
+	link = sepMotor1_4293714456
 	sym = MassiveBooster_4294565072
 	sym = MassiveBooster_4294562812
 	sym = MassiveBooster_4294562738
@@ -15370,7 +15402,7 @@ PART
 	pos = 0.02891738,15.07999,-3.237141
 	attPos = 0,0,0
 	attPos0 = -0.1294315,0.1828785,-0.1294315
-	rot = -0.5000002,0.5,-0.5000002,0.4999996
+	rot = -0.5000002,0.5000001,-0.5000002,0.4999997
 	attRot = 0,0,0,1
 	attRot0 = -0.6532818,0.6532813,-0.2705982,0.2705977
 	mir = 1,1,1
@@ -15379,7 +15411,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 4
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -15401,9 +15433,9 @@ PART
 	PARTDATA
 	{
 		tgt = 4292910532
-		pos = -2.72409,-0.8306395,-0.02044962
-		rot = 2.80785E-15,-5.491074E-07,0.7071084,0.7071061
-		dir = -0.9564956,-0.2916582,-0.00718037
+		pos = -2.72409,-0.83064,-0.02044951
+		rot = -3.621239E-16,-5.491077E-07,0.7071086,0.7071064
+		dir = -0.9564956,-0.2916583,-0.007180329
 	}
 	MODULE
 	{
@@ -15444,7 +15476,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 4
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -15466,9 +15498,9 @@ PART
 	PARTDATA
 	{
 		tgt = 4292910454
-		pos = -2.72409,-0.8306388,-0.02044999
-		rot = 4.748849E-15,-8.940663E-08,0.7071083,0.7071061
-		dir = -0.9564958,-0.2916579,-0.007180498
+		pos = -2.72409,-0.83064,-0.02044962
+		rot = -6.624978E-16,-8.940668E-08,0.7071086,0.7071064
+		dir = -0.9564956,-0.2916583,-0.007180367
 	}
 	MODULE
 	{
@@ -15497,10 +15529,10 @@ PART
 {
 	part = strutConnector_4294542068
 	partName = CompoundPart
-	pos = -3.256006,15.07999,0.047782
+	pos = -3.256006,15.07999,0.04778199
 	attPos = 0,0,0
 	attPos0 = -0.1294314,0.1828785,-0.1294315
-	rot = -0.7071072,0.7071066,4.214686E-08,-2.95028E-07
+	rot = -0.7071072,0.7071066,4.214686E-08,-2.107343E-07
 	attRot = 0,0,0,1
 	attRot0 = -0.6532818,0.6532813,-0.2705982,0.2705977
 	mir = 1,1,1
@@ -15509,7 +15541,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 4
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -15531,9 +15563,9 @@ PART
 	PARTDATA
 	{
 		tgt = 4292910416
-		pos = -2.72409,-0.8306407,-0.02044993
-		rot = 9.261131E-16,-2.542841E-07,0.7071083,0.7071061
-		dir = -0.9564956,-0.2916586,-0.007180477
+		pos = -2.72409,-0.8306417,-0.02044995
+		rot = 1.558514E-15,-2.542842E-07,0.7071086,0.7071064
+		dir = -0.9564955,-0.2916589,-0.007180485
 	}
 	MODULE
 	{
@@ -15574,7 +15606,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 4
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -15596,9 +15628,9 @@ PART
 	PARTDATA
 	{
 		tgt = 4292910378
-		pos = -2.72409,-0.83064,-0.02044976
-		rot = -5.886441E-15,-5.066401E-07,0.7071084,0.707106
-		dir = -0.9564956,-0.2916583,-0.007180417
+		pos = -2.72409,-0.8306405,-0.02044959
+		rot = -6.049849E-15,-5.066404E-07,0.7071087,0.7071064
+		dir = -0.9564956,-0.2916585,-0.007180357
 	}
 	MODULE
 	{
@@ -15639,7 +15671,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 4
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -15661,9 +15693,9 @@ PART
 	PARTDATA
 	{
 		tgt = 4292910340
-		pos = -2.724092,-0.8306409,-0.02045123
-		rot = 1.296614E-14,8.549223E-08,0.7071086,0.7071064
-		dir = -0.9564956,-0.2916584,-0.00718093
+		pos = -2.724094,-0.8306414,-0.02045115
+		rot = 1.178204E-14,8.549227E-08,0.7071089,0.7071066
+		dir = -0.9564956,-0.2916584,-0.007180895
 	}
 	MODULE
 	{
@@ -15704,7 +15736,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 4
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -15726,9 +15758,9 @@ PART
 	PARTDATA
 	{
 		tgt = 4292910302
-		pos = -2.72409,-0.8306407,-0.02044987
-		rot = -3.687812E-15,-2.756716E-07,0.7071084,0.7071061
-		dir = -0.9564956,-0.2916586,-0.007180456
+		pos = -2.724089,-0.8306402,-0.02045
+		rot = 1.839411E-15,-2.756717E-07,0.7071086,0.7071064
+		dir = -0.9564956,-0.2916585,-0.007180505
 	}
 	MODULE
 	{
@@ -15760,7 +15792,7 @@ PART
 	pos = 3.313841,15.07999,0.04778152
 	attPos = 0,0,0
 	attPos0 = -0.1294314,0.1828785,-0.1294315
-	rot = 4.214686E-08,-2.95028E-07,0.7071072,-0.7071066
+	rot = 4.214686E-08,-2.107343E-07,0.7071072,-0.7071066
 	attRot = 0,0,0,1
 	attRot0 = -0.6532818,0.6532813,-0.2705982,0.2705977
 	mir = 1,1,1
@@ -15769,7 +15801,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 4
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -15791,9 +15823,9 @@ PART
 	PARTDATA
 	{
 		tgt = 4292910264
-		pos = -2.72409,-0.8306412,-0.02044997
-		rot = -1.821553E-15,-2.542841E-07,0.7071083,0.7071061
-		dir = -0.9564955,-0.2916587,-0.00718049
+		pos = -2.72409,-0.8306421,-0.02044999
+		rot = 2.239333E-16,-2.542842E-07,0.7071086,0.7071064
+		dir = -0.9564954,-0.291659,-0.007180499
 	}
 	MODULE
 	{
@@ -15825,7 +15857,7 @@ PART
 	pos = 2.351708,15.07999,-2.27501
 	attPos = 0,0,0
 	attPos0 = -0.1294315,0.1828785,-0.1294316
-	rot = 0.2705984,-0.2705984,0.6532817,-0.6532812
+	rot = 0.2705984,-0.2705984,0.6532816,-0.6532812
 	attRot = 0,0,0,1
 	attRot0 = -0.6532817,0.6532813,-0.2705981,0.2705977
 	mir = 1,1,1
@@ -15834,7 +15866,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 4
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -15856,9 +15888,9 @@ PART
 	PARTDATA
 	{
 		tgt = 4292910226
-		pos = -2.724094,-0.8306399,-0.02044939
-		rot = -2.67414E-16,-3.427269E-07,0.7071086,0.7071061
-		dir = -0.9564958,-0.2916579,-0.007180279
+		pos = -2.724094,-0.8306405,-0.02044912
+		rot = 6.748031E-16,-3.42727E-07,0.7071088,0.7071063
+		dir = -0.9564957,-0.291658,-0.007180184
 	}
 	MODULE
 	{
@@ -15890,7 +15922,7 @@ PART
 	pos = -0.2144741,15.07999,-3.19462
 	attPos = 0,0,0
 	attPos0 = -0.2714678,0.1828785,0.07273965
-	rot = -0.5000002,0.5,-0.5000002,0.4999996
+	rot = -0.5000002,0.5000001,-0.5000002,0.4999997
 	attRot = 0,0,0,1
 	attRot0 = -0.6532818,0.6532813,-0.2705982,0.2705977
 	mir = 1,1,1
@@ -15899,7 +15931,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 4
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -15921,9 +15953,9 @@ PART
 	PARTDATA
 	{
 		tgt = 4292910454
-		pos = -2.741125,-1.360429,-0.8429605
-		rot = -7.209588E-09,-0.1830132,0.6830138,0.7071063
-		dir = -0.8635825,-0.4285987,-0.2655719
+		pos = -2.741126,-1.36043,-0.8429608
+		rot = -5.508294E-09,-0.1830133,0.6830141,0.7071066
+		dir = -0.8635824,-0.4285988,-0.2655719
 	}
 	MODULE
 	{
@@ -15964,7 +15996,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 4
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -15986,9 +16018,9 @@ PART
 	PARTDATA
 	{
 		tgt = 4292910416
-		pos = -2.741118,-1.360429,-0.8429598
-		rot = -3.804374E-09,-0.1830131,0.6830136,0.7071064
-		dir = -0.8635819,-0.4285996,-0.2655722
+		pos = -2.741118,-1.36043,-0.8429599
+		rot = 3.580308E-09,-0.1830131,0.6830137,0.7071065
+		dir = -0.8635818,-0.4285998,-0.2655723
 	}
 	MODULE
 	{
@@ -16020,7 +16052,7 @@ PART
 	pos = -3.213484,15.07999,0.2911734
 	attPos = 0,0,0
 	attPos0 = -0.2714678,0.1828785,0.07273962
-	rot = -0.7071072,0.7071066,4.214686E-08,-2.95028E-07
+	rot = -0.7071072,0.7071066,4.214686E-08,-2.107343E-07
 	attRot = 0,0,0,1
 	attRot0 = -0.6532818,0.6532813,-0.2705982,0.2705977
 	mir = 1,1,1
@@ -16029,7 +16061,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 4
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -16051,9 +16083,9 @@ PART
 	PARTDATA
 	{
 		tgt = 4292910378
-		pos = -2.741122,-1.36043,-0.8429605
-		rot = -1.497427E-08,-0.1830134,0.6830139,0.7071065
-		dir = -0.863582,-0.4285994,-0.2655721
+		pos = -2.741122,-1.360431,-0.842961
+		rot = 1.978253E-10,-0.1830135,0.6830142,0.7071068
+		dir = -0.863582,-0.4285997,-0.2655722
 	}
 	MODULE
 	{
@@ -16094,7 +16126,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 4
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -16117,7 +16149,7 @@ PART
 	{
 		tgt = 4292910340
 		pos = -2.741122,-1.36043,-0.8429607
-		rot = 1.777843E-09,-0.183013,0.683014,0.7071068
+		rot = -4.59136E-09,-0.1830131,0.6830143,0.7071072
 		dir = -0.8635821,-0.4285994,-0.2655722
 	}
 	MODULE
@@ -16159,7 +16191,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 4
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -16181,9 +16213,9 @@ PART
 	PARTDATA
 	{
 		tgt = 4292910302
-		pos = -2.741126,-1.36043,-0.8429629
-		rot = 6.721474E-09,-0.1830131,0.6830141,0.7071067
-		dir = -0.8635822,-0.4285989,-0.2655725
+		pos = -2.741126,-1.360431,-0.8429632
+		rot = 5.693486E-09,-0.1830132,0.6830144,0.707107
+		dir = -0.8635821,-0.428599,-0.2655726
 	}
 	MODULE
 	{
@@ -16224,7 +16256,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 4
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -16246,9 +16278,9 @@ PART
 	PARTDATA
 	{
 		tgt = 4292910264
-		pos = -2.741122,-1.360431,-0.842961
-		rot = -3.60321E-09,-0.1830132,0.6830137,0.7071063
-		dir = -0.8635819,-0.4285997,-0.2655722
+		pos = -2.741121,-1.360431,-0.8429611
+		rot = -4.989015E-09,-0.1830132,0.6830138,0.7071064
+		dir = -0.8635819,-0.4285996,-0.2655724
 	}
 	MODULE
 	{
@@ -16280,7 +16312,7 @@ PART
 	pos = 3.271319,15.07999,-0.19561
 	attPos = 0,0,0
 	attPos0 = -0.2714679,0.1828785,0.07273968
-	rot = 4.214686E-08,-2.95028E-07,0.7071072,-0.7071066
+	rot = 4.214686E-08,-2.107343E-07,0.7071072,-0.7071066
 	attRot = 0,0,0,1
 	attRot0 = -0.6532818,0.6532813,-0.2705982,0.2705977
 	mir = 1,1,1
@@ -16289,7 +16321,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 4
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -16311,9 +16343,9 @@ PART
 	PARTDATA
 	{
 		tgt = 4292910226
-		pos = -2.741126,-1.360431,-0.8429611
-		rot = -1.115661E-08,-0.1830131,0.683014,0.7071065
-		dir = -0.8635822,-0.4285991,-0.265572
+		pos = -2.741126,-1.360432,-0.8429614
+		rot = -1.356931E-08,-0.1830132,0.6830143,0.7071068
+		dir = -0.8635821,-0.4285994,-0.265572
 	}
 	MODULE
 	{
@@ -16345,7 +16377,7 @@ PART
 	pos = 2.149537,15.07999,-2.417047
 	attPos = 0,0,0
 	attPos0 = -0.2714678,0.1828785,0.07273979
-	rot = 0.2705985,-0.2705984,0.6532817,-0.653281
+	rot = 0.2705986,-0.2705985,0.6532817,-0.653281
 	attRot = 0,0,0,1
 	attRot0 = -0.6532819,0.6532813,-0.2705982,0.2705977
 	mir = 1,1,1
@@ -16354,7 +16386,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 4
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -16376,9 +16408,9 @@ PART
 	PARTDATA
 	{
 		tgt = 4292910532
-		pos = -2.741125,-1.360431,-0.8429597
-		rot = -1.436356E-08,-0.1830141,0.6830139,0.7071065
-		dir = -0.8635823,-0.4285992,-0.2655716
+		pos = -2.741126,-1.360431,-0.8429599
+		rot = -1.331027E-08,-0.1830141,0.6830141,0.7071066
+		dir = -0.8635823,-0.4285993,-0.2655717
 	}
 	MODULE
 	{
@@ -16410,7 +16442,7 @@ PART
 	pos = 0.3115056,15.07999,-3.21725
 	attPos = 0,0,0
 	attPos0 = 0.0844539,0.1828785,-0.3151864
-	rot = -0.5000002,0.5,-0.5000002,0.4999996
+	rot = -0.5000002,0.5000001,-0.5000002,0.4999997
 	attRot = 0,0,0,1
 	attRot0 = -0.6532818,0.6532813,-0.2705982,0.2705977
 	mir = 1,1,1
@@ -16419,7 +16451,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 4
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -16441,8 +16473,8 @@ PART
 	PARTDATA
 	{
 		tgt = 4292910226
-		pos = -2.693709,-1.377213,0.825582
-		rot = 2.371903E-10,0.1830127,0.6830137,0.7071065
+		pos = -2.69371,-1.377214,0.8255824
+		rot = -2.500866E-09,0.1830128,0.6830139,0.7071067
 		dir = -0.8589689,-0.4391651,0.2632613
 	}
 	MODULE
@@ -16484,7 +16516,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 4
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -16506,8 +16538,8 @@ PART
 	PARTDATA
 	{
 		tgt = 4292910532
-		pos = -2.69371,-1.377213,0.8255811
-		rot = 1.215822E-09,0.1830125,0.6830139,0.7071065
+		pos = -2.693712,-1.377214,0.8255818
+		rot = -2.972819E-09,0.1830126,0.6830142,0.7071068
 		dir = -0.858969,-0.4391651,0.2632609
 	}
 	MODULE
@@ -16540,7 +16572,7 @@ PART
 	pos = -3.236114,15.07999,-0.2348063
 	attPos = 0,0,0
 	attPos0 = 0.08445396,0.1828785,-0.3151863
-	rot = -0.7071072,0.7071066,4.214686E-08,-2.95028E-07
+	rot = -0.7071072,0.7071066,4.214686E-08,-2.107343E-07
 	attRot = 0,0,0,1
 	attRot0 = -0.6532818,0.6532813,-0.2705982,0.2705977
 	mir = 1,1,1
@@ -16549,7 +16581,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 4
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -16571,9 +16603,9 @@ PART
 	PARTDATA
 	{
 		tgt = 4292910454
-		pos = -2.69371,-1.377213,0.8255814
-		rot = 1.468168E-08,0.1830128,0.6830139,0.7071068
-		dir = -0.858969,-0.4391651,0.263261
+		pos = -2.69371,-1.377214,0.825582
+		rot = 2.682096E-08,0.1830129,0.6830143,0.7071072
+		dir = -0.8589688,-0.4391653,0.2632611
 	}
 	MODULE
 	{
@@ -16614,7 +16646,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 4
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -16636,9 +16668,9 @@ PART
 	PARTDATA
 	{
 		tgt = 4292910416
-		pos = -2.69371,-1.377214,0.8255817
-		rot = -1.498534E-08,0.1830127,0.6830137,0.7071065
-		dir = -0.8589689,-0.4391652,0.2632611
+		pos = -2.69371,-1.377215,0.8255821
+		rot = -1.535612E-08,0.1830128,0.683014,0.7071069
+		dir = -0.8589687,-0.4391654,0.2632612
 	}
 	MODULE
 	{
@@ -16679,7 +16711,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 4
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -16701,9 +16733,9 @@ PART
 	PARTDATA
 	{
 		tgt = 4292910378
-		pos = -2.693713,-1.377217,0.8255807
-		rot = -9.296039E-09,0.1830127,0.6830141,0.7071067
-		dir = -0.8589689,-0.4391656,0.2632604
+		pos = -2.693713,-1.377218,0.8255811
+		rot = 1.605597E-09,0.1830128,0.6830143,0.707107
+		dir = -0.8589687,-0.4391659,0.2632605
 	}
 	MODULE
 	{
@@ -16744,7 +16776,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 4
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -16766,9 +16798,9 @@ PART
 	PARTDATA
 	{
 		tgt = 4292910340
-		pos = -2.693712,-1.377216,0.8255816
-		rot = 1.15134E-08,0.1830128,0.6830139,0.7071065
-		dir = -0.8589687,-0.4391656,0.2632608
+		pos = -2.693712,-1.377216,0.8255813
+		rot = 2.263035E-08,0.1830128,0.6830142,0.7071067
+		dir = -0.8589688,-0.4391655,0.2632607
 	}
 	MODULE
 	{
@@ -16800,7 +16832,7 @@ PART
 	pos = 3.293949,15.07999,0.3303699
 	attPos = 0,0,0
 	attPos0 = 0.08445398,0.1828785,-0.3151863
-	rot = 4.214686E-08,-2.95028E-07,0.7071072,-0.7071066
+	rot = 4.214686E-08,-2.107343E-07,0.7071072,-0.7071066
 	attRot = 0,0,0,1
 	attRot0 = -0.6532818,0.6532813,-0.2705982,0.2705977
 	mir = 1,1,1
@@ -16809,7 +16841,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 4
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -16831,9 +16863,9 @@ PART
 	PARTDATA
 	{
 		tgt = 4292910302
-		pos = -2.69371,-1.377214,0.8255806
-		rot = 1.044681E-08,0.1830128,0.6830139,0.7071066
-		dir = -0.8589689,-0.4391653,0.2632608
+		pos = -2.69371,-1.377215,0.8255808
+		rot = 1.397309E-08,0.1830129,0.6830143,0.7071069
+		dir = -0.8589687,-0.4391656,0.2632608
 	}
 	MODULE
 	{
@@ -16865,7 +16897,7 @@ PART
 	pos = 2.537463,15.07999,-2.061125
 	attPos = 0,0,0
 	attPos0 = 0.08445399,0.1828785,-0.3151864
-	rot = 0.2705984,-0.2705984,0.6532817,-0.6532812
+	rot = 0.2705984,-0.2705984,0.6532816,-0.6532812
 	attRot = 0,0,0,1
 	attRot0 = -0.6532817,0.6532813,-0.2705981,0.2705977
 	mir = 1,1,1
@@ -16874,7 +16906,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 2
+	sepI = 4
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -16896,9 +16928,9 @@ PART
 	PARTDATA
 	{
 		tgt = 4292910264
-		pos = -2.69371,-1.377214,0.8255836
-		rot = -1.660009E-08,0.1830123,0.683014,0.7071066
-		dir = -0.8589687,-0.4391652,0.2632616
+		pos = -2.69371,-1.377215,0.8255842
+		rot = -2.933545E-08,0.1830123,0.683014,0.7071067
+		dir = -0.8589686,-0.4391654,0.2632617
 	}
 	MODULE
 	{
@@ -17856,11 +17888,11 @@ PART
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 0
+	istg = 1
 	dstg = 3
 	sidx = 1
-	sqor = 0
-	sepI = 0
+	sqor = 1
+	sepI = 1
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -17951,7 +17983,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 0
+	sepI = 1
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -18254,11 +18286,11 @@ PART
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
 	symMethod = Radial
-	istg = 1
+	istg = 0
 	dstg = 3
 	sidx = 0
-	sqor = 1
-	sepI = 0
+	sqor = 0
+	sepI = 1
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -18403,7 +18435,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 0
+	sepI = 1
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -18482,7 +18514,7 @@ PART
 	symMethod = Radial
 	istg = 2
 	dstg = 2
-	sidx = 1
+	sidx = 3
 	sqor = 2
 	sepI = 3
 	attm = 1
@@ -18633,7 +18665,7 @@ PART
 	symMethod = Radial
 	istg = 2
 	dstg = 2
-	sidx = 2
+	sidx = 1
 	sqor = 2
 	sepI = 3
 	attm = 1
@@ -18784,7 +18816,7 @@ PART
 	symMethod = Radial
 	istg = 2
 	dstg = 2
-	sidx = 3
+	sidx = 2
 	sqor = 2
 	sepI = 3
 	attm = 1
@@ -18919,5 +18951,4165 @@ PART
 				actionGroup = None
 			}
 		}
+	}
+}
+PART
+{
+	part = sepMotor1_4293730710
+	partName = Part
+	pos = -0.4546532,14.7005,-5.189639
+	attPos = 0,0,0
+	attPos0 = 0.4835713,6.285413,0.1295726
+	rot = -0.560707,-0.560707,0.4308223,0.4308221
+	attRot = 0,0,0.7071067,0.7071067
+	attRot0 = -0.4308224,-0.4308223,-0.5607068,-0.5607069
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 5
+	dstg = 6
+	sidx = 8
+	sqor = 5
+	sepI = 5
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = sepMotor1_4293727030
+	sym = sepMotor1_4293726974
+	sym = sepMotor1_4293726918
+	sym = sepMotor1_4293726862
+	sym = sepMotor1_4293726806
+	sym = sepMotor1_4293726750
+	sym = sepMotor1_4293726694
+	srfN = srfAttach,MassiveBooster_4294565072
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleEngines
+		isEnabled = True
+		staged = False
+		flameout = False
+		EngineIgnited = False
+		engineShutdown = False
+		currentThrottle = 0
+		thrustPercentage = 100
+		manuallyOverridden = False
+		thrustPercentage_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			stepIncrement = 0.5
+		}
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Engine
+				guiName = Activate Engine
+				category = Activate Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = False
+				guiActive = True
+				guiIcon = Shutdown Engine
+				guiName = Shutdown Engine
+				category = Shutdown Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			OnAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		EVENTS
+		{
+			RunTestEvent
+			{
+				active = False
+				guiActive = True
+				guiIcon = Run Test
+				guiName = Run Test
+				category = Run Test
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = SolidFuel
+		amount = 8
+		maxAmount = 8
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = sepMotor1_4293727030
+	partName = Part
+	pos = -4.01643,14.7005,-3.313693
+	attPos = 0,0,0
+	attPos0 = 0.4835712,6.285413,0.1295723
+	rot = -0.3531573,-0.3531573,0.6126012,0.612601
+	attRot = 0,0,0.7071067,0.7071067
+	attRot0 = -0.4308224,-0.4308224,-0.5607068,-0.5607069
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 5
+	dstg = 6
+	sidx = 9
+	sqor = 5
+	sepI = 5
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = sepMotor1_4293730710
+	sym = sepMotor1_4293726974
+	sym = sepMotor1_4293726918
+	sym = sepMotor1_4293726862
+	sym = sepMotor1_4293726806
+	sym = sepMotor1_4293726750
+	sym = sepMotor1_4293726694
+	srfN = srfAttach,MassiveBooster_4294562812
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleEngines
+		isEnabled = True
+		staged = False
+		flameout = False
+		EngineIgnited = False
+		engineShutdown = False
+		currentThrottle = 0
+		thrustPercentage = 100
+		manuallyOverridden = False
+		thrustPercentage_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			stepIncrement = 0.5
+		}
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Engine
+				guiName = Activate Engine
+				category = Activate Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = False
+				guiActive = True
+				guiIcon = Shutdown Engine
+				guiName = Shutdown Engine
+				category = Shutdown Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			OnAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		EVENTS
+		{
+			RunTestEvent
+			{
+				active = False
+				guiActive = True
+				guiIcon = Run Test
+				guiName = Run Test
+				category = Run Test
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = SolidFuel
+		amount = 8
+		maxAmount = 8
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = sepMotor1_4293726974
+	partName = Part
+	pos = -5.208497,14.7005,0.5313531
+	attPos = 0,0,0
+	attPos0 = 0.4835714,6.285413,0.1295726
+	rot = -0.09184246,-0.09184261,0.7011172,0.7011169
+	attRot = 0,0,0.7071067,0.7071067
+	attRot0 = -0.4308224,-0.4308223,-0.5607068,-0.5607069
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 5
+	dstg = 6
+	sidx = 10
+	sqor = 5
+	sepI = 5
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = sepMotor1_4293730710
+	sym = sepMotor1_4293727030
+	sym = sepMotor1_4293726918
+	sym = sepMotor1_4293726862
+	sym = sepMotor1_4293726806
+	sym = sepMotor1_4293726750
+	sym = sepMotor1_4293726694
+	srfN = srfAttach,MassiveBooster_4294562738
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleEngines
+		isEnabled = True
+		staged = False
+		flameout = False
+		EngineIgnited = False
+		engineShutdown = False
+		currentThrottle = 0
+		thrustPercentage = 100
+		manuallyOverridden = False
+		thrustPercentage_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			stepIncrement = 0.5
+		}
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Engine
+				guiName = Activate Engine
+				category = Activate Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = False
+				guiActive = True
+				guiIcon = Shutdown Engine
+				guiName = Shutdown Engine
+				category = Shutdown Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			OnAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		EVENTS
+		{
+			RunTestEvent
+			{
+				active = False
+				guiActive = True
+				guiIcon = Run Test
+				guiName = Run Test
+				category = Run Test
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = SolidFuel
+		amount = 8
+		maxAmount = 8
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = sepMotor1_4293726918
+	partName = Part
+	pos = -3.332558,14.7005,4.09313
+	attPos = 0,0,0
+	attPos0 = 0.4835715,6.285413,0.1295727
+	rot = 0.1834545,0.1834542,0.6828943,0.6828942
+	attRot = 0,0,0.7071067,0.7071067
+	attRot0 = -0.4308224,-0.4308224,-0.5607068,-0.5607069
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 5
+	dstg = 6
+	sidx = 11
+	sqor = 5
+	sepI = 5
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = sepMotor1_4293730710
+	sym = sepMotor1_4293727030
+	sym = sepMotor1_4293726974
+	sym = sepMotor1_4293726862
+	sym = sepMotor1_4293726806
+	sym = sepMotor1_4293726750
+	sym = sepMotor1_4293726694
+	srfN = srfAttach,MassiveBooster_4294562664
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleEngines
+		isEnabled = True
+		staged = False
+		flameout = False
+		EngineIgnited = False
+		engineShutdown = False
+		currentThrottle = 0
+		thrustPercentage = 100
+		manuallyOverridden = False
+		thrustPercentage_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			stepIncrement = 0.5
+		}
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Engine
+				guiName = Activate Engine
+				category = Activate Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = False
+				guiActive = True
+				guiIcon = Shutdown Engine
+				guiName = Shutdown Engine
+				category = Shutdown Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			OnAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		EVENTS
+		{
+			RunTestEvent
+			{
+				active = False
+				guiActive = True
+				guiIcon = Run Test
+				guiName = Run Test
+				category = Run Test
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = SolidFuel
+		amount = 8
+		maxAmount = 8
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = sepMotor1_4293726862
+	partName = Part
+	pos = 0.5124895,14.7005,5.285197
+	attPos = 0,0,0
+	attPos0 = 0.4835713,6.285413,0.1295727
+	rot = 0.4308223,0.430822,0.5607072,0.5607069
+	attRot = 0,0,0.7071067,0.7071067
+	attRot0 = -0.4308224,-0.4308223,-0.5607068,-0.5607069
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 5
+	dstg = 6
+	sidx = 12
+	sqor = 5
+	sepI = 5
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = sepMotor1_4293730710
+	sym = sepMotor1_4293727030
+	sym = sepMotor1_4293726974
+	sym = sepMotor1_4293726918
+	sym = sepMotor1_4293726806
+	sym = sepMotor1_4293726750
+	sym = sepMotor1_4293726694
+	srfN = srfAttach,MassiveBooster_4294562590
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleEngines
+		isEnabled = True
+		staged = False
+		flameout = False
+		EngineIgnited = False
+		engineShutdown = False
+		currentThrottle = 0
+		thrustPercentage = 100
+		manuallyOverridden = False
+		thrustPercentage_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			stepIncrement = 0.5
+		}
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Engine
+				guiName = Activate Engine
+				category = Activate Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = False
+				guiActive = True
+				guiIcon = Shutdown Engine
+				guiName = Shutdown Engine
+				category = Shutdown Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			OnAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		EVENTS
+		{
+			RunTestEvent
+			{
+				active = False
+				guiActive = True
+				guiIcon = Run Test
+				guiName = Run Test
+				category = Run Test
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = SolidFuel
+		amount = 8
+		maxAmount = 8
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = sepMotor1_4293726806
+	partName = Part
+	pos = 4.074267,14.7005,3.409257
+	attPos = 0,0,0
+	attPos0 = 0.4835716,6.285413,0.1295726
+	rot = 0.6126013,0.6126009,0.3531573,0.3531572
+	attRot = 0,0,0.7071067,0.7071067
+	attRot0 = -0.4308224,-0.4308224,-0.5607068,-0.5607069
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 5
+	dstg = 6
+	sidx = 13
+	sqor = 5
+	sepI = 5
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = sepMotor1_4293730710
+	sym = sepMotor1_4293727030
+	sym = sepMotor1_4293726974
+	sym = sepMotor1_4293726918
+	sym = sepMotor1_4293726862
+	sym = sepMotor1_4293726750
+	sym = sepMotor1_4293726694
+	srfN = srfAttach,MassiveBooster_4294562516
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleEngines
+		isEnabled = True
+		staged = False
+		flameout = False
+		EngineIgnited = False
+		engineShutdown = False
+		currentThrottle = 0
+		thrustPercentage = 100
+		manuallyOverridden = False
+		thrustPercentage_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			stepIncrement = 0.5
+		}
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Engine
+				guiName = Activate Engine
+				category = Activate Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = False
+				guiActive = True
+				guiIcon = Shutdown Engine
+				guiName = Shutdown Engine
+				category = Shutdown Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			OnAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		EVENTS
+		{
+			RunTestEvent
+			{
+				active = False
+				guiActive = True
+				guiIcon = Run Test
+				guiName = Run Test
+				category = Run Test
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = SolidFuel
+		amount = 8
+		maxAmount = 8
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = sepMotor1_4293726750
+	partName = Part
+	pos = 5.266332,14.7005,-0.4357896
+	attPos = 0,0,0
+	attPos0 = 0.4835714,6.285413,0.1295726
+	rot = 0.7011172,0.7011169,0.09184246,0.09184261
+	attRot = 0,0,0.7071067,0.7071067
+	attRot0 = -0.4308224,-0.4308223,-0.5607068,-0.5607069
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 5
+	dstg = 6
+	sidx = 14
+	sqor = 5
+	sepI = 5
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = sepMotor1_4293730710
+	sym = sepMotor1_4293727030
+	sym = sepMotor1_4293726974
+	sym = sepMotor1_4293726918
+	sym = sepMotor1_4293726862
+	sym = sepMotor1_4293726806
+	sym = sepMotor1_4293726694
+	srfN = srfAttach,MassiveBooster_4294562442
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleEngines
+		isEnabled = True
+		staged = False
+		flameout = False
+		EngineIgnited = False
+		engineShutdown = False
+		currentThrottle = 0
+		thrustPercentage = 100
+		manuallyOverridden = False
+		thrustPercentage_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			stepIncrement = 0.5
+		}
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Engine
+				guiName = Activate Engine
+				category = Activate Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = False
+				guiActive = True
+				guiIcon = Shutdown Engine
+				guiName = Shutdown Engine
+				category = Shutdown Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			OnAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		EVENTS
+		{
+			RunTestEvent
+			{
+				active = False
+				guiActive = True
+				guiIcon = Run Test
+				guiName = Run Test
+				category = Run Test
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = SolidFuel
+		amount = 8
+		maxAmount = 8
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = sepMotor1_4293726694
+	partName = Part
+	pos = 3.390399,14.7005,-3.997575
+	attPos = 0,0,0
+	attPos0 = 0.4835714,6.285413,0.1295732
+	rot = 0.6828943,0.6828941,-0.1834547,-0.1834545
+	attRot = 0,0,0.7071067,0.7071067
+	attRot0 = -0.4308224,-0.4308223,-0.5607068,-0.5607068
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 5
+	dstg = 6
+	sidx = 15
+	sqor = 5
+	sepI = 5
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = sepMotor1_4293730710
+	sym = sepMotor1_4293727030
+	sym = sepMotor1_4293726974
+	sym = sepMotor1_4293726918
+	sym = sepMotor1_4293726862
+	sym = sepMotor1_4293726806
+	sym = sepMotor1_4293726750
+	srfN = srfAttach,MassiveBooster_4294562368
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleEngines
+		isEnabled = True
+		staged = False
+		flameout = False
+		EngineIgnited = False
+		engineShutdown = False
+		currentThrottle = 0
+		thrustPercentage = 100
+		manuallyOverridden = False
+		thrustPercentage_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			stepIncrement = 0.5
+		}
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Engine
+				guiName = Activate Engine
+				category = Activate Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = False
+				guiActive = True
+				guiIcon = Shutdown Engine
+				guiName = Shutdown Engine
+				category = Shutdown Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			OnAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		EVENTS
+		{
+			RunTestEvent
+			{
+				active = False
+				guiActive = True
+				guiIcon = Run Test
+				guiName = Run Test
+				category = Run Test
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = SolidFuel
+		amount = 8
+		maxAmount = 8
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = sepMotor1_4293747230
+	partName = Part
+	pos = 0.5277017,14.67444,-5.060063
+	attPos = 0,0,0
+	attPos0 = -0.4987835,6.259349,3.180844E-07
+	rot = -0.5001997,0.5001996,-0.4998005,0.4998004
+	attRot = 0,0,-0.7071067,0.7071067
+	attRot0 = 0.4998002,-0.4998002,-0.5001998,0.5001998
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 5
+	dstg = 6
+	sidx = 16
+	sqor = 5
+	sepI = 5
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = sepMotor1_4293725750
+	sym = sepMotor1_4293725694
+	sym = sepMotor1_4293725638
+	sym = sepMotor1_4293725582
+	sym = sepMotor1_4293725526
+	sym = sepMotor1_4293725470
+	sym = sepMotor1_4293725414
+	srfN = srfAttach,MassiveBooster_4294565072
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleEngines
+		isEnabled = True
+		staged = False
+		flameout = False
+		EngineIgnited = False
+		engineShutdown = False
+		currentThrottle = 0
+		thrustPercentage = 100
+		manuallyOverridden = False
+		thrustPercentage_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			stepIncrement = 0.5
+		}
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Engine
+				guiName = Activate Engine
+				category = Activate Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = False
+				guiActive = True
+				guiIcon = Shutdown Engine
+				guiName = Shutdown Engine
+				category = Shutdown Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			OnAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		EVENTS
+		{
+			RunTestEvent
+			{
+				active = False
+				guiActive = True
+				guiIcon = Run Test
+				guiName = Run Test
+				category = Run Test
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = SolidFuel
+		amount = 8
+		maxAmount = 8
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = sepMotor1_4293725750
+	partName = Part
+	pos = -3.230179,14.67444,-3.916701
+	attPos = 0,0,0
+	attPos0 = -0.4987838,6.259349,1.678405E-07
+	rot = -0.6533896,0.6533894,-0.2703374,0.2703373
+	attRot = 0,0,-0.7071067,0.7071067
+	attRot0 = 0.4998002,-0.4998002,-0.5001998,0.5001998
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 5
+	dstg = 6
+	sidx = 17
+	sqor = 5
+	sepI = 5
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = sepMotor1_4293747230
+	sym = sepMotor1_4293725694
+	sym = sepMotor1_4293725638
+	sym = sepMotor1_4293725582
+	sym = sepMotor1_4293725526
+	sym = sepMotor1_4293725470
+	sym = sepMotor1_4293725414
+	srfN = srfAttach,MassiveBooster_4294562812
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleEngines
+		isEnabled = True
+		staged = False
+		flameout = False
+		EngineIgnited = False
+		engineShutdown = False
+		currentThrottle = 0
+		thrustPercentage = 100
+		manuallyOverridden = False
+		thrustPercentage_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			stepIncrement = 0.5
+		}
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Engine
+				guiName = Activate Engine
+				category = Activate Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = False
+				guiActive = True
+				guiIcon = Shutdown Engine
+				guiName = Shutdown Engine
+				category = Shutdown Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			OnAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		EVENTS
+		{
+			RunTestEvent
+			{
+				active = False
+				guiActive = True
+				guiIcon = Run Test
+				guiName = Run Test
+				category = Run Test
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = SolidFuel
+		amount = 8
+		maxAmount = 8
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = sepMotor1_4293725694
+	partName = Part
+	pos = -5.078924,14.67444,-0.4510023
+	attPos = 0,0,0
+	attPos0 = -0.4987836,6.259349,2.873397E-07
+	rot = -0.7071068,0.7071068,0.0002821948,-0.0002822581
+	attRot = 0,0,-0.7071067,0.7071067
+	attRot0 = 0.4998002,-0.4998002,-0.5001998,0.5001998
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 5
+	dstg = 6
+	sidx = 18
+	sqor = 5
+	sepI = 5
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = sepMotor1_4293747230
+	sym = sepMotor1_4293725750
+	sym = sepMotor1_4293725638
+	sym = sepMotor1_4293725582
+	sym = sepMotor1_4293725526
+	sym = sepMotor1_4293725470
+	sym = sepMotor1_4293725414
+	srfN = srfAttach,MassiveBooster_4294562738
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleEngines
+		isEnabled = True
+		staged = False
+		flameout = False
+		EngineIgnited = False
+		engineShutdown = False
+		currentThrottle = 0
+		thrustPercentage = 100
+		manuallyOverridden = False
+		thrustPercentage_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			stepIncrement = 0.5
+		}
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Engine
+				guiName = Activate Engine
+				category = Activate Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = False
+				guiActive = True
+				guiIcon = Shutdown Engine
+				guiName = Shutdown Engine
+				category = Shutdown Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			OnAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		EVENTS
+		{
+			RunTestEvent
+			{
+				active = False
+				guiActive = True
+				guiIcon = Run Test
+				guiName = Run Test
+				category = Run Test
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = SolidFuel
+		amount = 8
+		maxAmount = 8
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = sepMotor1_4293725638
+	partName = Part
+	pos = -3.935565,14.67444,3.306878
+	attPos = 0,0,0
+	attPos0 = -0.4987835,6.259349,2.278802E-07
+	rot = -0.6531736,0.6531734,0.2708589,-0.2708588
+	attRot = 0,0,-0.7071067,0.7071067
+	attRot0 = 0.4998002,-0.4998001,-0.5001998,0.5001998
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 5
+	dstg = 6
+	sidx = 19
+	sqor = 5
+	sepI = 5
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = sepMotor1_4293747230
+	sym = sepMotor1_4293725750
+	sym = sepMotor1_4293725694
+	sym = sepMotor1_4293725582
+	sym = sepMotor1_4293725526
+	sym = sepMotor1_4293725470
+	sym = sepMotor1_4293725414
+	srfN = srfAttach,MassiveBooster_4294562664
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleEngines
+		isEnabled = True
+		staged = False
+		flameout = False
+		EngineIgnited = False
+		engineShutdown = False
+		currentThrottle = 0
+		thrustPercentage = 100
+		manuallyOverridden = False
+		thrustPercentage_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			stepIncrement = 0.5
+		}
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Engine
+				guiName = Activate Engine
+				category = Activate Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = False
+				guiActive = True
+				guiIcon = Shutdown Engine
+				guiName = Shutdown Engine
+				category = Shutdown Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			OnAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		EVENTS
+		{
+			RunTestEvent
+			{
+				active = False
+				guiActive = True
+				guiIcon = Run Test
+				guiName = Run Test
+				category = Run Test
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = SolidFuel
+		amount = 8
+		maxAmount = 8
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = sepMotor1_4293725582
+	partName = Part
+	pos = -0.4698652,14.67444,5.155624
+	attPos = 0,0,0
+	attPos0 = -0.4987835,6.259349,2.277348E-07
+	rot = -0.4998004,0.4998004,0.5001996,-0.5001996
+	attRot = 0,0,-0.7071067,0.7071067
+	attRot0 = 0.4998002,-0.4998002,-0.5001998,0.5001998
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 5
+	dstg = 6
+	sidx = 20
+	sqor = 5
+	sepI = 5
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = sepMotor1_4293747230
+	sym = sepMotor1_4293725750
+	sym = sepMotor1_4293725694
+	sym = sepMotor1_4293725638
+	sym = sepMotor1_4293725526
+	sym = sepMotor1_4293725470
+	sym = sepMotor1_4293725414
+	srfN = srfAttach,MassiveBooster_4294562590
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleEngines
+		isEnabled = True
+		staged = False
+		flameout = False
+		EngineIgnited = False
+		engineShutdown = False
+		currentThrottle = 0
+		thrustPercentage = 100
+		manuallyOverridden = False
+		thrustPercentage_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			stepIncrement = 0.5
+		}
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Engine
+				guiName = Activate Engine
+				category = Activate Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = False
+				guiActive = True
+				guiIcon = Shutdown Engine
+				guiName = Shutdown Engine
+				category = Shutdown Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			OnAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		EVENTS
+		{
+			RunTestEvent
+			{
+				active = False
+				guiActive = True
+				guiIcon = Run Test
+				guiName = Run Test
+				category = Run Test
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = SolidFuel
+		amount = 8
+		maxAmount = 8
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = sepMotor1_4293725526
+	partName = Part
+	pos = 3.288015,14.67444,4.012265
+	attPos = 0,0,0
+	attPos0 = -0.4987836,6.259349,5.257587E-07
+	rot = -0.2703374,0.2703373,0.6533895,-0.6533896
+	attRot = 0,0,-0.7071067,0.7071067
+	attRot0 = 0.4998002,-0.4998002,-0.5001997,0.5001997
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 5
+	dstg = 6
+	sidx = 21
+	sqor = 5
+	sepI = 5
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = sepMotor1_4293747230
+	sym = sepMotor1_4293725750
+	sym = sepMotor1_4293725694
+	sym = sepMotor1_4293725638
+	sym = sepMotor1_4293725582
+	sym = sepMotor1_4293725470
+	sym = sepMotor1_4293725414
+	srfN = srfAttach,MassiveBooster_4294562516
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleEngines
+		isEnabled = True
+		staged = False
+		flameout = False
+		EngineIgnited = False
+		engineShutdown = False
+		currentThrottle = 0
+		thrustPercentage = 100
+		manuallyOverridden = False
+		thrustPercentage_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			stepIncrement = 0.5
+		}
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Engine
+				guiName = Activate Engine
+				category = Activate Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = False
+				guiActive = True
+				guiIcon = Shutdown Engine
+				guiName = Shutdown Engine
+				category = Shutdown Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			OnAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		EVENTS
+		{
+			RunTestEvent
+			{
+				active = False
+				guiActive = True
+				guiIcon = Run Test
+				guiName = Run Test
+				category = Run Test
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = SolidFuel
+		amount = 8
+		maxAmount = 8
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = sepMotor1_4293725470
+	partName = Part
+	pos = 5.136759,14.67444,0.5465659
+	attPos = 0,0,0
+	attPos0 = -0.4987836,6.259349,2.873397E-07
+	rot = 0.0002821948,-0.0002822581,0.7071068,-0.7071068
+	attRot = 0,0,-0.7071067,0.7071067
+	attRot0 = 0.4998002,-0.4998002,-0.5001998,0.5001998
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 5
+	dstg = 6
+	sidx = 22
+	sqor = 5
+	sepI = 5
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = sepMotor1_4293747230
+	sym = sepMotor1_4293725750
+	sym = sepMotor1_4293725694
+	sym = sepMotor1_4293725638
+	sym = sepMotor1_4293725582
+	sym = sepMotor1_4293725526
+	sym = sepMotor1_4293725414
+	srfN = srfAttach,MassiveBooster_4294562442
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleEngines
+		isEnabled = True
+		staged = False
+		flameout = False
+		EngineIgnited = False
+		engineShutdown = False
+		currentThrottle = 0
+		thrustPercentage = 100
+		manuallyOverridden = False
+		thrustPercentage_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			stepIncrement = 0.5
+		}
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Engine
+				guiName = Activate Engine
+				category = Activate Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = False
+				guiActive = True
+				guiIcon = Shutdown Engine
+				guiName = Shutdown Engine
+				category = Shutdown Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			OnAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		EVENTS
+		{
+			RunTestEvent
+			{
+				active = False
+				guiActive = True
+				guiIcon = Run Test
+				guiName = Run Test
+				category = Run Test
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = SolidFuel
+		amount = 8
+		maxAmount = 8
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = sepMotor1_4293725414
+	partName = Part
+	pos = 3.993409,14.67444,-3.211322
+	attPos = 0,0,0
+	attPos0 = -0.4987838,6.259349,1.122095E-06
+	rot = 0.270859,-0.270859,0.6531735,-0.6531733
+	attRot = 0,0,-0.7071067,0.7071067
+	attRot0 = 0.4998002,-0.4998002,-0.5001998,0.5001998
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 5
+	dstg = 6
+	sidx = 23
+	sqor = 5
+	sepI = 5
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = sepMotor1_4293747230
+	sym = sepMotor1_4293725750
+	sym = sepMotor1_4293725694
+	sym = sepMotor1_4293725638
+	sym = sepMotor1_4293725582
+	sym = sepMotor1_4293725526
+	sym = sepMotor1_4293725470
+	srfN = srfAttach,MassiveBooster_4294562368
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleEngines
+		isEnabled = True
+		staged = False
+		flameout = False
+		EngineIgnited = False
+		engineShutdown = False
+		currentThrottle = 0
+		thrustPercentage = 100
+		manuallyOverridden = False
+		thrustPercentage_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			stepIncrement = 0.5
+		}
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Engine
+				guiName = Activate Engine
+				category = Activate Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = False
+				guiActive = True
+				guiIcon = Shutdown Engine
+				guiName = Shutdown Engine
+				category = Shutdown Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			OnAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		EVENTS
+		{
+			RunTestEvent
+			{
+				active = False
+				guiActive = True
+				guiIcon = Run Test
+				guiName = Run Test
+				category = Run Test
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = SolidFuel
+		amount = 8
+		maxAmount = 8
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = sepMotor1_4293723230
+	partName = Part
+	pos = 0.5277591,4.718796,-5.060061
+	attPos = 0,0,0
+	attPos0 = -0.4988411,-3.696295,2.465729E-07
+	rot = -0.5001997,0.5001996,-0.4998005,0.4998004
+	attRot = 0,0,-0.7071067,0.7071067
+	attRot0 = 0.4998002,-0.4998002,-0.5001998,0.5001998
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 5
+	dstg = 6
+	sidx = 24
+	sqor = 5
+	sepI = 5
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = sepMotor1_4293717400
+	sym = sepMotor1_4293717344
+	sym = sepMotor1_4293717288
+	sym = sepMotor1_4293717232
+	sym = sepMotor1_4293717176
+	sym = sepMotor1_4293717120
+	sym = sepMotor1_4293717064
+	srfN = srfAttach,MassiveBooster_4294565072
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleEngines
+		isEnabled = True
+		staged = False
+		flameout = False
+		EngineIgnited = False
+		engineShutdown = False
+		currentThrottle = 0
+		thrustPercentage = 100
+		manuallyOverridden = False
+		thrustPercentage_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			stepIncrement = 0.5
+		}
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Engine
+				guiName = Activate Engine
+				category = Activate Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = False
+				guiActive = True
+				guiIcon = Shutdown Engine
+				guiName = Shutdown Engine
+				category = Shutdown Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			OnAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		EVENTS
+		{
+			RunTestEvent
+			{
+				active = False
+				guiActive = True
+				guiIcon = Run Test
+				guiName = Run Test
+				category = Run Test
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = SolidFuel
+		amount = 8
+		maxAmount = 8
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = sepMotor1_4293717400
+	partName = Part
+	pos = -3.230135,4.718796,-3.916739
+	attPos = 0,0,0
+	attPos0 = -0.4988414,-3.696295,9.638701E-08
+	rot = -0.6533896,0.6533894,-0.2703374,0.2703373
+	attRot = 0,0,-0.7071067,0.7071067
+	attRot0 = 0.4998002,-0.4998002,-0.5001998,0.5001998
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 5
+	dstg = 6
+	sidx = 25
+	sqor = 5
+	sepI = 5
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = sepMotor1_4293723230
+	sym = sepMotor1_4293717344
+	sym = sepMotor1_4293717288
+	sym = sepMotor1_4293717232
+	sym = sepMotor1_4293717176
+	sym = sepMotor1_4293717120
+	sym = sepMotor1_4293717064
+	srfN = srfAttach,MassiveBooster_4294562812
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleEngines
+		isEnabled = True
+		staged = False
+		flameout = False
+		EngineIgnited = False
+		engineShutdown = False
+		currentThrottle = 0
+		thrustPercentage = 100
+		manuallyOverridden = False
+		thrustPercentage_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			stepIncrement = 0.5
+		}
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Engine
+				guiName = Activate Engine
+				category = Activate Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = False
+				guiActive = True
+				guiIcon = Shutdown Engine
+				guiName = Shutdown Engine
+				category = Shutdown Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			OnAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		EVENTS
+		{
+			RunTestEvent
+			{
+				active = False
+				guiActive = True
+				guiIcon = Run Test
+				guiName = Run Test
+				category = Run Test
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = SolidFuel
+		amount = 8
+		maxAmount = 8
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = sepMotor1_4293717344
+	partName = Part
+	pos = -5.07892,4.718796,-0.4510599
+	attPos = 0,0,0
+	attPos0 = -0.4988412,-3.696295,2.754772E-07
+	rot = -0.7071068,0.7071068,0.0002821948,-0.0002822581
+	attRot = 0,0,-0.7071067,0.7071067
+	attRot0 = 0.4998002,-0.4998002,-0.5001998,0.5001998
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 5
+	dstg = 6
+	sidx = 26
+	sqor = 5
+	sepI = 5
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = sepMotor1_4293723230
+	sym = sepMotor1_4293717400
+	sym = sepMotor1_4293717288
+	sym = sepMotor1_4293717232
+	sym = sepMotor1_4293717176
+	sym = sepMotor1_4293717120
+	sym = sepMotor1_4293717064
+	srfN = srfAttach,MassiveBooster_4294562738
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleEngines
+		isEnabled = True
+		staged = False
+		flameout = False
+		EngineIgnited = False
+		engineShutdown = False
+		currentThrottle = 0
+		thrustPercentage = 100
+		manuallyOverridden = False
+		thrustPercentage_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			stepIncrement = 0.5
+		}
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Engine
+				guiName = Activate Engine
+				category = Activate Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = False
+				guiActive = True
+				guiIcon = Shutdown Engine
+				guiName = Shutdown Engine
+				category = Shutdown Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			OnAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		EVENTS
+		{
+			RunTestEvent
+			{
+				active = False
+				guiActive = True
+				guiIcon = Run Test
+				guiName = Run Test
+				category = Run Test
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = SolidFuel
+		amount = 8
+		maxAmount = 8
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = sepMotor1_4293717288
+	partName = Part
+	pos = -3.935604,4.718796,3.306835
+	attPos = 0,0,0
+	attPos0 = -0.4988411,-3.696295,1.564058E-07
+	rot = -0.6531736,0.6531734,0.2708589,-0.2708588
+	attRot = 0,0,-0.7071067,0.7071067
+	attRot0 = 0.4998002,-0.4998001,-0.5001998,0.5001998
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 5
+	dstg = 6
+	sidx = 27
+	sqor = 5
+	sepI = 5
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = sepMotor1_4293723230
+	sym = sepMotor1_4293717400
+	sym = sepMotor1_4293717344
+	sym = sepMotor1_4293717232
+	sym = sepMotor1_4293717176
+	sym = sepMotor1_4293717120
+	sym = sepMotor1_4293717064
+	srfN = srfAttach,MassiveBooster_4294562664
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleEngines
+		isEnabled = True
+		staged = False
+		flameout = False
+		EngineIgnited = False
+		engineShutdown = False
+		currentThrottle = 0
+		thrustPercentage = 100
+		manuallyOverridden = False
+		thrustPercentage_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			stepIncrement = 0.5
+		}
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Engine
+				guiName = Activate Engine
+				category = Activate Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = False
+				guiActive = True
+				guiIcon = Shutdown Engine
+				guiName = Shutdown Engine
+				category = Shutdown Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			OnAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		EVENTS
+		{
+			RunTestEvent
+			{
+				active = False
+				guiActive = True
+				guiIcon = Run Test
+				guiName = Run Test
+				category = Run Test
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = SolidFuel
+		amount = 8
+		maxAmount = 8
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = sepMotor1_4293717232
+	partName = Part
+	pos = -0.4699228,4.718796,5.155621
+	attPos = 0,0,0
+	attPos0 = -0.4988411,-3.696295,1.562679E-07
+	rot = -0.4998004,0.4998004,0.5001996,-0.5001996
+	attRot = 0,0,-0.7071067,0.7071067
+	attRot0 = 0.4998002,-0.4998002,-0.5001998,0.5001998
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 5
+	dstg = 6
+	sidx = 28
+	sqor = 5
+	sepI = 5
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = sepMotor1_4293723230
+	sym = sepMotor1_4293717400
+	sym = sepMotor1_4293717344
+	sym = sepMotor1_4293717288
+	sym = sepMotor1_4293717176
+	sym = sepMotor1_4293717120
+	sym = sepMotor1_4293717064
+	srfN = srfAttach,MassiveBooster_4294562590
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleEngines
+		isEnabled = True
+		staged = False
+		flameout = False
+		EngineIgnited = False
+		engineShutdown = False
+		currentThrottle = 0
+		thrustPercentage = 100
+		manuallyOverridden = False
+		thrustPercentage_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			stepIncrement = 0.5
+		}
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Engine
+				guiName = Activate Engine
+				category = Activate Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = False
+				guiActive = True
+				guiIcon = Shutdown Engine
+				guiName = Shutdown Engine
+				category = Shutdown Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			OnAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		EVENTS
+		{
+			RunTestEvent
+			{
+				active = False
+				guiActive = True
+				guiIcon = Run Test
+				guiName = Run Test
+				category = Run Test
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = SolidFuel
+		amount = 8
+		maxAmount = 8
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = sepMotor1_4293717176
+	partName = Part
+	pos = 3.287971,4.718796,4.012303
+	attPos = 0,0,0
+	attPos0 = -0.4988411,-3.696295,2.158722E-07
+	rot = -0.2703374,0.2703373,0.6533895,-0.6533896
+	attRot = 0,0,-0.7071067,0.7071067
+	attRot0 = 0.4998002,-0.4998002,-0.5001997,0.5001997
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 5
+	dstg = 6
+	sidx = 29
+	sqor = 5
+	sepI = 5
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = sepMotor1_4293723230
+	sym = sepMotor1_4293717400
+	sym = sepMotor1_4293717344
+	sym = sepMotor1_4293717288
+	sym = sepMotor1_4293717232
+	sym = sepMotor1_4293717120
+	sym = sepMotor1_4293717064
+	srfN = srfAttach,MassiveBooster_4294562516
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleEngines
+		isEnabled = True
+		staged = False
+		flameout = False
+		EngineIgnited = False
+		engineShutdown = False
+		currentThrottle = 0
+		thrustPercentage = 100
+		manuallyOverridden = False
+		thrustPercentage_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			stepIncrement = 0.5
+		}
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Engine
+				guiName = Activate Engine
+				category = Activate Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = False
+				guiActive = True
+				guiIcon = Shutdown Engine
+				guiName = Shutdown Engine
+				category = Shutdown Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			OnAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		EVENTS
+		{
+			RunTestEvent
+			{
+				active = False
+				guiActive = True
+				guiIcon = Run Test
+				guiName = Run Test
+				category = Run Test
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = SolidFuel
+		amount = 8
+		maxAmount = 8
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = sepMotor1_4293717120
+	partName = Part
+	pos = 5.136755,4.718796,0.5466234
+	attPos = 0,0,0
+	attPos0 = -0.4988412,-3.696295,2.754772E-07
+	rot = 0.0002821948,-0.0002822581,0.7071068,-0.7071068
+	attRot = 0,0,-0.7071067,0.7071067
+	attRot0 = 0.4998002,-0.4998002,-0.5001998,0.5001998
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 5
+	dstg = 6
+	sidx = 30
+	sqor = 5
+	sepI = 5
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = sepMotor1_4293723230
+	sym = sepMotor1_4293717400
+	sym = sepMotor1_4293717344
+	sym = sepMotor1_4293717288
+	sym = sepMotor1_4293717232
+	sym = sepMotor1_4293717176
+	sym = sepMotor1_4293717064
+	srfN = srfAttach,MassiveBooster_4294562442
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleEngines
+		isEnabled = True
+		staged = False
+		flameout = False
+		EngineIgnited = False
+		engineShutdown = False
+		currentThrottle = 0
+		thrustPercentage = 100
+		manuallyOverridden = False
+		thrustPercentage_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			stepIncrement = 0.5
+		}
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Engine
+				guiName = Activate Engine
+				category = Activate Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = False
+				guiActive = True
+				guiIcon = Shutdown Engine
+				guiName = Shutdown Engine
+				category = Shutdown Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			OnAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		EVENTS
+		{
+			RunTestEvent
+			{
+				active = False
+				guiActive = True
+				guiIcon = Run Test
+				guiName = Run Test
+				category = Run Test
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = SolidFuel
+		amount = 8
+		maxAmount = 8
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = sepMotor1_4293717064
+	partName = Part
+	pos = 3.993447,4.718796,-3.211278
+	attPos = 0,0,0
+	attPos0 = -0.4988413,-3.696295,8.121955E-07
+	rot = 0.270859,-0.270859,0.6531735,-0.6531733
+	attRot = 0,0,-0.7071067,0.7071067
+	attRot0 = 0.4998002,-0.4998002,-0.5001998,0.5001998
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 5
+	dstg = 6
+	sidx = 31
+	sqor = 5
+	sepI = 5
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = sepMotor1_4293723230
+	sym = sepMotor1_4293717400
+	sym = sepMotor1_4293717344
+	sym = sepMotor1_4293717288
+	sym = sepMotor1_4293717232
+	sym = sepMotor1_4293717176
+	sym = sepMotor1_4293717120
+	srfN = srfAttach,MassiveBooster_4294562368
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleEngines
+		isEnabled = True
+		staged = False
+		flameout = False
+		EngineIgnited = False
+		engineShutdown = False
+		currentThrottle = 0
+		thrustPercentage = 100
+		manuallyOverridden = False
+		thrustPercentage_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			stepIncrement = 0.5
+		}
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Engine
+				guiName = Activate Engine
+				category = Activate Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = False
+				guiActive = True
+				guiIcon = Shutdown Engine
+				guiName = Shutdown Engine
+				category = Shutdown Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			OnAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		EVENTS
+		{
+			RunTestEvent
+			{
+				active = False
+				guiActive = True
+				guiIcon = Run Test
+				guiName = Run Test
+				category = Run Test
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = SolidFuel
+		amount = 8
+		maxAmount = 8
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = sepMotor1_4293716326
+	partName = Part
+	pos = -0.469743,4.58008,-5.060061
+	attPos = 0,0,0
+	attPos0 = 0.4986608,-3.83501,2.23728E-07
+	rot = -0.4998002,-0.4998,0.5001999,0.5002
+	attRot = 0,0,0.7071067,0.7071067
+	attRot0 = -0.5002,-0.5002,-0.4998,-0.4997999
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 5
+	dstg = 6
+	sidx = 32
+	sqor = 5
+	sepI = 5
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = sepMotor1_4293714792
+	sym = sepMotor1_4293714736
+	sym = sepMotor1_4293714680
+	sym = sepMotor1_4293714624
+	sym = sepMotor1_4293714568
+	sym = sepMotor1_4293714512
+	sym = sepMotor1_4293714456
+	srfN = srfAttach,MassiveBooster_4294565072
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleEngines
+		isEnabled = True
+		staged = False
+		flameout = False
+		EngineIgnited = False
+		engineShutdown = False
+		currentThrottle = 0
+		thrustPercentage = 100
+		manuallyOverridden = False
+		thrustPercentage_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			stepIncrement = 0.5
+		}
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Engine
+				guiName = Activate Engine
+				category = Activate Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = False
+				guiActive = True
+				guiIcon = Shutdown Engine
+				guiName = Shutdown Engine
+				category = Shutdown Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			OnAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		EVENTS
+		{
+			RunTestEvent
+			{
+				active = False
+				guiActive = True
+				guiIcon = Run Test
+				guiName = Run Test
+				category = Run Test
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = SolidFuel
+		amount = 8
+		maxAmount = 8
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = sepMotor1_4293714792
+	partName = Part
+	pos = -3.935477,4.58008,-3.211399
+	attPos = 0,0,0
+	attPos0 = 0.498661,-3.83501,-1.027408E-07
+	rot = -0.2703371,-0.270337,0.6533898,0.6533896
+	attRot = 0,0,0.7071067,0.7071067
+	attRot0 = -0.5002,-0.5002,-0.4998,-0.4998
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 5
+	dstg = 6
+	sidx = 33
+	sqor = 5
+	sepI = 5
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = sepMotor1_4293716326
+	sym = sepMotor1_4293714736
+	sym = sepMotor1_4293714680
+	sym = sepMotor1_4293714624
+	sym = sepMotor1_4293714568
+	sym = sepMotor1_4293714512
+	sym = sepMotor1_4293714456
+	srfN = srfAttach,MassiveBooster_4294562812
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleEngines
+		isEnabled = True
+		staged = False
+		flameout = False
+		EngineIgnited = False
+		engineShutdown = False
+		currentThrottle = 0
+		thrustPercentage = 100
+		manuallyOverridden = False
+		thrustPercentage_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			stepIncrement = 0.5
+		}
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Engine
+				guiName = Activate Engine
+				category = Activate Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = False
+				guiActive = True
+				guiIcon = Shutdown Engine
+				guiName = Shutdown Engine
+				category = Shutdown Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			OnAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		EVENTS
+		{
+			RunTestEvent
+			{
+				active = False
+				guiActive = True
+				guiIcon = Run Test
+				guiName = Run Test
+				category = Run Test
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = SolidFuel
+		amount = 8
+		maxAmount = 8
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = sepMotor1_4293714736
+	partName = Part
+	pos = -5.078921,4.58008,0.5464428
+	attPos = 0,0,0
+	attPos0 = 0.4986609,-3.83501,2.545679E-07
+	rot = 0.0002825531,0.0002825953,0.7071068,0.7071068
+	attRot = 0,0,0.7071067,0.7071067
+	attRot0 = -0.5002,-0.5002,-0.4998,-0.4997999
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 5
+	dstg = 6
+	sidx = 34
+	sqor = 5
+	sepI = 5
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = sepMotor1_4293716326
+	sym = sepMotor1_4293714792
+	sym = sepMotor1_4293714680
+	sym = sepMotor1_4293714624
+	sym = sepMotor1_4293714568
+	sym = sepMotor1_4293714512
+	sym = sepMotor1_4293714456
+	srfN = srfAttach,MassiveBooster_4294562738
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleEngines
+		isEnabled = True
+		staged = False
+		flameout = False
+		EngineIgnited = False
+		engineShutdown = False
+		currentThrottle = 0
+		thrustPercentage = 100
+		manuallyOverridden = False
+		thrustPercentage_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			stepIncrement = 0.5
+		}
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Engine
+				guiName = Activate Engine
+				category = Activate Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = False
+				guiActive = True
+				guiIcon = Shutdown Engine
+				guiName = Shutdown Engine
+				category = Shutdown Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			OnAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		EVENTS
+		{
+			RunTestEvent
+			{
+				active = False
+				guiActive = True
+				guiIcon = Run Test
+				guiName = Run Test
+				category = Run Test
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = SolidFuel
+		amount = 8
+		maxAmount = 8
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = sepMotor1_4293714680
+	partName = Part
+	pos = -3.230264,4.58008,4.012176
+	attPos = 0,0,0
+	attPos0 = 0.498661,-3.83501,1.351987E-07
+	rot = 0.2708592,0.2708589,0.6531735,0.6531733
+	attRot = 0,0,0.7071067,0.7071067
+	attRot0 = -0.5002,-0.5002,-0.4998,-0.4997999
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 5
+	dstg = 6
+	sidx = 35
+	sqor = 5
+	sepI = 5
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = sepMotor1_4293716326
+	sym = sepMotor1_4293714792
+	sym = sepMotor1_4293714736
+	sym = sepMotor1_4293714624
+	sym = sepMotor1_4293714568
+	sym = sepMotor1_4293714512
+	sym = sepMotor1_4293714456
+	srfN = srfAttach,MassiveBooster_4294562664
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleEngines
+		isEnabled = True
+		staged = False
+		flameout = False
+		EngineIgnited = False
+		engineShutdown = False
+		currentThrottle = 0
+		thrustPercentage = 100
+		manuallyOverridden = False
+		thrustPercentage_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			stepIncrement = 0.5
+		}
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Engine
+				guiName = Activate Engine
+				category = Activate Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = False
+				guiActive = True
+				guiIcon = Shutdown Engine
+				guiName = Shutdown Engine
+				category = Shutdown Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			OnAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		EVENTS
+		{
+			RunTestEvent
+			{
+				active = False
+				guiActive = True
+				guiIcon = Run Test
+				guiName = Run Test
+				category = Run Test
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = SolidFuel
+		amount = 8
+		maxAmount = 8
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = sepMotor1_4293714624
+	partName = Part
+	pos = 0.5275791,4.58008,5.155622
+	attPos = 0,0,0
+	attPos0 = 0.4986608,-3.83501,3.141726E-07
+	rot = 0.5001999,0.5001999,0.4998002,0.4998001
+	attRot = 0,0,0.7071067,0.7071067
+	attRot0 = -0.5002,-0.5002,-0.4998,-0.4997999
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 5
+	dstg = 6
+	sidx = 36
+	sqor = 5
+	sepI = 5
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = sepMotor1_4293716326
+	sym = sepMotor1_4293714792
+	sym = sepMotor1_4293714736
+	sym = sepMotor1_4293714680
+	sym = sepMotor1_4293714568
+	sym = sepMotor1_4293714512
+	sym = sepMotor1_4293714456
+	srfN = srfAttach,MassiveBooster_4294562590
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleEngines
+		isEnabled = True
+		staged = False
+		flameout = False
+		EngineIgnited = False
+		engineShutdown = False
+		currentThrottle = 0
+		thrustPercentage = 100
+		manuallyOverridden = False
+		thrustPercentage_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			stepIncrement = 0.5
+		}
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Engine
+				guiName = Activate Engine
+				category = Activate Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = False
+				guiActive = True
+				guiIcon = Shutdown Engine
+				guiName = Shutdown Engine
+				category = Shutdown Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			OnAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		EVENTS
+		{
+			RunTestEvent
+			{
+				active = False
+				guiActive = True
+				guiIcon = Run Test
+				guiName = Run Test
+				category = Run Test
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = SolidFuel
+		amount = 8
+		maxAmount = 8
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = sepMotor1_4293714568
+	partName = Part
+	pos = 3.993312,4.58008,3.306963
+	attPos = 0,0,0
+	attPos0 = 0.4986609,-3.83501,2.545677E-07
+	rot = 0.6533899,0.6533896,0.270337,0.270337
+	attRot = 0,0,0.7071067,0.7071067
+	attRot0 = -0.5002,-0.5002,-0.4997999,-0.4997999
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 5
+	dstg = 6
+	sidx = 37
+	sqor = 5
+	sepI = 5
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = sepMotor1_4293716326
+	sym = sepMotor1_4293714792
+	sym = sepMotor1_4293714736
+	sym = sepMotor1_4293714680
+	sym = sepMotor1_4293714624
+	sym = sepMotor1_4293714512
+	sym = sepMotor1_4293714456
+	srfN = srfAttach,MassiveBooster_4294562516
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleEngines
+		isEnabled = True
+		staged = False
+		flameout = False
+		EngineIgnited = False
+		engineShutdown = False
+		currentThrottle = 0
+		thrustPercentage = 100
+		manuallyOverridden = False
+		thrustPercentage_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			stepIncrement = 0.5
+		}
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Engine
+				guiName = Activate Engine
+				category = Activate Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = False
+				guiActive = True
+				guiIcon = Shutdown Engine
+				guiName = Shutdown Engine
+				category = Shutdown Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			OnAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		EVENTS
+		{
+			RunTestEvent
+			{
+				active = False
+				guiActive = True
+				guiIcon = Run Test
+				guiName = Run Test
+				category = Run Test
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = SolidFuel
+		amount = 8
+		maxAmount = 8
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = sepMotor1_4293714512
+	partName = Part
+	pos = 5.136756,4.58008,-0.4508792
+	attPos = 0,0,0
+	attPos0 = 0.4986609,-3.83501,2.545679E-07
+	rot = 0.7071068,0.7071068,-0.0002825531,-0.0002825953
+	attRot = 0,0,0.7071067,0.7071067
+	attRot0 = -0.5002,-0.5002,-0.4998,-0.4997999
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 5
+	dstg = 6
+	sidx = 38
+	sqor = 5
+	sepI = 5
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = sepMotor1_4293716326
+	sym = sepMotor1_4293714792
+	sym = sepMotor1_4293714736
+	sym = sepMotor1_4293714680
+	sym = sepMotor1_4293714624
+	sym = sepMotor1_4293714568
+	sym = sepMotor1_4293714456
+	srfN = srfAttach,MassiveBooster_4294562442
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleEngines
+		isEnabled = True
+		staged = False
+		flameout = False
+		EngineIgnited = False
+		engineShutdown = False
+		currentThrottle = 0
+		thrustPercentage = 100
+		manuallyOverridden = False
+		thrustPercentage_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			stepIncrement = 0.5
+		}
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Engine
+				guiName = Activate Engine
+				category = Activate Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = False
+				guiActive = True
+				guiIcon = Shutdown Engine
+				guiName = Shutdown Engine
+				category = Shutdown Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			OnAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		EVENTS
+		{
+			RunTestEvent
+			{
+				active = False
+				guiActive = True
+				guiIcon = Run Test
+				guiName = Run Test
+				category = Run Test
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = SolidFuel
+		amount = 8
+		maxAmount = 8
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = sepMotor1_4293714456
+	partName = Part
+	pos = 3.288105,4.58008,-3.916622
+	attPos = 0,0,0
+	attPos0 = 0.4986611,-3.83501,1.088714E-06
+	rot = 0.6531733,0.6531733,-0.2708593,-0.2708593
+	attRot = 0,0,0.7071067,0.7071067
+	attRot0 = -0.5002,-0.5002,-0.4998,-0.4998
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 5
+	dstg = 6
+	sidx = 39
+	sqor = 5
+	sepI = 5
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = sepMotor1_4293716326
+	sym = sepMotor1_4293714792
+	sym = sepMotor1_4293714736
+	sym = sepMotor1_4293714680
+	sym = sepMotor1_4293714624
+	sym = sepMotor1_4293714568
+	sym = sepMotor1_4293714512
+	srfN = srfAttach,MassiveBooster_4294562368
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleEngines
+		isEnabled = True
+		staged = False
+		flameout = False
+		EngineIgnited = False
+		engineShutdown = False
+		currentThrottle = 0
+		thrustPercentage = 100
+		manuallyOverridden = False
+		thrustPercentage_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			stepIncrement = 0.5
+		}
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Engine
+				guiName = Activate Engine
+				category = Activate Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = False
+				guiActive = True
+				guiIcon = Shutdown Engine
+				guiName = Shutdown Engine
+				category = Shutdown Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			OnAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		EVENTS
+		{
+			RunTestEvent
+			{
+				active = False
+				guiActive = True
+				guiIcon = Run Test
+				guiName = Run Test
+				category = Run Test
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = SolidFuel
+		amount = 8
+		maxAmount = 8
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
 	}
 }
